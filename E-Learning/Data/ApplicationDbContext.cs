@@ -2,10 +2,11 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using System.Diagnostics;
 using E_Learning.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace E_Learning.Data
 {
-    public class ApplicationDbContext : IdentityDbContext<User>
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Course> Courses { get; set; }

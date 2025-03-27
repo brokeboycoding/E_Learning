@@ -1,5 +1,7 @@
+using System;
 using E_Learning.Data;
 using E_Learning.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Pomelo.EntityFrameworkCore.MySql;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
@@ -14,9 +16,14 @@ builder.Services.AddDbContextPool<ApplicationDbContext>(options =>
 );
 
 
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+        .AddDefaultTokenProviders()
+        .AddDefaultUI()
+        .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddRazorPages();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -33,7 +40,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
-
+app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

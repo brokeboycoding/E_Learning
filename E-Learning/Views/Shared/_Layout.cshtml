@@ -1,49 +1,156 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - E_Learning</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/E_Learning.styles.css" asp-append-version="true" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewData["Title"] - Web Học Trực Tuyến</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        /* ======= Sidebar ======= */
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            top: 56px;
+            left: 0;
+            background-color: #f8f9fa;
+            padding-top: 20px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+            .sidebar.hidden {
+                width: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+
+            .sidebar a {
+                display: block;
+                padding: 10px;
+                color: #0077cc;
+                text-decoration: none;
+            }
+
+                .sidebar a:hover {
+                    background-color: #e2e6ea;
+                }
+
+        /* ======= Nội dung chính ======= */
+        .content {
+            margin-left: 250px;
+            transition: all 0.3s ease;
+            padding: 20px;
+        }
+
+            .content.full {
+                margin-left: 0;
+            }
+
+        /* ======= Navbar ======= */
+        .navbar-custom {
+            background-color: #000;
+        }
+
+            .navbar-custom .nav-link,
+            .navbar-custom .navbar-brand {
+                color: white;
+            }
+
+                .navbar-custom .nav-link:hover {
+                    color: #ddd;
+                }
+
+        .toggle-btn {
+            border: none;
+            background: transparent;
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .hidden .toggle-btn {
+            transform: rotate(180deg);
+        }
+
+        /* Footer */
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        footer {
+            background-color: #212529;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">E_Learning</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container-fluid">
+            <button class="toggle-btn text-white me-3" onclick="toggleSidebar()">☰</button>
+            <a class="navbar-brand" href="/">📚 Web Học Trực Tuyến</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/Courses">Khóa học</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/Contact">Liên hệ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/FAQ">FAQ</a></li>
+                </ul>
+                <form class="d-flex search-box">
+                    <input class="form-control me-2" type="search" placeholder="Bạn muốn học gì?">
+                    <button class="btn btn-outline-light" type="submit">🔍</button>
+                </form>
+                <ul class="navbar-nav ms-3">
+                    <li class="nav-item"><a class="nav-link" href="/Cart">🛒 Giỏ hàng</a></li>
+                    <li class="nav-item"><partial name="_LoginPartial" /></li>
+                </ul>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+        </div>
+    </nav>
+
+    <!-- Sidebar -->
+    <div id="sidebar" class="sidebar">
+        <h5 class="text-center py-3">📂 Danh mục khóa học</h5>
+        <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="/Courses/WebDev">💻 Lập trình Web</a></li>
+            <li class="nav-item"><a class="nav-link" href="/Courses/AI">🤖 Trí tuệ nhân tạo</a></li>
+            <li class="nav-item"><a class="nav-link" href="/Courses/DataScience">📊 Khoa học dữ liệu</a></li>
+            <li class="nav-item"><a class="nav-link" href="/Courses/Marketing">📢 Digital Marketing</a></li>
+            <li class="nav-item"><a class="nav-link" href="/Courses/Business">📈 Kinh doanh</a></li>
+        </ul>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - E_Learning - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <!-- Nội dung chính -->
+    <div id="content" class="content">
+        <div class="container mt-5 pt-4">
+            @RenderBody()
         </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Web Học Trực Tuyến. All rights reserved.</p>
     </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("sidebar");
+            var content = document.getElementById("content");
+            sidebar.classList.toggle("hidden");
+            content.classList.toggle("full");
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

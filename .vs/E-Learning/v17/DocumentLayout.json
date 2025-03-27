@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\E-Learning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\e-learning\\e-learning\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\e-learning\\e-learning\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\e-learning\\e-learning\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\e-learning\\e-learning\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\e-learning\\e-learning\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\e-learning\\e-learning\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\e-learning\\e-learning\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\e-learning\\e-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\e-learning\\e-learning\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\e-learning\\e-learning\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +46,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Alert.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Models\\Alert.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\Alert.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Models\\Alert.cs",
-              "RelativeToolTip": "E-Learning\\Models\\Alert.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Models\\User.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Models\\User.cs",
+              "RelativeToolTip": "E-Learning\\Models\\User.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:51:07.81Z",
+              "WhenOpened": "2025-03-26T17:14:01.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAD4v6cAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T17:07:35.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwCAAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T17:01:11.72Z",
               "EditorCaption": ""
             },
             {
@@ -55,26 +105,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "E-Learning\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T16:33:39.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SD.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Utility\\SD.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Utility\\SD.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Utility\\SD.cs",
+              "RelativeToolTip": "E-Learning\\Utility\\SD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T16:17:51.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "E-Learning\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T15:59:06.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Alert.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Models\\Alert.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\Alert.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Models\\Alert.cs",
+              "RelativeToolTip": "E-Learning\\Models\\Alert.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:51:07.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Program.cs",
               "RelativeDocumentMoniker": "E-Learning\\Program.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Program.cs",
               "RelativeToolTip": "E-Learning\\Program.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T17:34:17.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "E-Learning\\Data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\E-Learning\\E-Learning\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "E-Learning\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvygAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T15:46:27.465Z",
               "EditorCaption": ""
