@@ -12,15 +12,15 @@ namespace E_Learning.Models
        
         public double Value { get; set; }
 
-        public Grade Grade { get; set; }
+        public Grade? Grade { get; set; }
 
         [Required]
-        public string StudentId { get; set; }
+        public string? StudentId { get; set; }
 
-        public User Student { get; set; }
-
+        public User? Student { get; set; }
+            
         public int CourseId { get; set; }
 
-        public Course Course { get; set; }
+        public Course? Course { get; set; }
     }
 }

@@ -3,9 +3,9 @@
     public class TeacherSchoolClass
     {
         public int TeacherId { get; set; }
-        public Teacher Teacher { get; set; }
+        public required Teacher Teacher { get; set; }
 
         public int SchoolClassId { get; set; }
-        public SchoolClass SchoolClass { get; set; }
+        public required SchoolClass SchoolClass { get; set; }
     }
 }

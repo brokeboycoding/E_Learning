@@ -11,10 +11,10 @@ namespace E_Learning.Models
         public double Value { get; set; }
 
         public int StudentId { get; set; }
-        public Student Student { get; set; }
+        public Student? Student { get; set; }
 
         public int SubjectId { get; set; }
-        public Subject Subject { get; set; }
+        public Subject ?Subject { get; set; }
 
         [Display(Name = "Ngày đánh giá")]
         public DateTime EvaluationDate { get; set; } = DateTime.Now;

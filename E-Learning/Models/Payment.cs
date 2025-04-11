@@ -10,7 +10,7 @@ namespace E_Learning.Models
 
         public int StudentId { get; set; }
 
-        public Student Student { get; set; }
+        public Student? Student { get; set; }
 
 
         [Range(0.01, 10000.00)]
@@ -21,12 +21,12 @@ namespace E_Learning.Models
         public DateTime PaymentDate { get; set; }
 
         [MaxLength(20)]
-        public string Status { get; set; }
+        public string? Status { get; set; }
 
         [MaxLength(50)]
-        public string TransactionId { get; set; }
+        public string? TransactionId { get; set; }
 
         [MaxLength(20)]
-        public string PaymentMethod { get; set; }
+        public string? PaymentMethod { get; set; }
     }
 }

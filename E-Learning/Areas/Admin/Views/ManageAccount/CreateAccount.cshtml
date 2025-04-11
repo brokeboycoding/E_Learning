@@ -1,0 +1,36 @@
+﻿@model RegisterViewModel
+
+<h2>Tạo tài khoản</h2>
+
+<form asp-action="CreateAccount" method="post">
+    <div class="form-group">
+        <label asp-for="Identifier"></label>
+        <input asp-for="Identifier" class="form-control" placeholder="Nhập MSSV (Student) hoặc Email (Teacher/Admin)" />
+        <span asp-validation-for="Identifier" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" placeholder="(Bỏ trống nếu tạo Student)" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Role"></label>
+        <select asp-for="Role" class="form-control">
+            <option value="Student">Student</option>
+            <option value="Teacher">Teacher</option>
+
+        </select>
+        <span asp-validation-for="Role" class="text-danger"></span>
+    </div>
+
+    <!-- Thêm nút Submit bên trong form -->
+    <button type="submit" class="btn btn-success mt-3">Tạo tài khoản</button>
+</form>

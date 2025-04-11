@@ -8,32 +8,44 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
-using E_Learning.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
 
 namespace E_Learning.Areas.Identity.Pages.Account
 {
     public class LoginModel : PageModel
     {
+        //private readonly SignInManager<IdentityUser> _signInManager;
+
+        //private readonly ILogger<LoginModel> _logger;
+
+        //public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger)
+        //{
+        //    _signInManager = signInManager;
+        //    _logger = logger;
+        //}
         private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly UserManager<IdentityUser> _userManager; // 🔹 Thêm dòng này
         private readonly ILogger<LoginModel> _logger;
 
-        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger)
+        public LoginModel(SignInManager<IdentityUser> signInManager,
+                          UserManager<IdentityUser> userManager, // 🔹 Inject vào constructor
+                          ILogger<LoginModel> logger)
         {
             _signInManager = signInManager;
+            _userManager = userManager; // 🔹 Gán biến _userManager
             _logger = logger;
-        }
-
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
-        [BindProperty]
+            }
+            /// <summary>
+            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
+            ///     directly from your code. This API may change or be removed in future releases.
+            /// </summary>
+            [BindProperty]
         public InputModel Input { get; set; }
 
         /// <summary>
@@ -66,8 +78,8 @@ namespace E_Learning.Areas.Identity.Pages.Account
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
             [Required]
-            [EmailAddress]
-            public string Email { get; set; }
+            [Display(Name = "MSSV hoặc Email")]
+            public string UsernameOrEmail { get; set; } // Cho phép nhập MSSV hoặc Emai
 
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -81,7 +93,7 @@ namespace E_Learning.Areas.Identity.Pages.Account
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
-            [Display(Name = "Ghi nhớ đăng nhập?")]
+            [Display(Name = "Remember me?")]
             public bool RememberMe { get; set; }
         }
 
@@ -105,37 +117,50 @@ namespace E_Learning.Areas.Identity.Pages.Account
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
-
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 
             if (ModelState.IsValid)
             {
-                // This doesn't count login failures towards account lockout
-                // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
-                if (result.Succeeded)
+                // Tìm user bằng Email trước
+                var user = await _userManager.FindByEmailAsync(Input.UsernameOrEmail);
+
+                // Nếu không tìm thấy bằng Email, tìm bằng MSSV (StudentId)
+                if (user == null)
                 {
-                    _logger.LogInformation("Người dùng đăng nhập.");
-                    return LocalRedirect(returnUrl);
+                    user = await _userManager.Users.FirstOrDefaultAsync(u => u.UserName == Input.UsernameOrEmail);
                 }
-                if (result.RequiresTwoFactor)
+
+                if (user != null)
                 {
-                    return RedirectToPage("./LoginWith2fa", new { ReturnUrl = returnUrl, RememberMe = Input.RememberMe });
+                    var result = await _signInManager.PasswordSignInAsync(user, Input.Password, Input.RememberMe, lockoutOnFailure: false);
+
+                    if (result.Succeeded)
+                    {
+                        _logger.LogInformation("User logged in.");
+                        return LocalRedirect(returnUrl);
+                    }
+                    if (result.RequiresTwoFactor)
+                    {
+                        return RedirectToPage("./LoginWith2fa", new { ReturnUrl = returnUrl, RememberMe = Input.RememberMe });
+                    }
+                    if (result.IsLockedOut)
+                    {
+                        _logger.LogWarning("User account locked out.");
+                        return RedirectToPage("./Lockout");
+                    }
+                    else
+                    {
+                        ModelState.AddModelError(string.Empty, "Tài khoản hoặc mật khẩu không đúng.");
+                        return Page();
+                    }
                 }
-                if (result.IsLockedOut)
-                {
-                    _logger.LogWarning("Tài khoản bị khóa.");
-                    return RedirectToPage("./Lockout");
-                }
-                else
-                {
-                    ModelState.AddModelError(string.Empty, "Đăng nhập không hợp lệ.");
-                    return Page();
-                }
+
+                ModelState.AddModelError(string.Empty, "Tài khoản không tồn tại.");
             }
 
-            // If we got this far, something failed, redisplay form
             return Page();
         }
+
+
     }
 }

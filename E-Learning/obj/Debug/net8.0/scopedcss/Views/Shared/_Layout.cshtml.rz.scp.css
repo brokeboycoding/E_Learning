@@ -42,7 +42,47 @@ button.accept-policy[b-hi7txwtebb] {
 .footer[b-hi7txwtebb] {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 30%;
   white-space: nowrap;
   line-height: 60px;
+}
+/* Màu chữ toàn bộ nội dung */
+body[b-hi7txwtebb] {
+    color: #333333; /* Màu chữ tối dễ nhìn */
+    background-color: #f4f4f4; /* Màu nền sáng */
+}
+
+/* Màu chữ trong sidebar */
+.sidebar a[b-hi7txwtebb] {
+    color: #0056b3; /* Màu xanh đậm dễ đọc */
+}
+.dropdown-menu[b-hi7txwtebb] {
+    text-align: left; /* Đảm bảo chữ được căn thẳng */
+    padding: 10px; /* Thêm khoảng cách cho chữ */
+}
+
+.nav-link[b-hi7txwtebb] {
+    display: inline-block; /* Đảm bảo hiển thị đúng */
+    padding: 5px 10px;
+}
+/* Đảm bảo ảnh có độ dài và kích thước phù hợp */
+.sidebar img[b-hi7txwtebb] {
+    max-width: 100%; /* Giới hạn chiều rộng hình ảnh không vượt quá chiều rộng phần tử */
+    height: auto; /* Tự động điều chỉnh chiều cao theo tỷ lệ */
+    margin-bottom: 15px; /* Tạo khoảng cách dưới hình ảnh */
+    display: block; /* Đảm bảo ảnh là phần tử block */
+    object-fit: cover; /* Đảm bảo ảnh bao phủ phần tử mà không bị biến dạng */
+}
+
+/* Điều chỉnh ảnh trong navbar cho phù hợp */
+.navbar-custom .nav-link img[b-hi7txwtebb] {
+    width: 30px;
+    height: auto;
+    margin-right: 10px; /* Thêm khoảng cách bên phải ảnh */
+}
+
+/* Tùy chỉnh thêm khoảng cách giữa ảnh và các yếu tố xung quanh */
+.navbar-custom .nav-item[b-hi7txwtebb] {
+    display: flex;
+    align-items: center; /* Căn chỉnh hình ảnh và văn bản */
 }

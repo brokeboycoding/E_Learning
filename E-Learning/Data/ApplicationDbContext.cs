@@ -8,23 +8,23 @@ namespace E_Learning.Data
 {
     public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
-        public DbSet<User> Users { get; set; }
-        public DbSet<Course> Courses { get; set; }
-        public DbSet<Student> Students { get; set; }
-        public DbSet<Subject> Subjects { get; set; }
-        public DbSet<SchoolClass> SchoolClasses { get; set; }
-        public DbSet<Teacher> Teachers { get; set; }
+        public required DbSet<User> User { get; set; }
+        public required DbSet<Course> Courses { get; set; }
+        public required DbSet<Student> Students { get; set; }
+        public required DbSet<Subject> Subjects { get; set; }
+        public required DbSet<SchoolClass> SchoolClasses { get; set; }
+        public   required DbSet<Teacher> Teachers { get; set; }
         
-        public DbSet<Attendance> Attendances { get; set; }
-        public DbSet<Grade> Grades { get; set; }
-        public DbSet<Payment> Payments { get; set; }
-        public DbSet<Alert> Alerts { get; set; }
-        public DbSet<TeacherSubject> TeacherSubjects { get; set; }
-        public DbSet<TeacherSchoolClass> TeacherSchoolClasses { get; set; }
-        public DbSet<CourseSubject> CourseSubjects { get; set; }
-        public DbSet<Certificate> Certificates { get; set; }
-        public DbSet <ExamSubmission> ExamSubmissions { get; set; }
-        public DbSet <Resource> Resources {  get; set; }
+        public required DbSet<Attendance> Attendances { get; set; }
+        public required DbSet<Grade> Grades { get; set; }
+        public required DbSet<Payment> Payments { get; set; }
+        public required DbSet<Alert> Alerts { get; set; }
+        public required DbSet<TeacherSubject> TeacherSubjects { get; set; }
+        public required DbSet<TeacherSchoolClass> TeacherSchoolClasses { get; set; }
+        public required DbSet<CourseSubject> CourseSubjects { get; set; }
+        public required DbSet<Certificate> Certificates { get; set; }
+        public required DbSet <ExamSubmission> ExamSubmissions { get; set; }
+        public required DbSet <Resource> Resources {  get; set; }
 
 
     
@@ -106,6 +106,7 @@ namespace E_Learning.Data
                 .WithMany(sc => sc.TeacherSchoolClasses)
                 .HasForeignKey(tsc => tsc.SchoolClassId)
                 .OnDelete(DeleteBehavior.Restrict);
+
         }
     }
 }

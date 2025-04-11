@@ -7,11 +7,11 @@ namespace E_Learning.Models
     {
         [Required(ErrorMessage = "The field {0} is required.")]
         [MaxLength(50)]
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
 
         [Required(ErrorMessage = "The field {0} is required.")]
         [MaxLength(50)]
-        public string LastName { get; set; }
+        public required string LastName { get; set; }
 
         [MaxLength(100)]
         public string? Address { get; set; }
@@ -27,5 +27,9 @@ namespace E_Learning.Models
 
         [Display(Name = "Lần đăng nhập cuối")]
         public DateTime? LastLogin { get; set; }
+        //public required string Role { get; set; } // Thêm thuộc tính này để lưu vai trò
+        //public string? Role { get; set; }     // Vai trò: Admin, Teacher, Student
+        public string? MSSV { get; set; } // Thêm MSSV vào tài khoản Student
+
     }
 }

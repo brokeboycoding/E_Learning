@@ -8,7 +8,7 @@ namespace E_Learning.Models
         
 
         [MaxLength(500)]
-        public string Message { get; set; }
+        public required string Message { get; set; }
 
 
         public DateTime CreatedAt { get; set; }

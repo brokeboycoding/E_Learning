@@ -8,10 +8,10 @@ namespace E_Learning.Models
 
         [Required]
         [MaxLength(100)]
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         [MaxLength(500)]
-        public string Description { get; set; }
+        public string? Description { get; set; }
 
         [Range(1, 52)]
         public int Duration { get; set; } // Khoảng thời gian khóa học diễn ra

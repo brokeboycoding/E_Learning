@@ -9,18 +9,18 @@ namespace E_Learning.Models
         public DateTime SubmissionDate { get; set; } = DateTime.UtcNow;
 
         [Required]
-        public string FileName { get; set; }
+        public string ?FileName { get; set; }
 
         [Required]
-        public string FileUrl { get; set; }
+        public string ?FileUrl { get; set; }
 
         [Required]
-        public string StudentId { get; set; }
+        public string ?StudentId { get; set; }
 
-        public User Student { get; set; }
+        public User ?Student { get; set; }
 
         public int CourseId { get; set; }
 
-        public Course Course { get; set; }
+        public Course? Course { get; set; }
     }
 }

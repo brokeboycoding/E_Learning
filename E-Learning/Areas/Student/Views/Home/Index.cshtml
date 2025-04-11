@@ -1,0 +1,49 @@
+﻿@model IEnumerable<E_Learning.Models.Course>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container mt-4">
+    <h2 class="mb-4 fw-bold">Tìm khoá học phù hợp</h2>
+
+    <form method="get" class="row g-2 mb-4">
+        <div class="col-md-5">
+            <input type="text" class="form-control" name="keyword" placeholder="Từ khoá tìm kiếm..." value="@ViewData["Keyword"]">
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-primary w-100" type="submit">Tìm kiếm 🔍</button>
+        </div>
+    </form>
+
+<div class="container mt-5">
+    <h2 class="mb-4 fw-bold">Khóa học</h2>
+    
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card h-100 shadow-sm border-0">
+                    
+                    <div class="card-body">
+                        <h6 class="text-muted mb-1">@item.Name</h6>
+                        <h5 class="card-title">@item.Description</h5>
+                        <p class="badge bg-secondary">@item.Duration</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0">
+                        <a href="#" class="btn btn-outline-primary w-100">Chi tiết khóa học</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+        @if (!Model.Any())
+        {
+            <p class="text-muted mt-3">Không tìm thấy khoá học phù hợp...</p>
+        }
+</div>
+
+<style>
+    .card:hover {
+        transform: translateY(-5px);
+        transition: 0.3s;
+    }
+</style>

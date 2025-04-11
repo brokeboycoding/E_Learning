@@ -1,0 +1,26 @@
+﻿@model EditUserRoleViewModel
+
+<h2>Chỉnh sửa quyền của @Model.Email</h2>
+
+<form method="post">
+    <input type="hidden" asp-for="UserId" />
+
+    @if (Model.Roles != null && Model.Roles.Any())
+    {
+        @foreach (var role in Model.Roles)
+        {
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" asp-for="@role.Selected" />
+                <label class="form-check-label">@role.RoleName</label>
+                <input type="hidden" name="Roles[@Model.Roles.IndexOf(role)].RoleName" value="@role.RoleName" />
+            </div>
+        }
+    }
+    else
+    {
+        <p>Không có vai trò nào.</p>
+    }
+
+    <button type="submit" class="btn btn-primary">Lưu</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>

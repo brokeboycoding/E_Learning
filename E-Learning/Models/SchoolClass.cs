@@ -8,10 +8,10 @@ namespace E_Learning.Models
 
         [Required]
         [MaxLength(50)]
-        public string ClassName { get; set; }
+        public string? ClassName { get; set; }
 
         public int? CourseId { get; set; } 
-        public Course Course { get; set; } 
+        public Course? Course { get; set; } 
 
         [Display(Name = "Ngày bắt đầu")]
         public DateTime? StartDate { get; set; }

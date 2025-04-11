@@ -7,13 +7,13 @@ namespace E_Learning.Models
         public int Id { get; set; }
 
        
-        public string FileName { get; set; }
+        public string? FileName { get; set; }
 
         [Required]
-        public string FileUrl { get; set; }
+        public string? FileUrl { get; set; }
 
         public int CourseId { get; set; }
 
-        public Course Course { get; set; }
+        public Course? Course { get; set; }
     }
 }

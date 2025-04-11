@@ -1,4 +1,4 @@
-html {
+﻿html {
   font-size: 14px;
 }
 
@@ -19,4 +19,20 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+/* Màu cho badge các vai trò */
+.badge-danger {
+    background-color: #dc3545; /* Màu đỏ cho Admin */
+}
+
+.badge-primary {
+    background-color: #007bff; /* Màu xanh dương cho Teacher */
+}
+
+.badge-success {
+    background-color: #28a745; /* Màu xanh lá cho Student */
+}
+
+.badge-info {
+    background-color: #17a2b8; /* Màu sắc khác nếu cần */
 }

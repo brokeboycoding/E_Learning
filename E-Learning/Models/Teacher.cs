@@ -7,20 +7,20 @@ namespace E_Learning.Models
         
         public int Id { get; set; }
 
-        public string UserId { get; set; }
+        public string? UserId { get; set; }
 
       
-        public User User { get; set; }
+        public User? User { get; set; }
 
         [Display(Name = "Họ")]
         [Required(ErrorMessage = "Hãy nhập vào")]
         [MaxLength(50)]
-        public string FirstName { get; set; }
+        public string? FirstName { get; set; }
 
         [Display(Name = "Tên")]
         [Required(ErrorMessage = "Hãy nhập vào")]
         [MaxLength(50)]
-        public string LastName { get; set; }
+        public string? LastName { get; set; }
 
       
      
@@ -30,7 +30,7 @@ namespace E_Learning.Models
         public DateTime? HireDate { get; set; }
 
        
-        public string FormattedHireDate => HireDate?.ToString("dd/MM/yyyy");
+        public string? FormattedHireDate => HireDate?.ToString("dd/MM/yyyy");
 
         
         [Display(Name = "Tình trạng")]
