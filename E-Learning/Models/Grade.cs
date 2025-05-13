@@ -13,8 +13,8 @@ namespace E_Learning.Models
         public int StudentId { get; set; }
         public Student? Student { get; set; }
 
-        public int SubjectId { get; set; }
-        public Subject ?Subject { get; set; }
+    
+    
 
         [Display(Name = "Ngày đánh giá")]
         public DateTime EvaluationDate { get; set; } = DateTime.Now;

@@ -35,11 +35,11 @@ namespace E_Learning.Models
         [Display(Name = "Tình trạng")]
         public StudentStatus Status { get; set; } = StudentStatus.Pending;
 
-        public int? SchoolClassId { get; set; }
-        public SchoolClass? SchoolClass { get; set; }
+   
+       
         public ICollection<Grade> Grades { get; set; } = new List<Grade>();
 
-        public ICollection<Attendance> Attendances { get; set; } = new List<Attendance>();
+      
 
 
         [Display(Name = "Image")]

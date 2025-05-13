@@ -1,0 +1,122 @@
+﻿@model CourseViewModel
+
+@{
+    ViewData["Title"] = "Xem Module";
+}
+
+<div class="container">
+    <h1>@ViewBag.ModuleTitle</h1>
+    <div class="row">
+        <div class="col-md-8">
+            <h4>Bài học trong module</h4>
+            <div class="list-group">
+                @foreach (var lesson in Model.Modules.SelectMany(m => m.Lessons))
+                {
+                    <a href="@Url.Action("Module", "Lesson", new { lessonId = lesson.Id })"
+                       class="list-group-item list-group-item-action @((Model.CurrentLesson?.Id == lesson.Id) ? "active" : "")">
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <h5 class="mb-1">@lesson.Title</h5>
+                                <p class="mb-1">@lesson.Description</p>
+                            </div>
+                            <div class="align-self-center">
+                                @if (Model.CurrentLesson?.Id == lesson.Id)
+                                {
+                                    <span class="badge badge-primary">Đang học</span>
+                                }
+                                else if (((List<int>)ViewBag.CompletedLessons).Contains(lesson.Id))
+                                {
+                                    <span class="badge bg-success">Đã hoàn thành</span>
+                                }
+
+                                else
+                                {
+                                    <span class="badge badge-secondary">Chưa hoàn thành</span>
+                                }
+                            </div>
+                        </div>
+                    </a>
+                }
+            </div>
+
+            @if (Model.CurrentLesson != null)
+            {
+
+                <hr />
+                <h3>@Model.CurrentLesson.Title</h3>
+                <p>@Model.CurrentLesson.Description</p>
+                @if (!string.IsNullOrEmpty(Model.CurrentLesson.VideoUrl))
+                {
+                    <div class="mb-4">
+                        <video id="player" playsinline controls>
+                            <source src="@Model.CurrentLesson.VideoUrl" type="video/mp4" />
+                        </video>
+                    </div>
+                }
+                <div id="note-section">
+                    <h4>Ghi chú của bạn</h4>
+                    <textarea id="note-content" class="form-control" placeholder="Nhập ghi chú..."></textarea>
+                    <button id="save-note" class="btn btn-sm btn-primary mt-2">Lưu tại thời điểm video</button>
+
+                    <div id="saved-notes" class="mt-4">
+                        <h5>Ghi chú đã lưu:</h5>
+                        <ul class="list-group" id="note-list"></ul>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-0">
+                    <a asp-area="Student" asp-controller="Discussion" asp-action="Index" asp-route-lessonId="@Model.CurrentLesson?.Id" class="btn btn-outline-primary w-100">Thảo luận</a>
+                </div>
+
+
+
+
+                @if (TempData["Success"] != null)
+                {
+                    <div class="alert alert-success">
+                        @TempData["Success"]
+                    </div>
+                }
+
+                <!-- Nút đánh dấu hoàn thành -->
+                <form asp-area="Student"
+                      asp-controller="Lesson"
+                      asp-action="MarkComplete"
+                      method="post" class="mt-3">
+
+                    <input type="hidden" name="lessonId" value="@Model.CurrentLesson?.Id" />
+
+                    <button type="submit" class="btn btn-success">
+                        ✓ Đánh dấu hoàn thành
+                    </button>
+                </form>
+
+            }
+        </div>
+
+        
+    </div>
+</div>
+
+@section Scripts {
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+    <script src="~/js/video.js"></script>
+    <script src="~/js/note.js"></script>
+    <script src="~/js/lesson.js"></script>
+
+}
+
+
+
+<style>
+    .plyr {
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        max-height: 500px;
+    }
+</style>
+
+
+
+

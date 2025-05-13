@@ -26,7 +26,7 @@
                 <td>
                     @foreach (var role in ViewBag.UserRoles[user.Id])
                     {
-                        <span class="badge badge-dark" style="color: yellow;">@role</span>
+                        <span class="badge badge-dark" style="color: rgb(122, 17, 27);">@role</span>
 
 
 
@@ -40,3 +40,4 @@
         }
     </tbody>
 </table>
+<button type="button" class="btn btn-secondary" onclick="window.history.back();">Quay lại</button>

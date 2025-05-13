@@ -37,10 +37,6 @@ namespace E_Learning.Models
         public TeacherStatus Status { get; set; } = TeacherStatus.Active;
 
        
-        public ICollection<TeacherSchoolClass> TeacherSchoolClasses { get; set; } = new List<TeacherSchoolClass>();
-
-        
-        public ICollection<TeacherSubject> TeacherSubjects { get; set; } = new List<TeacherSubject>();
 
         
         [Display(Name = "Hình đại diện")]

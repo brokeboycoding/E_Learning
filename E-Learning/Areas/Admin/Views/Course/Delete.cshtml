@@ -1,14 +1,20 @@
 ﻿@model E_Learning.Models.Course
 
 @{
-    ViewData["Title"] = "Xoá khoá học";
+    ViewData["Title"] = "Xóa khoá học";
 }
 
-<h2>Bạn có chắc muốn xoá khoá học: @Model.Name ?</h2>
+<h2>@ViewData["Title"]</h2>
 
-<form asp-action="DeleteConfirmed">
+<h4>Bạn có chắc chắn muốn xoá khoá học này?</h4>
+
+<div>
+    <h5>@Model.Name</h5>
+    <p>@Model.Description</p>
+</div>
+
+<form asp-action="Delete" method="post">
     <input type="hidden" asp-for="Id" />
     <button type="submit" class="btn btn-danger">Xoá</button>
     <a asp-action="Index" class="btn btn-secondary">Huỷ</a>
 </form>
-

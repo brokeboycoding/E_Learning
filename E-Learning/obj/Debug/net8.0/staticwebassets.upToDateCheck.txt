@@ -1,6 +1,9 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\lesson.js
+wwwroot\js\note.js
 wwwroot\js\site.js
+wwwroot\js\video.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
@@ -58,3 +61,8 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\videos\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4
+wwwroot\videos\Demo.mp4
+wwwroot\videos\f0f10fec-016b-405f-b6db-60db3e400533.mp4
+wwwroot\videos\Quay màn hình 2025-03-28 000326.mp4
+wwwroot\videos\Quay màn hình 2025-03-28 020118.mp4

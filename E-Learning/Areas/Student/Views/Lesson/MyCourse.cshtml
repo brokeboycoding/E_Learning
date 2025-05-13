@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Course>
+@{
+    ViewData["Title"] = "Khóa học của tôi";
+}
+
+<h2>Khóa học của tôi</h2>
+
+@if (!Model.Any())
+{
+    <div>Bạn chưa tham gia khóa học nào.</div>
+}
+else
+{
+    <div class="row">
+        @foreach (var course in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">@course.Name</h5>
+                        <a asp-action="Module" asp-route-id="@course.Id" class="btn btn-primary">Xem chi tiết</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

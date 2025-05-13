@@ -1,7 +1,8 @@
 ﻿using System.Diagnostics;
-using E_Learning.Areas.Admin.Controllers;
+//using E_Learning.Areas.Admin.Controllers;
 using E_Learning.Models;
 using Microsoft.AspNetCore.Mvc;
+using E_Learning.Services;
 
 namespace E_Learning.Areas.Student.Controllers
 {
@@ -21,13 +22,28 @@ namespace E_Learning.Areas.Student.Controllers
             var courses = await _courseService.GetAllAsync();
             if (!string.IsNullOrWhiteSpace(keyword))
             {
-                courses = courses.Where(x => x.Name.Contains(keyword, StringComparison.OrdinalIgnoreCase)).ToList();
+                courses = courses
+                    .Where(x => x.Name?.Contains(keyword, StringComparison.OrdinalIgnoreCase) ?? false)
+                    .ToList();
             }
+
+
 
 
             ViewData["Keyword"] = keyword;
          
             return View(courses);
+        }
+        public async Task<IActionResult> Details(int id)
+        {
+            var course = await _courseService.GetByIdAsync(id);
+            if (course == null)
+            {
+                TempData["Error"] = "Khoá học không tồn tại!";
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(course);
         }
 
         public IActionResult Privacy()

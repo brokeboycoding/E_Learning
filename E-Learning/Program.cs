@@ -1,11 +1,16 @@
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
 using System.Threading.Tasks;
 using E_Learning.Data;
-using E_Learning.Areas.Admin.Controllers; // Đảm bảo đổi namespace phù hợp
+using E_Learning.Areas.Student.Controllers; // Đảm bảo đổi namespace phù hợp
+using StackExchange.Redis;
+using E_Learning.Areas.Admin.Controllers;
+using E_Learning.Services;
+using E_Learning.Models; // Đảm bảo đổi namespace phù hợp
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,19 +24,33 @@ builder.Services.AddDbContextPool<ApplicationDbContext>(options =>
 
 // Thêm Identity với MySQL
 builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddRoles<IdentityRole>() // ✅ Bắt buộc nếu dùng role
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders()
     .AddDefaultUI();
 builder.Services.AddScoped<ICourseService,CourseService>();
+builder.Services.AddScoped<ICourseService, CourseService>();
+builder.Services.AddScoped<AwsS3SDK>();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddRazorPages();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+
+
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/Account/Login";
     options.AccessDeniedPath = "/Account/AccessDenied";
 });
+
 
 var app = builder.Build();
 
@@ -45,6 +64,7 @@ using (var scope = app.Services.CreateScope())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
+app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 
@@ -91,6 +111,7 @@ async Task EnsureRolesAndAdminAsync(IServiceProvider services)
             UserName = adminEmail,
             Email = adminEmail,
             EmailConfirmed = true
+           
         };
         var result = await userManager.CreateAsync(adminUser, adminPassword);
         if (result.Succeeded)

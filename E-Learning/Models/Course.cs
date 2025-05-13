@@ -22,10 +22,10 @@ namespace E_Learning.Models
 
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
 
-        
-        public ICollection<SchoolClass> SchoolClasses { get; set; } = new List<SchoolClass>();
+        public string? VideoUrl { get; set; }  // Thuộc tính lưu URL của video
+      
 
-       
-        public ICollection<CourseSubject> CourseSubjects { get; set; } = new List<CourseSubject>();
+       public List<Module> Modules { get; set; } = new List<Module>();
+        public ICollection<Enrollment> Enrollments { get; set; }
     }
 }

@@ -1,0 +1,35 @@
+﻿@model List<E_Learning.Models.Discussion>
+@{
+    ViewData["Title"] = "Thảo luận bài học";
+    var lessonId = ViewBag.LessonId;
+}
+
+<div class="container mt-4">
+    <h2>Thảo luận về bài học</h2>
+
+    <form asp-action="Create" asp-controller="Discussion" asp-area="Student" method="post">
+        <input type="hidden" name="lessonId" value="@lessonId" />
+        <div class="form-group">
+            <textarea name="content" class="form-control" rows="3" placeholder="Nhập nội dung thảo luận..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Gửi thảo luận</button>
+    </form>
+
+    <hr />
+
+    @foreach (var item in Model)
+    {
+        <div class="card mb-3">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">
+                    <strong>@item.UserId</strong> - @item.CreatedAt.ToString("dd/MM/yyyy HH:mm")
+                </h6>
+                <p class="card-text">@item.Content</p>
+            </div>
+        </div>
+    }
+
+    <a asp-area="Student" asp-controller="Lesson" asp-action="Module" asp-route-lessonId="@lessonId" class="btn btn-secondary mt-3">
+        ← Quay lại bài học
+    </a>
+</div>

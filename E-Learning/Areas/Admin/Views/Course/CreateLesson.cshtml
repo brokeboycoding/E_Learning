@@ -1,0 +1,30 @@
+﻿@model Lesson
+@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+@{
+    ViewData["Title"] = "Thêm Bài Học";
+}
+
+<h2>Thêm Bài Học cho Module: @ViewBag.ModuleTitle</h2>
+
+<!-- Form tạo bài học -->
+<form asp-action="CreateLesson" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="ModuleId" />
+
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+    <!-- Form upload video  -->
+    <div class="form-group">
+        <label>Video bài học</label>
+        <input type="file" name="VideoFile" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Lưu Bài Học</button>
+    <a asp-action="Manage" asp-route-courseId="@ViewBag.CourseId" class="btn btn-primary">Quay lại</a>
+</form>
+

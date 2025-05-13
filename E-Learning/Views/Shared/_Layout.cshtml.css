@@ -86,3 +86,7 @@ body {
     display: flex;
     align-items: center; /* Căn chỉnh hình ảnh và văn bản */
 }
+.nav-item .dropdown-item.active {
+    background-color: #0056b3; /* Màu nền khi mục đang được chọn */
+    color: white;
+}
