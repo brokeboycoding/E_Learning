@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\awss3sdk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\awss3sdk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -123,20 +131,12 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\lessonprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\awss3sdk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\awss3sdk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\teacher\\controllers\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -526,11 +526,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "Module.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Module.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Module.cs",
@@ -555,45 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "lesson.js",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lesson.js",
-              "RelativeDocumentMoniker": "E-Learning\\wwwroot\\js\\lesson.js",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lesson.js",
-              "RelativeToolTip": "E-Learning\\wwwroot\\js\\lesson.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-13T14:47:51.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "note.js",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\note.js",
-              "RelativeDocumentMoniker": "E-Learning\\wwwroot\\js\\note.js",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\note.js",
-              "RelativeToolTip": "E-Learning\\wwwroot\\js\\note.js",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAywB4AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-13T14:38:58.984Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NoteViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\NoteViewModel.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\NoteViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\NoteViewModel.cs",
-              "RelativeToolTip": "E-Learning\\Models\\NoteViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:12:05.752Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Discussion\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Discussion\\Index.cshtml",
@@ -605,7 +567,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DiscussionController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\DiscussionController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\DiscussionController.cs",
@@ -617,7 +579,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "LessonController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\LessonController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\LessonController.cs",
@@ -630,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Module.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Lesson\\Module.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Lesson\\Module.cshtml",
@@ -638,12 +600,86 @@
               "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Lesson\\Module.cshtml",
               "ViewState": "AgIAAGMAAAAAAAAAAAAIwGgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T16:49:38.639Z",
+              "WhenOpened": "2025-04-24T16:49:38.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AwsS3SDK.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\AwsS3SDK.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\AwsS3SDK.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\AwsS3SDK.cs",
+              "RelativeToolTip": "E-Learning\\Models\\AwsS3SDK.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwCEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:25:04.714Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Program.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Program.cs",
+              "RelativeToolTip": "E-Learning\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T15:39:09.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\appsettings.json",
+              "RelativeDocumentMoniker": "E-Learning\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\appsettings.json",
+              "RelativeToolTip": "E-Learning\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T16:15:53.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NoteViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\NoteViewModel.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\NoteViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\NoteViewModel.cs",
+              "RelativeToolTip": "E-Learning\\Models\\NoteViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:12:05.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "note.js",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\note.js",
+              "RelativeDocumentMoniker": "E-Learning\\wwwroot\\js\\note.js",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\note.js",
+              "RelativeToolTip": "E-Learning\\wwwroot\\js\\note.js",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAywB4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-13T14:38:58.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "lesson.js",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lesson.js",
+              "RelativeDocumentMoniker": "E-Learning\\wwwroot\\js\\lesson.js",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lesson.js",
+              "RelativeToolTip": "E-Learning\\wwwroot\\js\\lesson.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-13T14:47:51.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LessonNote.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\LessonNote.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\LessonNote.cs",
@@ -655,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "CourseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\CourseViewModel.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\CourseViewModel.cs",
@@ -667,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "E-Learning\\Data\\ApplicationUser.cs",
@@ -679,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
@@ -691,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Edit.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Edit.cshtml",
@@ -703,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "CourseController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
@@ -715,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "ManageAll.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\ManageAll.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\ManageAll.cshtml",
@@ -727,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "MyCourse.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Lesson\\MyCourse.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Lesson\\MyCourse.cshtml",
@@ -739,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Course.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Course.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Course.cs",
@@ -751,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "CreateLesson.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
@@ -763,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "CourseModuleViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\CourseModuleViewModel.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\CourseModuleViewModel.cs",
@@ -775,19 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\appsettings.json",
-              "RelativeDocumentMoniker": "E-Learning\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\appsettings.json",
-              "RelativeToolTip": "E-Learning\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-27T16:15:53.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\User.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\User.cs",
@@ -799,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Lesson.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Lesson.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Lesson.cs",
@@ -811,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "IEntity.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\IEntity.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\IEntity.cs",
@@ -823,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Discussion.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Discussion.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Discussion.cs",
@@ -835,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Enrollment.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Enrollment.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Enrollment.cs",
@@ -847,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Resource.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Resource.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Resource.cs",
@@ -859,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
@@ -871,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Student.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Student.cs",
@@ -883,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "LessonProgress.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\LessonProgress.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\LessonProgress.cs",
@@ -895,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Grade.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Grade.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Grade.cs",
@@ -907,19 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Program.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Program.cs",
-              "RelativeToolTip": "E-Learning\\Program.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAIwGkAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:39:09.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Manage.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Manage.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Manage.cshtml",
@@ -931,7 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\HomeController.cs",
@@ -940,18 +952,6 @@
               "ViewState": "AgIAAA4AAAAAAAAAAAAwwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-27T18:12:42.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AwsS3SDK.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\AwsS3SDK.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\AwsS3SDK.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\AwsS3SDK.cs",
-              "RelativeToolTip": "E-Learning\\Models\\AwsS3SDK.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABYAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T16:25:04.714Z"
             },
             {
               "$type": "Document",

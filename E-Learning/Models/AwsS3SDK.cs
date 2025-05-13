@@ -14,9 +14,9 @@ namespace E_Learning.Models
 
         public async Task<string> UploadFileAsync(IFormFile file)
         {
-            var accessKey = _config["AWS:AKIA5WLTTHEW3EGMFZYX"];
-            var secretKey = _config["AWS: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"];
-            var bucketName = _config["AWS:khangkhang12213"];
+            var accessKey = _config["AWS:"];
+            var secretKey = _config["AWS:"];
+            var bucketName = _config["AWS:"];
             var region = Amazon.RegionEndpoint.GetBySystemName(_config["AWS:ap-southeast-1"]);
 
             using var client = new AmazonS3Client(accessKey, secretKey, region);
