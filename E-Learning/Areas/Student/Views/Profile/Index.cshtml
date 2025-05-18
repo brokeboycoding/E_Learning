@@ -1,0 +1,30 @@
+﻿@model E_Learning.Models.Student
+
+@{
+    ViewData["Title"] = "Thông tin cá nhân";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table">
+    <tr><th>MSSV:</th><td>@Model.MSSV</td></tr>
+    <tr><th>Họ:</th><td>@Model.FirstName</td></tr>
+    <tr><th>Tên:</th><td>@Model.LastName</td></tr>
+    <tr><th>Ngày bắt đầu học:</th><td>@Model.FormattedEnrollmentDate</td></tr>
+	
+    <tr><th>Tình trạng:</th><td>@Model.Status</td></tr>
+	
+	<tr>
+		<td colspan="2">
+			<a asp-area="Student" asp-controller="Profile" asp-action="Edit" asp-route-id="@Model.Id">Sửa hồ sơ</a>
+			<a asp-area="Student" asp-controller="Profile" asp-action="ChangePassword" class="btn btn-secondary">Đổi mật khẩu</a>
+
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+		</td>
+	</tr>
+
+</table>

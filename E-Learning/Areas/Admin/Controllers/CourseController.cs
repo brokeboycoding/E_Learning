@@ -7,6 +7,7 @@ using E_Learning.Services;
 using static E_Learning.Models.CourseModuleViewModel;
 using E_Learning.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Hosting;
 
 namespace E_Learning.Areas.Admin.Controllers
 {
@@ -22,6 +23,11 @@ namespace E_Learning.Areas.Admin.Controllers
             _courseService = courseService;
             _context = context;
             _env = env;
+            _logger = LoggerFactory.Create(builder =>
+            {
+                builder.AddConsole();
+                builder.AddDebug();
+            }).CreateLogger<CourseController>();
         }
 
         // Hiển thị danh sách khóa học
@@ -113,7 +119,7 @@ namespace E_Learning.Areas.Admin.Controllers
                 .Select(m => new ModuleViewModel
                 {
                     Id = m.Id,
-                    Name = m.Name
+                    Name = m.Name ?? "Tên mặc định"
                 }).ToList();
 
             // Nếu không có giá trị moduleCount, lấy số module hiện tại
@@ -126,8 +132,9 @@ namespace E_Learning.Areas.Admin.Controllers
             var vm = new CourseModuleViewModel
             {
                 Id = course.Id,
-                Name = course.Name,
-                Description = course.Description,
+                Name = course.Name ?? "Tên mặc định",
+                Description = course.Description ?? "",
+
                 Duration = course.Duration,
                 IsActive = course.IsActive,
                 Modules = currentModules
@@ -445,7 +452,7 @@ namespace E_Learning.Areas.Admin.Controllers
                 return RedirectToAction("Manage");
             }
 
-            var courseId = lesson.Module.CourseId;
+            var courseId = lesson.Module?.CourseId;
 
             _context.Lessons.Remove(lesson);
             await _context.SaveChangesAsync();

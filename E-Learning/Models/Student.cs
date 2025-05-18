@@ -1,20 +1,22 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Diagnostics;
+using Microsoft.AspNetCore.Identity;
 
 namespace E_Learning.Models
 {
     public class Student : IEntity
     {
+        public int Id { get; set; }
+
         [Display(Name = "Mã số sinh viên")]
         [Required(ErrorMessage = "Hãy nhập MSSV")]
         [MaxLength(20)]
         public string MSSV { get; set; } = string.Empty;
 
+        [Required]
+        public string UserId { get; set; } = string.Empty;
 
-        public int Id { get; set; }
-
-        public required string UserId { get; set; }
-        public required User User { get; set; }
+        // Dùng IdentityUser nếu không có ApplicationUser
+        public IdentityUser User { get; set; } = null!;
 
         [Display(Name = "Họ")]
         [Required(ErrorMessage = "Hãy nhập vào")]
@@ -31,20 +33,15 @@ namespace E_Learning.Models
 
         public string? FormattedEnrollmentDate => EnrollmentDate?.ToString("dd/MM/yyyy");
 
-
         [Display(Name = "Tình trạng")]
         public StudentStatus Status { get; set; } = StudentStatus.Pending;
 
-   
-       
-        public ICollection<Grade> Grades { get; set; } = new List<Grade>();
-
-      
-
-
         [Display(Name = "Image")]
         public Guid ImageId { get; set; }
+
+        public ICollection<Grade> Grades { get; set; } = new List<Grade>();
     }
+
     public enum StudentStatus
     {
         Pending,

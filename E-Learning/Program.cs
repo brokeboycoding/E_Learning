@@ -28,7 +28,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders()
     .AddDefaultUI();
-builder.Services.AddScoped<ICourseService,CourseService>();
+builder.Services.AddScoped<ICourseService, CourseService>();
 builder.Services.AddScoped<ICourseService, CourseService>();
 builder.Services.AddScoped<AwsS3SDK>();
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
@@ -44,6 +44,7 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
+builder.Services.AddControllersWithViews();
 
 builder.Services.ConfigureApplicationCookie(options =>
 {
@@ -70,6 +71,9 @@ app.UseAuthorization();
 
 // Cấu hình routing
 app.MapRazorPages();
+
+
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{area=Student}/{controller=Home}/{action=Index}/{id?}");
@@ -111,7 +115,7 @@ async Task EnsureRolesAndAdminAsync(IServiceProvider services)
             UserName = adminEmail,
             Email = adminEmail,
             EmailConfirmed = true
-           
+
         };
         var result = await userManager.CreateAsync(adminUser, adminPassword);
         if (result.Succeeded)

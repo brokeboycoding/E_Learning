@@ -44,23 +44,29 @@ namespace E_Learning.Data
     .IsUnique(); // 1 sinh viên chỉ đăng ký 1 lần cho 1 khóa
 
 
-
+            modelBuilder.Entity<Student>()
+            .HasOne<IdentityUser>(s => s.User)
+            .WithMany() // Giả sử 1 user có thể liên kết nhiều student (hoặc .WithOne() nếu 1-1)
+            .HasForeignKey(s => s.UserId)
+            .IsRequired()
+            .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Student>()
-                .HasOne(s => s.User)
-                .WithMany()
-                .HasForeignKey(s => s.UserId)
-                .OnDelete(DeleteBehavior.Restrict);
-
-
-           
+    .HasOne(s => s.User)
+    .WithMany()
+    .HasForeignKey(s => s.UserId)
+    .OnDelete(DeleteBehavior.Cascade);
 
 
 
-         
 
 
-           
+
+
+
+
+
+
         }
     }
 }

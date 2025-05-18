@@ -7,12 +7,12 @@ namespace E_Learning.Models
         public int Id { get; set; }
 
         [Required]
-        public string UserId { get; set; }
+        public string? UserId { get; set; }
 
         public int CourseId { get; set; }
 
         // Navigation
-        public Course Course { get; set; }
-        public User User { get; set; }
+        public Course? Course { get; set; }
+        public User? User { get; set; }
     }
 }

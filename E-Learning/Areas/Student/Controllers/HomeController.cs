@@ -17,6 +17,7 @@ namespace E_Learning.Areas.Student.Controllers
             _courseService = courseService;
         }
 
+        /// <summary>
         public async Task<IActionResult> Index(string keyword,string type)
         {
             var courses = await _courseService.GetAllAsync();
