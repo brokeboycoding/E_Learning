@@ -1,0 +1,53 @@
+﻿@model E_Learning.Models.Student
+
+@{
+    ViewData["Title"] = "Hoàn thiện hồ sơ cá nhân";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="CompleteProfile" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="MSSV"></label>
+        <input asp-for="MSSV" class="form-control" />
+        <span asp-validation-for="MSSV" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EnrollmentDate"></label>
+        <input asp-for="EnrollmentDate" type="date" class="form-control" />
+        <span asp-validation-for="EnrollmentDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Status"></label>
+        <select asp-for="Status" class="form-control" asp-items="Html.GetEnumSelectList<E_Learning.Models.StudentStatus>()"></select>
+    </div>
+
+    <div class="form-group">
+        <label>Ảnh đại diện</label>
+        <input type="file" name="avatarFile" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

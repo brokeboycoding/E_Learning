@@ -148,11 +148,31 @@
 							</a>
 						</li>
 					}
-			
-	
+						
+				
+                    @{
+                        // Giả sử bạn có hệ thống phân quyền theo role, ví dụ role "Teacher"
+                        bool isTeacher = User.IsInRole("Teacher");
+                    }
+                    @if (isTeacher)
+                    {
+                        <li class="nav-item">
+                            <a class="btn btn-primary" asp-area="teacher" asp-controller="Course" asp-action="Index">
+                                🔑 Quản lý khoá học
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn btn-primary" asp-area="teacher" asp-controller="Course" asp-action="ManageAll">
+                                Quản lý nội dung khóa học
+                            </a>
+                        </li>
+                        <a asp-area="Teacher" asp-controller="Course" asp-action="Create" class="btn btn-primary">Tạo khóa học</a>
+
+                    }
 
                     <partial name="_LoginPartial" />
                 </ul>
+               
             </div>
         </div>
     </nav>

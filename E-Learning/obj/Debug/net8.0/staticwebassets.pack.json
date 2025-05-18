@@ -257,8 +257,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\0a47f1a4-46b8-4cc6-9304-a045d35c1ae9.mkv",
+      "PackagePath": "staticwebassets\\videos\\0a47f1a4-46b8-4cc6-9304-a045d35c1ae9.mkv"
+    },
+    {
       "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4",
       "PackagePath": "staticwebassets\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4"
+    },
+    {
+      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\5cc72323-7dd2-4ed9-b29f-be2488451d37.mkv",
+      "PackagePath": "staticwebassets\\videos\\5cc72323-7dd2-4ed9-b29f-be2488451d37.mkv"
+    },
+    {
+      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\6b59dbb2-4eb8-4d70-8d08-c8ec3441660a.JPG",
+      "PackagePath": "staticwebassets\\videos\\6b59dbb2-4eb8-4d70-8d08-c8ec3441660a.JPG"
     },
     {
       "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\Demo.mp4",

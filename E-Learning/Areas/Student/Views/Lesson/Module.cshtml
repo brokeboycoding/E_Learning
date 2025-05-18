@@ -10,7 +10,9 @@
         <div class="col-md-8">
             <h4>Bài học trong module</h4>
             <div class="list-group">
-                @foreach (var lesson in Model.Modules.SelectMany(m => m.Lessons))
+                @foreach (var lesson in Model.Modules?.SelectMany(m => m.Lessons ?? Enumerable.Empty<Lesson>()) ?? Enumerable.Empty<Lesson>())
+          
+
                 {
                     <a href="@Url.Action("Module", "Lesson", new { lessonId = lesson.Id })"
                        class="list-group-item list-group-item-action @((Model.CurrentLesson?.Id == lesson.Id) ? "active" : "")">

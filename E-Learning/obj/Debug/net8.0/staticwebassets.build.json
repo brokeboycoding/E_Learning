@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HLBpmIWk5lyupSHjA16QDXbJXEI0LQ3fi6rYo0xG7fI=",
+  "Hash": "IYGwyS34ZocC7Vo3KJkLEqAIOUyEegGSxkmtC5igqZ0=",
   "Source": "E-Learning",
   "BasePath": "_content/E-Learning",
   "Mode": "Default",
@@ -2642,6 +2642,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\0a47f1a4-46b8-4cc6-9304-a045d35c1ae9.mkv",
+      "SourceId": "E-Learning",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\",
+      "BasePath": "_content/E-Learning",
+      "RelativePath": "videos/0a47f1a4-46b8-4cc6-9304-a045d35c1ae9#[.{fingerprint}]?.mkv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1zpcnyutdl",
+      "Integrity": "fW1ymhnXGrA46Zd+xjOCT4K2krqPjoES94fYi/ORHIU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\0a47f1a4-46b8-4cc6-9304-a045d35c1ae9.mkv"
+    },
+    {
       "Identity": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4",
       "SourceId": "E-Learning",
       "SourceType": "Discovered",
@@ -2661,6 +2682,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4"
+    },
+    {
+      "Identity": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\5cc72323-7dd2-4ed9-b29f-be2488451d37.mkv",
+      "SourceId": "E-Learning",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\",
+      "BasePath": "_content/E-Learning",
+      "RelativePath": "videos/5cc72323-7dd2-4ed9-b29f-be2488451d37#[.{fingerprint}]?.mkv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1zpcnyutdl",
+      "Integrity": "fW1ymhnXGrA46Zd+xjOCT4K2krqPjoES94fYi/ORHIU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\5cc72323-7dd2-4ed9-b29f-be2488451d37.mkv"
+    },
+    {
+      "Identity": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\6b59dbb2-4eb8-4d70-8d08-c8ec3441660a.JPG",
+      "SourceId": "E-Learning",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\",
+      "BasePath": "_content/E-Learning",
+      "RelativePath": "videos/6b59dbb2-4eb8-4d70-8d08-c8ec3441660a#[.{fingerprint}]?.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cmkgjt55gb",
+      "Integrity": "nBy6uLMp0D+K1u8S5RJMuuMtnoP3tBgcgLhBKa+tn78=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\6b59dbb2-4eb8-4d70-8d08-c8ec3441660a.JPG"
     },
     {
       "Identity": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\Demo.mp4",
@@ -10299,6 +10362,88 @@
       ]
     },
     {
+      "Route": "videos/0a47f1a4-46b8-4cc6-9304-a045d35c1ae9.1zpcnyutdl.mkv",
+      "AssetFile": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\0a47f1a4-46b8-4cc6-9304-a045d35c1ae9.mkv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "531663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fW1ymhnXGrA46Zd+xjOCT4K2krqPjoES94fYi/ORHIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:14:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1zpcnyutdl"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/0a47f1a4-46b8-4cc6-9304-a045d35c1ae9.mkv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fW1ymhnXGrA46Zd+xjOCT4K2krqPjoES94fYi/ORHIU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/0a47f1a4-46b8-4cc6-9304-a045d35c1ae9.mkv",
+      "AssetFile": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\0a47f1a4-46b8-4cc6-9304-a045d35c1ae9.mkv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "531663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fW1ymhnXGrA46Zd+xjOCT4K2krqPjoES94fYi/ORHIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:14:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fW1ymhnXGrA46Zd+xjOCT4K2krqPjoES94fYi/ORHIU="
+        }
+      ]
+    },
+    {
       "Route": "videos/3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.d2d1ifma7m.mp4",
       "AssetFile": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4",
       "Selectors": [],
@@ -10377,6 +10522,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-mzkZWlR/kh6HyrHIyGo7f3MIFtQzi7Rlsf4HAj0rDzQ="
+        }
+      ]
+    },
+    {
+      "Route": "videos/5cc72323-7dd2-4ed9-b29f-be2488451d37.1zpcnyutdl.mkv",
+      "AssetFile": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\5cc72323-7dd2-4ed9-b29f-be2488451d37.mkv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "531663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fW1ymhnXGrA46Zd+xjOCT4K2krqPjoES94fYi/ORHIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:14:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1zpcnyutdl"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/5cc72323-7dd2-4ed9-b29f-be2488451d37.mkv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fW1ymhnXGrA46Zd+xjOCT4K2krqPjoES94fYi/ORHIU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/5cc72323-7dd2-4ed9-b29f-be2488451d37.mkv",
+      "AssetFile": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\5cc72323-7dd2-4ed9-b29f-be2488451d37.mkv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "531663"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fW1ymhnXGrA46Zd+xjOCT4K2krqPjoES94fYi/ORHIU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:14:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fW1ymhnXGrA46Zd+xjOCT4K2krqPjoES94fYi/ORHIU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/6b59dbb2-4eb8-4d70-8d08-c8ec3441660a.cmkgjt55gb.JPG",
+      "AssetFile": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\6b59dbb2-4eb8-4d70-8d08-c8ec3441660a.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nBy6uLMp0D+K1u8S5RJMuuMtnoP3tBgcgLhBKa+tn78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:14:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmkgjt55gb"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/6b59dbb2-4eb8-4d70-8d08-c8ec3441660a.JPG"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nBy6uLMp0D+K1u8S5RJMuuMtnoP3tBgcgLhBKa+tn78="
+        }
+      ]
+    },
+    {
+      "Route": "videos/6b59dbb2-4eb8-4d70-8d08-c8ec3441660a.JPG",
+      "AssetFile": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\6b59dbb2-4eb8-4d70-8d08-c8ec3441660a.JPG",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27320"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nBy6uLMp0D+K1u8S5RJMuuMtnoP3tBgcgLhBKa+tn78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 10:14:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nBy6uLMp0D+K1u8S5RJMuuMtnoP3tBgcgLhBKa+tn78="
         }
       ]
     },

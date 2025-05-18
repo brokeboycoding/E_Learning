@@ -61,7 +61,10 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\videos\0a47f1a4-46b8-4cc6-9304-a045d35c1ae9.mkv
 wwwroot\videos\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4
+wwwroot\videos\5cc72323-7dd2-4ed9-b29f-be2488451d37.mkv
+wwwroot\videos\6b59dbb2-4eb8-4d70-8d08-c8ec3441660a.JPG
 wwwroot\videos\Demo.mp4
 wwwroot\videos\f0f10fec-016b-405f-b6db-60db3e400533.mp4
 wwwroot\videos\Quay màn hình 2025-03-28 000326.mp4

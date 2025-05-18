@@ -21,12 +21,13 @@ namespace E_Learning.Models
         [Display(Name = "Họ")]
         [Required(ErrorMessage = "Hãy nhập vào")]
         [MaxLength(50)]
-        public string? FirstName { get; set; }
+        public string FirstName { get; set; } = string.Empty;
 
         [Display(Name = "Tên")]
         [Required(ErrorMessage = "Hãy nhập vào")]
         [MaxLength(50)]
-        public string? LastName { get; set; }
+        public string LastName { get; set; } = string.Empty;
+
 
         [Display(Name = "Ngày bắt đầu học")]
         public DateTime? EnrollmentDate { get; set; }

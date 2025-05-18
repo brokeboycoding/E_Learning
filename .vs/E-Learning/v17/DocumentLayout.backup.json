@@ -3,44 +3,196 @@
   "WorkspaceRootPath": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250518110738_MakeFirstAndLastNameNotNull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-Learning\\Migrations\\20250518110738_MakeFirstAndLastNameNotNull.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\teacherschoolclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\teacherschoolclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\controllers\\profilecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\controllers\\profilecontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250518105839_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-Learning\\Migrations\\20250518105839_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\profile\\completeprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\profile\\completeprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\views\\profile\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\profile\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\createlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\createlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\manageall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\manageall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\courseformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\courseformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\views\\course\\courseformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\course\\courseformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\views\\course\\manageall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\course\\manageall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\views\\course\\createlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\course\\createlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\lesson\\module.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\lesson\\module.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\profile\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,28 +207,12 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\controllers\\teachercontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\teacher\\controllers\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\controllers\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,10 +253,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\edituserroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -175,18 +307,6 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\coursesubject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\courseformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\courseformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250517132908_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-Learning\\Migrations\\20250517132908_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -201,10 +321,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\lesson\\module.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\lesson\\module.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\wwwroot\\js\\lesson.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -227,24 +343,8 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\courseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\manageall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\manageall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\createlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\createlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\coursemoduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\coursemoduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\lesson\\mycourse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -255,24 +355,8 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\discussion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\services\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -293,10 +377,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\models\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -325,10 +405,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\admin\\views\\manageaccount\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\manageaccount\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\areas\\student\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -568,10 +644,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\e-learning.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\e-learning.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|d:\\th\u01B0 mu\u0323c m\u01A1\u0301i\\e_learning\\e-learning\\migrations\\20250517152812_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\migrations\\20250517152812_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -581,11 +653,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 72,
               "Title": "Module.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Module.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Module.cs",
@@ -598,19 +670,267 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250518110738_MakeFirstAndLastNameNotNull.cs",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250518110738_MakeFirstAndLastNameNotNull.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Migrations\\20250518110738_MakeFirstAndLastNameNotNull.cs",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250518110738_MakeFirstAndLastNameNotNull.cs",
+              "RelativeToolTip": "E-Learning\\Migrations\\20250518110738_MakeFirstAndLastNameNotNull.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:07:38.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "TeacherSchoolClass.cs",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\TeacherSchoolClass.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\TeacherSchoolClass.cs",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\TeacherSchoolClass.cs",
+              "RelativeToolTip": "E-Learning\\Models\\TeacherSchoolClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T11:05:32.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250518105839_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250518105839_InitialCreate.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Migrations\\20250518105839_InitialCreate.cs",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250518105839_InitialCreate.cs",
+              "RelativeToolTip": "E-Learning\\Migrations\\20250518105839_InitialCreate.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:58:39.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Attendance.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\Attendance.cs",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Attendance.cs",
+              "RelativeToolTip": "E-Learning\\Models\\Attendance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:47:03.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Subject.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\Subject.cs",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Subject.cs",
+              "RelativeToolTip": "E-Learning\\Models\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T10:39:12.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CompleteProfile.cshtml",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Profile\\CompleteProfile.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Profile\\CompleteProfile.cshtml",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Profile\\CompleteProfile.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Profile\\CompleteProfile.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T10:17:08.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ManageAll.cshtml",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\ManageAll.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Course\\ManageAll.cshtml",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\ManageAll.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Course\\ManageAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T09:54:21.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Manage.cshtml",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\Manage.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Course\\Manage.cshtml",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\Manage.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Course\\Manage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T09:54:20.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Course\\Index.cshtml",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T09:54:18.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Course\\Edit.cshtml",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Course\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T09:54:17.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\Delete.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Course\\Delete.cshtml",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\Delete.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Course\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T09:54:16.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "CreateLesson.cshtml",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\CreateLesson.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Course\\CreateLesson.cshtml",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\CreateLesson.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Course\\CreateLesson.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T09:54:15.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Course\\Create.cshtml",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Course\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T09:54:13.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CourseFormPartial.cshtml",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\CourseFormPartial.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Course\\CourseFormPartial.cshtml",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Course\\CourseFormPartial.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Course\\CourseFormPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T09:54:10.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ChangePassword.cshtml",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Profile\\ChangePassword.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Profile\\ChangePassword.cshtml",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Profile\\ChangePassword.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Profile\\ChangePassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T09:32:03.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Profile\\Create.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Profile\\Create.cshtml",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Profile\\Create.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Profile\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T09:20:30.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T08:30:21.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Profile\\Edit.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Profile\\Edit.cshtml",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Profile\\Edit.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Profile\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T08:29:53.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfileController .cs",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Controllers\\ProfileController .cs",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Controllers\\ProfileController .cs",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Controllers\\ProfileController .cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Controllers\\ProfileController .cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAjwG0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T08:28:04.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Profile\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Profile\\ChangePassword.cshtml",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Profile\\ChangePassword.cshtml",
               "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Profile\\ChangePassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-18T08:08:44.551Z"
+              "WhenOpened": "2025-05-18T08:08:44.551Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 46,
               "Title": "ChangePasswordViewModel.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\ChangePasswordViewModel.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\ChangePasswordViewModel.cs",
@@ -622,81 +942,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 40,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Controllers\\AdminController.cs",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Controllers\\AdminController.cs",
               "RelativeToolTip": "E-Learning\\Areas\\Admin\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwGYAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwGYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T06:23:09.968Z"
+              "WhenOpened": "2025-05-18T06:23:09.968Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 37,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "E-Learning\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAwKkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-17T17:24:24.767Z"
+              "WhenOpened": "2025-05-17T17:24:24.767Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "edit.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Profile\\edit.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Profile\\edit.cshtml",
-              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Profile\\edit.cshtml*",
-              "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Profile\\edit.cshtml*",
-              "ViewState": "AgIAABEAAAAAAAAAAAAUwDEAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Profile\\edit.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Profile\\edit.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-17T17:17:57.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Profile\\Index.cshtml",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Profile\\Index.cshtml",
               "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Profile\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwBsAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-17T15:57:43.707Z"
+              "WhenOpened": "2025-05-17T15:57:43.707Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\ProfileController.cs",
-              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Controllers\\ProfileController.cs*",
-              "RelativeToolTip": "E-Learning\\Areas\\Student\\Controllers\\ProfileController.cs*",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAiwE8AAAAEAAAAAAAAAA==",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Student\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAA+wJMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T15:56:49.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 16,
               "Title": "Teacher.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Teacher.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Teacher.cs",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Teacher.cs",
               "RelativeToolTip": "E-Learning\\Models\\Teacher.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAuwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswDIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T15:49:38.465Z"
+              "WhenOpened": "2025-05-17T15:49:38.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 75,
               "Title": "CourseSubject.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\CourseSubject.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\CourseSubject.cs",
@@ -708,7 +1032,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 47,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "E-Learning\\Data\\ApplicationDbContext.cs",
@@ -720,7 +1044,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 62,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Profile\\Index.cshtml",
@@ -732,19 +1056,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
-              "Title": "20250517152812_InitialCreate.cs",
-              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250517152812_InitialCreate.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Migrations\\20250517152812_InitialCreate.cs",
-              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250517152812_InitialCreate.cs",
-              "RelativeToolTip": "E-Learning\\Migrations\\20250517152812_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T15:28:12.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 76,
               "Title": "20250517132908_InitialCreate.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250517132908_InitialCreate.cs",
               "RelativeDocumentMoniker": "E-Learning\\Migrations\\20250517132908_InitialCreate.cs",
@@ -756,7 +1068,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 77,
               "Title": "20250517132824_InitialCreate.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250517132824_InitialCreate.cs",
               "RelativeDocumentMoniker": "E-Learning\\Migrations\\20250517132824_InitialCreate.cs",
@@ -768,7 +1080,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 78,
               "Title": "20250517132204_InitialCreate.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250517132204_InitialCreate.cs",
               "RelativeDocumentMoniker": "E-Learning\\Migrations\\20250517132204_InitialCreate.cs",
@@ -780,7 +1092,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 83,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Discussion\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Discussion\\Index.cshtml",
@@ -792,7 +1104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 82,
               "Title": "DiscussionController.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Controllers\\DiscussionController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\DiscussionController.cs",
@@ -804,7 +1116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 79,
               "Title": "LessonController.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Controllers\\LessonController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\LessonController.cs",
@@ -816,43 +1128,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 39,
               "Title": "Module.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Lesson\\Module.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Lesson\\Module.cshtml",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Lesson\\Module.cshtml",
               "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Lesson\\Module.cshtml",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAIwGgAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-24T16:49:38.639Z"
+              "WhenOpened": "2025-04-24T16:49:38.639Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Program.cs",
               "RelativeDocumentMoniker": "E-Learning\\Program.cs",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Program.cs",
               "RelativeToolTip": "E-Learning\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAkwBoAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAqwGMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:39:09.259Z"
+              "WhenOpened": "2025-05-09T15:39:09.259Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\appsettings.json",
               "RelativeDocumentMoniker": "E-Learning\\appsettings.json",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\appsettings.json",
               "RelativeToolTip": "E-Learning\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-27T16:15:53.764Z"
+              "WhenOpened": "2025-03-27T16:15:53.764Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 73,
               "Title": "NoteViewModel.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\NoteViewModel.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\NoteViewModel.cs",
@@ -864,7 +1179,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 81,
               "Title": "note.js",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\wwwroot\\js\\note.js",
               "RelativeDocumentMoniker": "E-Learning\\wwwroot\\js\\note.js",
@@ -876,7 +1191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 80,
               "Title": "lesson.js",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\wwwroot\\js\\lesson.js",
               "RelativeDocumentMoniker": "E-Learning\\wwwroot\\js\\lesson.js",
@@ -888,7 +1203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 70,
               "Title": "LessonNote.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\LessonNote.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\LessonNote.cs",
@@ -900,7 +1215,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 84,
               "Title": "CourseViewModel.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\CourseViewModel.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\CourseViewModel.cs",
@@ -912,7 +1227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 55,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "E-Learning\\Data\\ApplicationUser.cs",
@@ -924,19 +1239,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 27,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
               "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:18:58.92Z"
+              "WhenOpened": "2025-04-18T07:18:58.92Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 25,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\Course\\Edit.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Edit.cshtml",
@@ -944,23 +1260,25 @@
               "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Edit.cshtml",
               "ViewState": "AgIAAAQAAAAAAAAAAAArwA0AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T15:49:47.87Z"
+              "WhenOpened": "2025-04-11T15:49:47.87Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 9,
               "Title": "CourseController.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
               "RelativeToolTip": "E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAywHgAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAewFEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:45:37.373Z"
+              "WhenOpened": "2025-04-11T15:45:37.373Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 22,
               "Title": "ManageAll.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\Course\\ManageAll.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\ManageAll.cshtml",
@@ -968,11 +1286,12 @@
               "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\ManageAll.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-11T12:29:23.731Z"
+              "WhenOpened": "2025-05-11T12:29:23.731Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 86,
               "Title": "MyCourse.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Lesson\\MyCourse.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Lesson\\MyCourse.cshtml",
@@ -984,31 +1303,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 10,
               "Title": "Course.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Course.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Course.cs",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Course.cs",
               "RelativeToolTip": "E-Learning\\Models\\Course.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAIA7wBwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T16:43:01.212Z"
+              "WhenOpened": "2025-05-10T16:43:01.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 21,
               "Title": "CreateLesson.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
               "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T16:58:23.302Z"
+              "WhenOpened": "2025-05-05T16:58:23.302Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 85,
               "Title": "CourseModuleViewModel.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\CourseModuleViewModel.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\CourseModuleViewModel.cs",
@@ -1020,7 +1341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 53,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\User.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\User.cs",
@@ -1032,7 +1353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 69,
               "Title": "Lesson.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Lesson.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Lesson.cs",
@@ -1044,7 +1365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 68,
               "Title": "IEntity.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\IEntity.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\IEntity.cs",
@@ -1056,7 +1377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 87,
               "Title": "Discussion.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Discussion.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Discussion.cs",
@@ -1068,7 +1389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 64,
               "Title": "Enrollment.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Enrollment.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Enrollment.cs",
@@ -1080,7 +1401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 88,
               "Title": "Resource.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Resource.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Resource.cs",
@@ -1092,31 +1413,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 38,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwBwAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T15:57:32.059Z"
+              "WhenOpened": "2025-04-11T15:57:32.059Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Student.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Student.cs",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Student.cs",
               "RelativeToolTip": "E-Learning\\Models\\Student.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAowC0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T14:59:29.069Z"
+              "WhenOpened": "2025-05-10T14:59:29.069Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 71,
               "Title": "LessonProgress.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\LessonProgress.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\LessonProgress.cs",
@@ -1128,7 +1451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 67,
               "Title": "Grade.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Grade.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Grade.cs",
@@ -1140,7 +1463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 23,
               "Title": "Manage.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\Course\\Manage.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Manage.cshtml",
@@ -1148,11 +1471,12 @@
               "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Manage.cshtml",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T15:52:56.984Z"
+              "WhenOpened": "2025-05-05T15:52:56.984Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 48,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\HomeController.cs",
@@ -1164,19 +1488,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CourseService.cs",
-              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Controllers\\CourseService.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Controllers\\CourseService.cs",
-              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Controllers\\CourseService.cs",
-              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Controllers\\CourseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Controllers\\CourseController.cs",
+              "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAawFkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T14:42:23.528Z"
+              "WhenOpened": "2025-04-18T14:42:23.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\Course\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Index.cshtml",
@@ -1184,11 +1509,12 @@
               "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Index.cshtml",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T15:49:48.833Z"
+              "WhenOpened": "2025-04-11T15:49:48.833Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 26,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\Course\\Delete.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Delete.cshtml",
@@ -1196,11 +1522,12 @@
               "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T16:30:08.183Z"
+              "WhenOpened": "2025-04-11T16:30:08.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 89,
               "Title": "CourseService.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Services\\CourseService.cs",
               "RelativeDocumentMoniker": "E-Learning\\Services\\CourseService.cs",
@@ -1212,7 +1539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 90,
               "Title": "ICourseService.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Services\\ICourseService.cs",
               "RelativeDocumentMoniker": "E-Learning\\Services\\ICourseService.cs",
@@ -1224,7 +1551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 96,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Cart\\Index.cshtml",
@@ -1236,7 +1563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 95,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\_ViewImports.cshtml",
@@ -1248,7 +1575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 91,
               "Title": "ICourseService.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Services\\ICourseService.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Services\\ICourseService.cs",
@@ -1260,7 +1587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 92,
               "Title": "CourseService.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Services\\CourseService.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Services\\CourseService.cs",
@@ -1272,7 +1599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 99,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Home\\Privacy.cshtml",
@@ -1284,7 +1611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 98,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Teacher\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Home\\Index.cshtml",
@@ -1296,7 +1623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 103,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -1306,7 +1633,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 102,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Home\\Privacy.cshtml",
@@ -1318,7 +1645,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 111,
               "Title": "TwoFactorAuthentication.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
@@ -1330,7 +1657,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 112,
               "Title": "ShowRecoveryCodes.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
@@ -1342,7 +1669,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 113,
               "Title": "SetPassword.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
@@ -1354,7 +1681,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 114,
               "Title": "ResetAuthenticator.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
@@ -1366,7 +1693,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 115,
               "Title": "PersonalData.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
@@ -1378,7 +1705,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 117,
               "Title": "GenerateRecoveryCodes.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
@@ -1390,7 +1717,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 118,
               "Title": "DownloadPersonalData.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
@@ -1402,7 +1729,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 119,
               "Title": "Email.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
@@ -1414,7 +1741,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 120,
               "Title": "DeletePersonalData.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
@@ -1426,7 +1753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 121,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
@@ -1438,7 +1765,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 122,
               "Title": "_StatusMessage.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_StatusMessage.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_StatusMessage.cshtml",
@@ -1450,7 +1777,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 123,
               "Title": "_ManageNav.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
@@ -1462,7 +1789,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 124,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
@@ -1474,7 +1801,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 116,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
@@ -1486,7 +1813,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 145,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -1498,7 +1825,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 143,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\Shared\\Error.cshtml",
@@ -1510,7 +1837,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 144,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\_ViewImports.cshtml",
@@ -1522,7 +1849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 131,
               "Title": "ForgotPasswordConfirmation.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
@@ -1534,7 +1861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 129,
               "Title": "ExternalLogin.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
@@ -1546,7 +1873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 127,
               "Title": "ConfirmEmail.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
@@ -1558,7 +1885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 60,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
@@ -1570,7 +1897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 125,
               "Title": "_StatusMessage.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
@@ -1582,7 +1909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 108,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -1594,7 +1921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 107,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Error.cshtml",
@@ -1606,7 +1933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 147,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Controllers\\HomeController.cs",
@@ -1618,7 +1945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 20,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\_ViewStart.cshtml",
@@ -1626,11 +1953,12 @@
               "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:17:00.238Z"
+              "WhenOpened": "2025-04-18T07:17:00.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 101,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Student\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\_ViewImports.cshtml",
@@ -1642,7 +1970,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 130,
               "Title": "ForgotPassword.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
@@ -1654,7 +1982,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 128,
               "Title": "ConfirmEmailChange.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
@@ -1666,7 +1994,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 54,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\Home\\Privacy.cshtml",
@@ -1678,7 +2006,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 61,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\Home\\Index.cshtml",
@@ -1690,7 +2018,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 100,
               "Title": "CreateAccount.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\ManageAccount\\CreateAccount.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\ManageAccount\\CreateAccount.cshtml",
@@ -1702,7 +2030,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 94,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "E-Learning\\Views\\Shared\\_Layout.cshtml.css",
@@ -1714,7 +2042,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 104,
               "Title": "ManageAccounts.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\ManageAccount\\ManageAccounts.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\ManageAccount\\ManageAccounts.cshtml",
@@ -1726,7 +2054,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 28,
               "Title": "CourseFormPartial.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\Course\\CourseFormPartial.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\CourseFormPartial.cshtml",
@@ -1734,11 +2062,12 @@
               "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\CourseFormPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T15:59:59.994Z"
+              "WhenOpened": "2025-04-11T15:59:59.994Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 56,
               "Title": "UserManagementController.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Controllers\\UserManagementController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Controllers\\UserManagementController.cs",
@@ -1750,7 +2079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 50,
               "Title": "TeacherController .cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Controllers\\TeacherController .cs",
               "RelativeDocumentMoniker": "E-Learning\\Controllers\\TeacherController .cs",
@@ -1762,7 +2091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 105,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Views\\UserManagement\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\UserManagement\\Index.cshtml",
@@ -1774,7 +2103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 49,
               "Title": "StudentController.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Controllers\\StudentController.cs",
@@ -1786,7 +2115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 140,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -1798,7 +2127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 149,
               "Title": "SD.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Utility\\SD.cs",
               "RelativeDocumentMoniker": "E-Learning\\Utility\\SD.cs",
@@ -1810,7 +2139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 150,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "E-Learning\\Data\\DbInitializer.cs",
@@ -1822,7 +2151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 148,
               "Title": "CartController.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "E-Learning\\Controllers\\CartController.cs",
@@ -1834,7 +2163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 106,
               "Title": "EditRole.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Views\\UserManagement\\EditRole.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\UserManagement\\EditRole.cshtml",
@@ -1846,7 +2175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 93,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\RegisterViewModel.cs",
@@ -1858,7 +2187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 146,
               "Title": "site.css",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "E-Learning\\wwwroot\\css\\site.css",
@@ -1870,7 +2199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 63,
               "Title": "EditUserRoleViewModel.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\EditUserRoleViewModel.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\EditUserRoleViewModel.cs",
@@ -1882,7 +2211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 151,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "E-Learning\\ScaffoldingReadMe.txt",
@@ -1894,7 +2223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 152,
               "Title": "ManageNavPages.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
@@ -1906,7 +2235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 17,
               "Title": "Certificate.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Certificate.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Certificate.cs",
@@ -1914,11 +2243,12 @@
               "RelativeToolTip": "E-Learning\\Models\\Certificate.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAQwAkAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:13:52.596Z"
+              "WhenOpened": "2025-03-28T07:13:52.596Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 65,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\ErrorViewModel.cs",
@@ -1930,7 +2260,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 74,
               "Title": "ExamSubmission.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\ExamSubmission.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\ExamSubmission.cs",
@@ -1942,7 +2272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 66,
               "Title": "FileType.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\FileType.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\FileType.cs",
@@ -1954,7 +2284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 141,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\_ViewStart.cshtml",
@@ -1966,7 +2296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 142,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\Cart\\Index.cshtml",
@@ -1978,7 +2308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 97,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Admin\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Cart\\Index.cshtml",
@@ -1990,7 +2320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 153,
               "Title": "LoginWithRecoveryCode.cshtml.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
@@ -2002,7 +2332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 135,
               "Title": "LoginWithRecoveryCode.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
@@ -2014,7 +2344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 154,
               "Title": "ConfirmEmailChange.cshtml.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
@@ -2026,7 +2356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 155,
               "Title": "ConfirmEmail.cshtml.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
@@ -2038,7 +2368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 126,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
@@ -2050,7 +2380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 156,
               "Title": "AccessDenied.cshtml.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml.cs",
@@ -2062,7 +2392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 139,
               "Title": "ResetPasswordConfirmation.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
@@ -2074,7 +2404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 58,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -2086,7 +2416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 138,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
@@ -2098,7 +2428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 137,
               "Title": "ResendEmailConfirmation.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
@@ -2110,7 +2440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 136,
               "Title": "RegisterConfirmation.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
@@ -2122,7 +2452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 57,
               "Title": "Logout.cshtml.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
@@ -2134,7 +2464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 134,
               "Title": "LoginWith2fa.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
@@ -2146,7 +2476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 109,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
@@ -2158,7 +2488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 110,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -2170,7 +2500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 132,
               "Title": "Lockout.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
@@ -2182,7 +2512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 133,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
@@ -2194,7 +2524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 59,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
@@ -2206,7 +2536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 157,
               "Title": "20250327163051_AddDiscriminatorColumn.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250327163051_AddDiscriminatorColumn.cs",
               "RelativeDocumentMoniker": "E-Learning\\Migrations\\20250327163051_AddDiscriminatorColumn.cs",
@@ -2217,7 +2547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 158,
               "Title": "20250327162852_AddIdentity.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250327162852_AddIdentity.cs",
               "RelativeDocumentMoniker": "E-Learning\\Migrations\\20250327162852_AddIdentity.cs",
@@ -2228,7 +2558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 159,
               "Title": "20250327161757_InitialCreate.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250327161757_InitialCreate.cs",
               "RelativeDocumentMoniker": "E-Learning\\Migrations\\20250327161757_InitialCreate.cs",
@@ -2239,7 +2569,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 160,
               "Title": "E-Learning.csproj",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\E-Learning.csproj",
               "RelativeDocumentMoniker": "E-Learning\\E-Learning.csproj",
@@ -2251,7 +2581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 52,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -2263,7 +2593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 51,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -2275,19 +2605,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 44,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\Shared\\_LoginPartial.cshtml",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeToolTip": "E-Learning\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAiwCEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwDIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T16:33:39.242Z"
+              "WhenOpened": "2025-03-26T16:33:39.242Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 19,
               "Title": "Alert.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Models\\Alert.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Alert.cs",
@@ -2295,7 +2626,8 @@
               "RelativeToolTip": "E-Learning\\Models\\Alert.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:51:07.81Z"
+              "WhenOpened": "2025-03-24T08:51:07.81Z",
+              "EditorCaption": ""
             }
           ]
         },

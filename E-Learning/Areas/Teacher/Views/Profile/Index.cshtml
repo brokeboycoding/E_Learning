@@ -1,0 +1,30 @@
+﻿@model E_Learning.Models.Teacher
+<h2>👤 Thông tin Hồ sơ Giáo viên</h2>
+
+
+<div class="card" style="max-width: 600px;">
+    <div class="card-body">
+        <h4>@Model.FirstName @Model.LastName</h4>
+
+        <dl class="row">
+            <dt class="col-sm-4">Ngày bắt đầu dạy:</dt>
+            <dd class="col-sm-8">@Model.FormattedHireDate ?? "Chưa cập nhật"</dd>
+
+            <dt class="col-sm-4">Tình trạng:</dt>
+            <dd class="col-sm-8">@Model.Status.ToString()</dd>
+
+            @if (Model.ImageId != Guid.Empty)
+            {
+                <dt class="col-sm-4">Hình đại diện:</dt>
+                <dd class="col-sm-8">
+                    <img src="@Url.Action("GetImage", "Profile", new { area = "Teacher", id = Model.ImageId })"
+                         alt="Ảnh đại diện"
+                         style="max-width:150px; max-height:150px; border-radius:8px;" />
+                </dd>
+            }
+        </dl>
+
+        <a asp-action="ChangePassword" class="btn btn-warning">Đổi mật khẩu</a>
+        <a asp-area="Teacher" asp-controller="Profile" asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Chỉnh sửa hồ sơ</a>
+    </div>
+</div>

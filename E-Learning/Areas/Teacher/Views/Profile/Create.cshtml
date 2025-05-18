@@ -1,0 +1,41 @@
+﻿@model E_Learning.Models.Teacher
+
+@{
+    ViewData["Title"] = "Tạo hồ sơ giáo viên";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="ImageId" class="form-label">Ảnh đại diện (không bắt buộc)</label>
+        <input asp-for="ImageId" type="file" accept="image/*" class="form-control" />
+        <span asp-validation-for="ImageId" class="text-danger"></span>
+    </div>
+
+
+    <div class="mb-3">
+        <label asp-for="FirstName" class="form-label"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LastName" class="form-label"></label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="HireDate" class="form-label"></label>
+        <input asp-for="HireDate" type="date" class="form-control" />
+        <span asp-validation-for="HireDate" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Status" class="form-label"></label>
+        <select asp-for="Status" class="form-select" asp-items="Html.GetEnumSelectList<TeacherStatus>()"></select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu</button>
+</form>
