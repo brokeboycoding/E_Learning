@@ -1,291 +1,291 @@
 {
   "Files": [
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-Learning.bundle.scp.css",
+      "Id": "E:\\E_Learning\\E-Learning\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-Learning.bundle.scp.css",
       "PackagePath": "staticwebassets\\E-Learning.xo1ze6v51g.bundle.scp.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\css\\site.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\favicon.ico",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\js\\lesson.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\js\\lesson.js",
       "PackagePath": "staticwebassets\\js\\lesson.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\js\\note.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\js\\note.js",
       "PackagePath": "staticwebassets\\js\\note.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\js\\site.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\js\\video.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\js\\video.js",
       "PackagePath": "staticwebassets\\js\\video.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\0a47f1a4-46b8-4cc6-9304-a045d35c1ae9.mkv",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\videos\\0a47f1a4-46b8-4cc6-9304-a045d35c1ae9.mkv",
       "PackagePath": "staticwebassets\\videos\\0a47f1a4-46b8-4cc6-9304-a045d35c1ae9.mkv"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4",
       "PackagePath": "staticwebassets\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\5cc72323-7dd2-4ed9-b29f-be2488451d37.mkv",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\videos\\5cc72323-7dd2-4ed9-b29f-be2488451d37.mkv",
       "PackagePath": "staticwebassets\\videos\\5cc72323-7dd2-4ed9-b29f-be2488451d37.mkv"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\6b59dbb2-4eb8-4d70-8d08-c8ec3441660a.JPG",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\videos\\6b59dbb2-4eb8-4d70-8d08-c8ec3441660a.JPG",
       "PackagePath": "staticwebassets\\videos\\6b59dbb2-4eb8-4d70-8d08-c8ec3441660a.JPG"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\Demo.mp4",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\videos\\Demo.mp4",
       "PackagePath": "staticwebassets\\videos\\Demo.mp4"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\Quay màn hình 2025-03-28 000326.mp4",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\videos\\Quay màn hình 2025-03-28 000326.mp4",
       "PackagePath": "staticwebassets\\videos\\Quay màn hình 2025-03-28 000326.mp4"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\Quay màn hình 2025-03-28 020118.mp4",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\videos\\Quay màn hình 2025-03-28 020118.mp4",
       "PackagePath": "staticwebassets\\videos\\Quay màn hình 2025-03-28 020118.mp4"
     },
     {
-      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\f0f10fec-016b-405f-b6db-60db3e400533.mp4",
+      "Id": "E:\\E_Learning\\E-Learning\\wwwroot\\videos\\f0f10fec-016b-405f-b6db-60db3e400533.mp4",
       "PackagePath": "staticwebassets\\videos\\f0f10fec-016b-405f-b6db-60db3e400533.mp4"
     },
     {

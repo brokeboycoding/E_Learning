@@ -1,54 +1,28 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
-namespace E_Learning.Models
+namespace E_Learning.Models;
+
+public partial class Teacher
 {
-    public class Teacher : IEntity
-    {
-        
-        public int Id { get; set; }
+    public int Id { get; set; }
 
-        public string? UserId { get; set; }
+    public string? UserId { get; set; }
 
-      
-        public User? User { get; set; }
+    public string FirstName { get; set; } = null!;
 
-        [Display(Name = "Họ")]
-        [Required(ErrorMessage = "Hãy nhập vào")]
-        [MaxLength(50)]
-        public string? FirstName { get; set; }
+    public string LastName { get; set; } = null!;
 
-        [Display(Name = "Tên")]
-        [Required(ErrorMessage = "Hãy nhập vào")]
-        [MaxLength(50)]
-        public string? LastName { get; set; }
+    public DateTime? HireDate { get; set; }
 
-      
-     
+    public int Status { get; set; }
 
-        
-        [Display(Name = "Ngày bắt đầu dạy")]
-        public DateTime? HireDate { get; set; }
+    /// <summary>
+    /// Bắt buộc phải có
+    /// </summary>
+    public string? Email { get; set; }
 
-       
-        public string? FormattedHireDate => HireDate?.ToString("dd/MM/yyyy");
+    public Guid ImageId { get; set; }
 
-        
-        [Display(Name = "Tình trạng")]
-        public TeacherStatus Status { get; set; } = TeacherStatus.Active;
-
-       
-
-        
-        [Display(Name = "Hình đại diện")]
-        public Guid ImageId { get; set; }
-
-        
-      
-    }
-    public enum TeacherStatus
-    {
-        Pending,
-        Active,
-        Inactive
-    }
+    public virtual Aspnetuser? User { get; set; }
 }

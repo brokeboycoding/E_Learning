@@ -1,31 +1,33 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
-namespace E_Learning.Models
+namespace E_Learning.Models;
+
+public partial class Course
 {
-    public class Course : IEntity
-    {
-        public int Id { get; set; }
+    public int Id { get; set; }
 
-        [Required]
-        [MaxLength(100)]
-        public string? Name { get; set; }
+    public string Name { get; set; } = null!;
 
-        [MaxLength(500)]
-        public string? Description { get; set; }
+    public string? Description { get; set; }
 
-        [Range(1, 52)]
-        public int Duration { get; set; } // Khoảng thời gian khóa học diễn ra
+    public int Duration { get; set; }
 
-        public bool IsActive { get; set; } = true;
+    public bool IsActive { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime CreatedAt { get; set; }
 
-        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+    public DateTime UpdatedAt { get; set; }
 
-        public string? VideoUrl { get; set; }  // Thuộc tính lưu URL của video
-      
+    public string? VideoUrl { get; set; }
 
-       public List<Module> Modules { get; set; } = new List<Module>();
-        public ICollection<Enrollment>? Enrollments { get; set; }
-    }
+    public virtual ICollection<Certificate> Certificates { get; set; } = new List<Certificate>();
+
+    public virtual ICollection<Enrollment> Enrollments { get; set; } = new List<Enrollment>();
+
+    public virtual ICollection<Examsubmission> Examsubmissions { get; set; } = new List<Examsubmission>();
+
+    public virtual ICollection<Module> Modules { get; set; } = new List<Module>();
+
+    public virtual ICollection<Resource> Resources { get; set; } = new List<Resource>();
 }

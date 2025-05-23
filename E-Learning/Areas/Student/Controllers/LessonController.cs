@@ -49,7 +49,7 @@ namespace E_Learning.Areas.Student.Controllers
             };
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var completedLessons = await _context.lessonProgresses
+            var completedLessons = await _context.LessonProgresses
                 .Where(p => p.UserId == userId && p.IsCompleted)
                 .Select(p => p.LessonId)
                 .ToListAsync();
@@ -71,7 +71,7 @@ namespace E_Learning.Areas.Student.Controllers
             {
                 var enrollment = new Enrollment
                 {
-                    UserId = userId,
+                    //UserId = userId,
                     CourseId = courseId
                 };
                 _context.Enrollments.Add(enrollment);
@@ -137,23 +137,23 @@ namespace E_Learning.Areas.Student.Controllers
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-            var progress = await _context.lessonProgresses
+            var progress = await _context.LessonProgresses
                 .FirstOrDefaultAsync(p => p.LessonId == lessonId && p.UserId == userId);
 
             if (progress == null)
             {
-                progress = new LessonProgress
+                progress = new Lessonprogress
                 {
                     LessonId = lessonId,
                     UserId = userId,
                     IsCompleted = true
                 };
-                _context.lessonProgresses.Add(progress);
+                _context.LessonProgresses.Add(progress);
             }
             else
             {
                 progress.IsCompleted = true;
-                _context.lessonProgresses.Update(progress);
+                _context.LessonProgresses.Update(progress);
             }
 
             await _context.SaveChangesAsync();
@@ -170,11 +170,11 @@ namespace E_Learning.Areas.Student.Controllers
         {
             if (ModelState.IsValid)
             {
-                var note = new LessonNote
+                var note = new Lessonnote
                 {
                     LessonId = model.LessonId,
                     Content = model.Content,
-                    Timestamp = model.Timestamp,
+                    //Timestamp = model.Timestamp,
                     UserId = User.FindFirstValue(ClaimTypes.NameIdentifier),  // Lấy UserId từ claims
                    
                 };

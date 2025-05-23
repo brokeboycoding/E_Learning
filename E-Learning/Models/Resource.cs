@@ -1,19 +1,17 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
-namespace E_Learning.Models
+namespace E_Learning.Models;
+
+public partial class Resource
 {
-    public class Resource : IEntity
-    {
-        public int Id { get; set; }
+    public int Id { get; set; }
 
-       
-        public string? FileName { get; set; }
+    public string? FileName { get; set; }
 
-        [Required]
-        public string? FileUrl { get; set; }
+    public string FileUrl { get; set; } = null!;
 
-        public int CourseId { get; set; }
+    public int CourseId { get; set; }
 
-        public Course? Course { get; set; }
-    }
+    public virtual Course Course { get; set; } = null!;
 }

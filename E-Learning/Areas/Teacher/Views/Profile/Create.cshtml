@@ -32,10 +32,10 @@
         <span asp-validation-for="HireDate" class="text-danger"></span>
     </div>
 
-    <div class="mb-3">
-        <label asp-for="Status" class="form-label"></label>
-        <select asp-for="Status" class="form-select" asp-items="Html.GetEnumSelectList<TeacherStatus>()"></select>
-    </div>
+    @* <div class="mb-3"> *@
+    @*     <label asp-for="Status" class="form-label"></label> *@
+    @*     <select asp-for="Status" class="form-select" asp-items="Html.GetEnumSelectList<TeacherStatus>()"></select> *@
+    @* </div> *@
 
     <button type="submit" class="btn btn-primary">Lưu</button>
 </form>

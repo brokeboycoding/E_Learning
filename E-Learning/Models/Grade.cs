@@ -1,25 +1,19 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
-namespace E_Learning.Models
+namespace E_Learning.Models;
+
+public partial class Grade
 {
-    public class Grade : IEntity
-    {
-        public int Id { get; set; }
+    public int Id { get; set; }
 
-        [Required]
-        [Range(0, 10, ErrorMessage = "Điểm trong khoảng 0 - 10.")]
-        public double Value { get; set; }
+    public double Value { get; set; }
 
-        public int StudentId { get; set; }
-        public Student? Student { get; set; }
+    public int StudentId { get; set; }
 
-    
-    
+    public DateTime EvaluationDate { get; set; }
 
-        [Display(Name = "Ngày đánh giá")]
-        public DateTime EvaluationDate { get; set; } = DateTime.Now;
+    public virtual ICollection<Certificate> Certificates { get; set; } = new List<Certificate>();
 
-       
-        public string Status => Value >= 4.5 ? "Đậu" : "Rớt";
-    }
+    public virtual Student Student { get; set; } = null!;
 }

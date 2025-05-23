@@ -140,7 +140,7 @@ namespace E_Learning.Areas.Student.Controllers
             if (student == null) return NotFound();
 
             // Cập nhật dữ liệu từ form
-            student.MSSV = model.MSSV;
+            student.Mssv = model.Mssv;
             if (string.IsNullOrWhiteSpace(model.FirstName))
             {
                 ModelState.AddModelError(nameof(model.FirstName), "Hãy nhập họ");

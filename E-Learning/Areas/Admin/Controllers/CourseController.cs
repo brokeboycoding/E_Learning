@@ -81,13 +81,13 @@ namespace E_Learning.Areas.Admin.Controllers
             {
                 var course = new Course
                 {
-                    Name = vm.Name.Trim(),
+                    Name = vm.Name? .Trim(),
                     Description = vm.Description?.Trim(),
                     Duration = vm.Duration,
                     IsActive = vm.IsActive,
                     Modules = validModules.Select(m => new Module
                     {
-                        Name = m.Name.Trim()
+                        Name = m.Name?  .Trim()
                     }).ToList()
                 };
 
@@ -190,11 +190,11 @@ namespace E_Learning.Areas.Admin.Controllers
                     .Where(m => !string.IsNullOrWhiteSpace(m.Name))
                     .Select(m => new Module
                     {
-                        Name = m.Name.Trim(),
+                        Name = m.Name ??.Trim(),
                         CourseId = course.Id
                     }).ToList() ?? new List<Module>();
 
-                if (validModules.Count == 0)
+                if (validModules.Count != 0)
                 {
                     ModelState.AddModelError("", "Khóa học phải có ít nhất một module");
                     vm.Modules = new List<ModuleViewModel> { new ModuleViewModel() };

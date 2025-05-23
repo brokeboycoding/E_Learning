@@ -1,26 +1,23 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
-namespace E_Learning.Models
+namespace E_Learning.Models;
+
+public partial class Examsubmission
 {
-    public class ExamSubmission : IEntity
-    {
-        public int Id { get; set; }
+    public int Id { get; set; }
 
-        public DateTime SubmissionDate { get; set; } = DateTime.UtcNow;
+    public DateTime SubmissionDate { get; set; }
 
-        [Required]
-        public string ?FileName { get; set; }
+    public string FileName { get; set; } = null!;
 
-        [Required]
-        public string ?FileUrl { get; set; }
+    public string FileUrl { get; set; } = null!;
 
-        [Required]
-        public string ?StudentId { get; set; }
+    public string StudentId { get; set; } = null!;
 
-        public User ?Student { get; set; }
+    public int CourseId { get; set; }
 
-        public int CourseId { get; set; }
+    public virtual Course Course { get; set; } = null!;
 
-        public Course? Course { get; set; }
-    }
+    public virtual Aspnetuser Student { get; set; } = null!;
 }

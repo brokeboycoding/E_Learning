@@ -49,7 +49,7 @@ namespace E_Learning.Areas.Student.Controllers
                     LessonId = lessonId,
                     Content = content,
                     CreatedAt = DateTime.Now,
-                    UserId = userId // hoặc lấy từ UserManager nếu dùng Identity
+                    //UserId = userId // hoặc lấy từ UserManager nếu dùng Identity
                 };
 
                 _context.Discussions.Add(discussion);

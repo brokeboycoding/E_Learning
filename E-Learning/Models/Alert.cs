@@ -1,26 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
 
-namespace E_Learning.Models
+namespace E_Learning.Models;
+
+public partial class Alert
 {
-    public class Alert : IEntity
-    {
-        public int Id { get; set; }
-        
+    public int Id { get; set; }
 
-        [MaxLength(500)]
-        public required string Message { get; set; }
+    public string Message { get; set; } = null!;
 
+    public DateTime CreatedAt { get; set; }
 
-        public DateTime CreatedAt { get; set; }
-
-        
-        public bool IsResolved { get; set; }
-
-
-     
-
-       
-      
-
-    }
+    public bool IsResolved { get; set; }
 }

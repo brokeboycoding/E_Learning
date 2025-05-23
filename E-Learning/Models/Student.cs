@@ -1,52 +1,37 @@
-﻿using System.ComponentModel.DataAnnotations;
-using Microsoft.AspNetCore.Identity;
+﻿using System;
+using System.Collections.Generic;
 
 namespace E_Learning.Models
 {
-    public class Student : IEntity
+    public partial class Student
     {
         public int Id { get; set; }
 
-        [Display(Name = "Mã số sinh viên")]
-        [Required(ErrorMessage = "Hãy nhập MSSV")]
-        [MaxLength(20)]
-        public string MSSV { get; set; } = string.Empty;
+        public string Mssv { get; set; } = null!;
 
-        [Required]
-        public string UserId { get; set; } = string.Empty;
+        public string UserId { get; set; } = null!;
 
-        // Dùng IdentityUser nếu không có ApplicationUser
-        public IdentityUser User { get; set; } = null!;
+        public string FirstName { get; set; } = null!;
 
-        [Display(Name = "Họ")]
-        [Required(ErrorMessage = "Hãy nhập vào")]
-        [MaxLength(50)]
-        public string FirstName { get; set; } = string.Empty;
+        public string LastName { get; set; } = null!;
 
-        [Display(Name = "Tên")]
-        [Required(ErrorMessage = "Hãy nhập vào")]
-        [MaxLength(50)]
-        public string LastName { get; set; } = string.Empty;
-
-
-        [Display(Name = "Ngày bắt đầu học")]
         public DateTime? EnrollmentDate { get; set; }
 
-        public string? FormattedEnrollmentDate => EnrollmentDate?.ToString("dd/MM/yyyy");
+        public int Status { get; set; }
 
-        [Display(Name = "Tình trạng")]
-        public StudentStatus Status { get; set; } = StudentStatus.Pending;
+        /// <summary>
+        /// Khi mà học sinh vô hồ sơ thì sẽ điền vô
+        /// </summary>
+        public string? Email { get; set; }
 
-        [Display(Name = "Image")]
         public Guid ImageId { get; set; }
 
-        public ICollection<Grade> Grades { get; set; } = new List<Grade>();
-    }
+        public virtual ICollection<Grade> Grades { get; set; } = new List<Grade>();
 
-    public enum StudentStatus
-    {
-        Pending,
-        Active,
-        Inactive
+        // Đổi từ Aspnetuser → User (đúng với entity bạn dùng trong Identity)
+        public virtual Aspnetuser User { get; set; } = null!;
+
+        // ✅ Thêm property để Razor view có thể hiển thị định dạng ngày đẹp
+        public string FormattedEnrollmentDate => EnrollmentDate?.ToString("dd/MM/yyyy") ?? "Chưa nhập";
     }
 }

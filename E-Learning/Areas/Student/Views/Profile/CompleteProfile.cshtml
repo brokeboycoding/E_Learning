@@ -10,9 +10,9 @@
     <input type="hidden" asp-for="Id" />
 
     <div class="form-group">
-        <label asp-for="MSSV"></label>
-        <input asp-for="MSSV" class="form-control" />
-        <span asp-validation-for="MSSV" class="text-danger"></span>
+        <label asp-for="Mssv"></label>
+        <input asp-for="Mssv" class="form-control" />
+        <span asp-validation-for="Mssv" class="text-danger"></span>
     </div>
 
     <div class="form-group">
@@ -33,10 +33,10 @@
         <span asp-validation-for="EnrollmentDate" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label asp-for="Status"></label>
-        <select asp-for="Status" class="form-control" asp-items="Html.GetEnumSelectList<E_Learning.Models.StudentStatus>()"></select>
-    </div>
+    @* <div class="form-group"> *@
+    @*     <label asp-for="Status"></label> *@
+    @*     <select asp-for="Status" class="form-control" asp-items="Html.GetEnumSelectList<E_Learning.Models.StudentStatus>()"></select> *@
+    @* </div> *@
 
     <div class="form-group">
         <label>Ảnh đại diện</label>
