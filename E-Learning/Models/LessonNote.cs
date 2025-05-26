@@ -6,7 +6,7 @@
         public string UserId { get; set; }
         public int LessonId { get; set; }
 
-        public TimeSpan? Timestamp { get; set; } // Thời điểm trong video
+        public string Timestamp { get; set; } // Thời điểm trong video
         public string Content { get; set; }
 
         public Lesson Lesson { get; set; }

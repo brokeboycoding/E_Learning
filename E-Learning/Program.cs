@@ -30,7 +30,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddDefaultUI();
 builder.Services.AddScoped<ICourseService,CourseService>();
 builder.Services.AddScoped<ICourseService, CourseService>();
-builder.Services.AddScoped<AwsS3SDK>();
+
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddRazorPages();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();

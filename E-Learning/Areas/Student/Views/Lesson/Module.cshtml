@@ -6,6 +6,25 @@
 
 <div class="container">
     <h1>@ViewBag.ModuleTitle</h1>
+   @* Hiển thị nút Đăng ký khóa học nếu chưa đăng ký *@
+    @if (!(ViewBag.IsEnrolled ?? false))
+    {
+        <form asp-controller="Lesson"
+              asp-action="Enroll"
+              asp-route-courseId="@Model.CurrentCourse.Id"
+              method="post" class="mb-4">
+            <button type="submit" class="btn btn-primary">
+                🔒 Đăng ký khóa học để bắt đầu học
+            </button>
+        </form>
+        <div class="alert alert-warning">
+            Vui lòng đăng ký để xem nội dung khóa học.
+        </div>
+    }
+    else
+    {
+       
+    
     <div class="row">
         <div class="col-md-8">
             <h4>Bài học trong module</h4>
@@ -53,16 +72,46 @@
                         </video>
                     </div>
                 }
-                <div id="note-section">
                     <h4>Ghi chú của bạn</h4>
-                    <textarea id="note-content" class="form-control" placeholder="Nhập ghi chú..."></textarea>
-                    <button id="save-note" class="btn btn-sm btn-primary mt-2">Lưu tại thời điểm video</button>
+                    <form asp-action="AddNote" method="post">
+                        <input type="hidden" asp-for="NewNote.LessonId" />
 
-                    <div id="saved-notes" class="mt-4">
-                        <h5>Ghi chú đã lưu:</h5>
-                        <ul class="list-group" id="note-list"></ul>
-                    </div>
-                </div>
+                        <div class="mb-2">
+                            <label asp-for="NewNote.Timestamp">Thời điểm (giây)</label>
+                            <input type="text" class="form-control" asp-for="NewNote.Timestamp" placeholder="Ví dụ: 120.5 hoặc 02:01" required />
+                            <span asp-validation-for="NewNote.Timestamp" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-2">
+                            <label asp-for="NewNote.Content">Nội dung</label>
+                            <textarea class="form-control" asp-for="NewNote.Content"
+                                      placeholder="Nhập ghi chú..." required></textarea>
+                            <span asp-validation-for="NewNote.Content" class="text-danger"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Lưu ghi chú</button>
+                    </form>
+
+                    @foreach (var note in Model.Notes)
+                    {
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-start">
+                                <div class="me-3">
+                                    <div class="fw-bold">@note.Content</div>
+                                    <small class="text-muted">
+                                        <i class="fas fa-clock"></i> @note.Timestamp.ToString() giây
+                                    </small>
+                                </div>
+                                <div>
+                                    <button class="btn btn-sm btn-outline-danger"
+                                            onclick="deleteNote(@note.Id)">
+                                        <i class="fas fa-trash"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </li>
+                    }
+
                 <div class="card-footer bg-transparent border-0">
                     <a asp-area="Student" asp-controller="Discussion" asp-action="Index" asp-route-lessonId="@Model.CurrentLesson?.Id" class="btn btn-outline-primary w-100">Thảo luận</a>
                 </div>
@@ -92,9 +141,9 @@
 
             }
         </div>
-
         
     </div>
+    }
 </div>
 
 @section Scripts {
@@ -102,8 +151,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
     <script src="~/js/video.js"></script>
-    <script src="~/js/note.js"></script>
-    <script src="~/js/lesson.js"></script>
+   
 
 }
 

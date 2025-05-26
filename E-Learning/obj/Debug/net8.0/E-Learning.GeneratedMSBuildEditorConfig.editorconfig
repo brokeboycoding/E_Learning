@@ -260,8 +260,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xMZXNzb25cTW9kdWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/Source/Repos/Khoashoc/E-Learning/Areas/Student/Views/Lesson/MyCourse.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xMZXNzb25cTXlDb3Vyc2UuY3NodG1s
+[C:/Users/Admin/Source/Repos/Khoashoc/E-Learning/Areas/Student/Views/Lesson/MyCourses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xMZXNzb25cTXlDb3Vyc2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Source/Repos/Khoashoc/E-Learning/Areas/Student/Views/Profile/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xQcm9maWxlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Source/Repos/Khoashoc/E-Learning/Areas/Student/Views/Profile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xQcm9maWxlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/Source/Repos/Khoashoc/E-Learning/Areas/Student/Views/_ViewImports.cshtml]
