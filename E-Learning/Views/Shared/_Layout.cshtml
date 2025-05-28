@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
 
-   
+
     <style>
         /* ======= Sidebar ======= */
         .sidebar {
@@ -116,7 +116,8 @@
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link" href="/">Trang chủ</a></li>
                     <li class="nav-item">
-                        <a class="nav-link" asp-controller="Profile" asp-action="Index">Hồ sơ của tôi</a></li>
+                        <a class="nav-link" asp-controller="Profile" asp-action="Index">Hồ sơ của tôi</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" asp-controller="Lesson" asp-action="MyCourses">Khóa học của tôi</a>
                     </li>
@@ -124,7 +125,7 @@
                 </ul>
 
                 <ul class="navbar-nav ms-3">
-                   
+
                     @if (User.IsInRole("Admin"))
                     {
                         <li class="nav-item">
@@ -143,7 +144,7 @@
                             </a>
                         </li>
                     }
-                  
+
 
                     <partial name="_LoginPartial" />
                 </ul>
@@ -154,7 +155,7 @@
 
     <!-- Sidebar -->
     <!-- Toggle Button -->
-    
+
 
     <div class="d-flex">
         <!-- Sidebar -->
@@ -197,13 +198,39 @@
             @RenderBody()
         </div>
     </div>
-
     <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Web Học Trực Tuyến. All rights reserved.</p>
+    <footer style="background-color:#1a237e; color:#fff; padding:40px 0; font-family: Arial, sans-serif;">
+        <div style="max-width:1200px; margin:0 auto; display:flex; flex-wrap: wrap; justify-content: space-between;">
+
+            <div style="flex: 1 1 250px; margin: 10px;">
+                <h3 style="border-bottom: 2px solid #ffca28; padding-bottom: 10px;">Về chúng tôi</h3>
+                <p>Trang web học tập trực tuyến giúp bạn nâng cao kiến thức, kỹ năng một cách dễ dàng và hiệu quả.</p>
+            </div>
+
+            <div style="flex: 1 1 250px; margin: 10px;">
+                <h3 style="border-bottom: 2px solid #ffca28; padding-bottom: 10px;">Liên hệ</h3>
+                <p>Email: contact@webhoctap.vn</p>
+                <p>Điện thoại: 0123 456 789</p>
+                <p>Địa chỉ: 123 Đường Học Tập, Quận Tri Thức</p>
+            </div>
+
+            <div style="flex: 1 1 250px; margin: 10px;">
+                <h3 style="border-bottom: 2px solid #ffca28; padding-bottom: 10px;">Theo dõi chúng tôi</h3>
+                <p>
+                    <a href="#" style="color:#ffca28; text-decoration:none; margin-right: 15px;">Facebook</a>
+                    <a href="#" style="color:#ffca28; text-decoration:none; margin-right: 15px;">Twitter</a>
+                    <a href="#" style="color:#ffca28; text-decoration:none;">LinkedIn</a>
+                </p>
+            </div>
+
+        </div>
+        <div style="text-align:center; margin-top:30px; font-size:14px; color:#bbb;">
+            <p>&copy; 2025 Web Học Trực Tuyến. All rights reserved.</p>
+        </div>
     </footer>
 
-    <!-- JavaScript 
+  
+    <!-- JavaScript
     <script>
         function toggleSidebar() {
             var sidebar = document.getElementById("sidebar");

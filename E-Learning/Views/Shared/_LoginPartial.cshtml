@@ -7,7 +7,7 @@
     <li class="nav-item">
         <a class="nav-link" href="/">
             <img src="https://img.lovepik.com/png/20231029/E-sports-game-orange-fox-logo-mascot-logo-sports-logos_397974_wh860.png"
-                 alt="Logo" style="width: 40px; height: auto;" />
+            alt="Logo" style="width: 40px; height: auto;" />
         </a>
     </li>
 
@@ -16,15 +16,42 @@
         var user = await UserManager.GetUserAsync(User);
         var userName = user?.UserName ?? "User";
 
+        IList<string> roles = new List<string>();
+        if (user != null)
+        {
+            roles = await UserManager.GetRolesAsync(user);
+        }
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-dark" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://ui-avatars.com/api/?name=@userName&background=random&color=fff&size=32" class="rounded-circle" alt="User Avatar">
+                <img src="https://ui-avatars.com/api/?name=@userName&background=random&color=fff&size=32" class="rounded-circle" alt="User Avatar" />
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
-               
+                @if (roles.Contains("Student"))
+                {
+                    <li>
+                        <a class="dropdown-item" asp-area="Student" asp-controller="SProfile" asp-action="Index">
+                            👤 Xem Hồ sơ cá nhân
+                        </a>
+                    </li>
+                }
+
+                @if (User.IsInRole("Teacher"))
+                {
+                   
+                        <li>
+                            <button class="btn btn-primary" onclick="location.href='@Url.Action("Index", "Profile", new { area = "Teacher" })'">
+                                Hồ sơ giáo viên
+                            </button>
+                        </li>
+                   
+                    
+
+                }
+
+                <li><hr class="dropdown-divider" /></li>
                 <li>
-                <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                        <button id="logout" type="submit" class="dropdown-item btn btn-link text-dark border-0">Logout</button>
+                    <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <button id="logout" type="submit" class="dropdown-item btn btn-link text-dark border-0">Đăng xuất</button>
                     </form>
                 </li>
             </ul>
@@ -34,7 +61,7 @@
     {
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-dark" href="#" id="authDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="bi bi-person-circle"></i> 
+                <i class="bi bi-person-circle"></i>
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="authDropdown">
                 <li>

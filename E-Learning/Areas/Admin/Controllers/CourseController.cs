@@ -16,13 +16,20 @@ namespace E_Learning.Areas.Admin.Controllers
         private readonly ICourseService _courseService;
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _env;
-        private readonly ILogger _logger;
-        public CourseController(ICourseService courseService, ApplicationDbContext context, IWebHostEnvironment env)
+        private readonly ILogger<CourseController> _logger;
+
+        public CourseController(
+            ICourseService courseService,
+            ApplicationDbContext context,
+            IWebHostEnvironment env,
+            ILogger<CourseController> logger) // <-- Thêm logger vào tham số
         {
             _courseService = courseService;
             _context = context;
             _env = env;
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger)); // Gán logger
         }
+
 
         // Hiển thị danh sách khóa học
         public async Task<IActionResult> Index()
@@ -93,7 +100,11 @@ namespace E_Learning.Areas.Admin.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error creating course");
+                if (_logger != null)
+                {
+                    _logger.LogError(ex, "Error creating course");
+                }
+
 
                 TempData["Error"] = "Đã xảy ra lỗi khi tạo khóa học.";
                 vm.Modules = vm.Modules ?? new List<ModuleViewModel> { new ModuleViewModel() };
@@ -113,7 +124,7 @@ namespace E_Learning.Areas.Admin.Controllers
                 .Select(m => new ModuleViewModel
                 {
                     Id = m.Id,
-                    Name = m.Name
+                    Name = m.Name??""
                 }).ToList();
 
             // Nếu không có giá trị moduleCount, lấy số module hiện tại
@@ -126,8 +137,8 @@ namespace E_Learning.Areas.Admin.Controllers
             var vm = new CourseModuleViewModel
             {
                 Id = course.Id,
-                Name = course.Name,
-                Description = course.Description,
+                Name = course.Name??"",
+                Description = course.Description ?? "",
                 Duration = course.Duration,
                 IsActive = course.IsActive,
                 Modules = currentModules
@@ -203,7 +214,7 @@ namespace E_Learning.Areas.Admin.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Lỗi khi cập nhật khóa học");
+                _logger?.LogError(ex, "Lỗi khi cập nhật khóa học");
                 TempData["Error"] = "Đã xảy ra lỗi khi cập nhật khóa học";
                 vm.Modules = vm.Modules ?? new List<ModuleViewModel> { new ModuleViewModel() };
                 return View(vm);
@@ -445,7 +456,7 @@ namespace E_Learning.Areas.Admin.Controllers
                 return RedirectToAction("Manage");
             }
 
-            var courseId = lesson.Module.CourseId;
+            var courseId = lesson.Module?.CourseId;
 
             _context.Lessons.Remove(lesson);
             await _context.SaveChangesAsync();

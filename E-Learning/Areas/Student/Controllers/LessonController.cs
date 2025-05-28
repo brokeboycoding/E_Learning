@@ -39,7 +39,7 @@ namespace E_Learning.Areas.Student.Controllers
             {
                 selectedLesson = await _context.Lessons
                     .Include(l => l.Module) // Include Module để lấy CourseId
-                    .ThenInclude(m => m.Course)
+                    .ThenInclude(m => m!.Course)
                     .FirstOrDefaultAsync(l => l.Id == lessonId.Value);
                 HttpContext.Session.SetInt32("LastLessonId", lessonId.Value);
             }
@@ -112,7 +112,7 @@ namespace E_Learning.Areas.Student.Controllers
             {
                 var enrollment = new Enrollment
                 {
-                    UserId = userId,
+                    UserId = userId!,
                     CourseId = courseId
                 };
                 _context.Enrollments.Add(enrollment);
@@ -186,7 +186,7 @@ namespace E_Learning.Areas.Student.Controllers
                 progress = new LessonProgress
                 {
                     LessonId = lessonId,
-                    UserId = userId,
+                    UserId = userId!,
                     IsCompleted = true
                 };
                 _context.lessonProgresses.Add(progress);

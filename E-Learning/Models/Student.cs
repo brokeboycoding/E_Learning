@@ -5,26 +5,23 @@ namespace E_Learning.Models
 {
     public class Student : IEntity
     {
-        [Display(Name = "Mã số sinh viên")]
-        [Required(ErrorMessage = "Hãy nhập MSSV")]
+        
+
         [MaxLength(20)]
-        public string MSSV { get; set; } = string.Empty;
+        public string? MSSV { get; set; }      // bỏ [Required]
+
 
 
         public int Id { get; set; }
 
-        public required string UserId { get; set; }
-        public required User User { get; set; }
+        public  string? UserId { get; set; }
+        public User? User { get; set; }
 
-        [Display(Name = "Họ")]
-        [Required(ErrorMessage = "Hãy nhập vào")]
         [MaxLength(50)]
-        public string? FirstName { get; set; }
+        public string? FirstName { get; set; } // bỏ [Required]
 
-        [Display(Name = "Tên")]
-        [Required(ErrorMessage = "Hãy nhập vào")]
         [MaxLength(50)]
-        public string? LastName { get; set; }
+        public string? LastName { get; set; }  // bỏ [Required]
 
         [Display(Name = "Ngày bắt đầu học")]
         public DateTime? EnrollmentDate { get; set; }

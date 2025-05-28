@@ -1,5 +1,10 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\teachers\11b4d1f3-8c25-4a8d-8890-00b4bfd860e9.jpg
+wwwroot\images\teachers\187928e1-b441-4477-b6ee-878eb22e1ffd.jpg
+wwwroot\images\teachers\202a91dd-44e1-44a5-a46a-0bf1fd81546d.jpg
+wwwroot\images\teachers\4ec99746-40a5-49f6-8474-f52aab32c0d2.jpg
+wwwroot\images\teachers\5b8b5595-1479-450a-999a-619b573173c0.jpg
 wwwroot\js\lesson.js
 wwwroot\js\note.js
 wwwroot\js\site.js

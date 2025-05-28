@@ -1,0 +1,14 @@
+﻿@model E_Learning.Models.Student
+
+<h2>👤 Hồ sơ cá nhân</h2>
+<table class="table">
+    <tr><th>MSSV</th><td>@Model.MSSV</td></tr>
+    <tr><th>Họ</th><td>@Model.FirstName</td></tr>
+    <tr><th>Tên</th><td>@Model.LastName</td></tr>
+    <tr><th>Ngày nhập học</th><td>@Model.FormattedEnrollmentDate</td></tr>
+    <tr><th>Trạng thái</th><td>@Model.Status</td></tr>
+</table>
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">✏️ Chỉnh sửa</a>
+	<a asp-action="ChangePassword" class="btn btn-info">🔑 Đổi mật khẩu</a>
+</p>
