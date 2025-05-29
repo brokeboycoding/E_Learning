@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace E_Learning.Controllers
 {
-    [Area("Teacher")]
+    [Area("Student")]
     public class SProfileController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -25,10 +25,11 @@ namespace E_Learning.Controllers
             var user = await _userManager.GetUserAsync(User);
             if (user == null) return RedirectToAction("Login", "Account");
 
-            var teacher = await _context.Teachers.FirstOrDefaultAsync(t => t.UserId == user.Id);
-            if (teacher == null) return RedirectToAction("Create");
+            var student = await _context.Students.FirstOrDefaultAsync(s => s.UserId == user.Id);
+            if (student == null) return RedirectToAction("Create");
 
-            return View(teacher);
+            return View(student);
+
         }
 
         // GET: Profile/Create
@@ -40,7 +41,7 @@ namespace E_Learning.Controllers
         // POST: Profile/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Teacher model)
+        public async Task<IActionResult> Create(Student model)
         {
             if (!ModelState.IsValid)
                 return View(model);
@@ -59,7 +60,7 @@ namespace E_Learning.Controllers
 
             try
             {
-                _context.Teachers.Add(model);
+                _context.Students.Add(model);
                 await _context.SaveChangesAsync();
                 TempData["SuccessMessage"] = "Tạo hồ sơ giáo viên thành công!";
                 return RedirectToAction(nameof(Index));
@@ -77,12 +78,13 @@ namespace E_Learning.Controllers
             if (id == null)
                 return BadRequest();
 
-            var teacher = await _context.Teachers.FindAsync(id.Value);
-            if (teacher == null)
+            var student = await _context.Students.FindAsync(id.Value);
+            if (student == null)
                 return NotFound();
 
-            return View(teacher);
+            return View(student);
         }
+
 
         // POST: Profile/Edit/5
         [HttpPost]
@@ -128,6 +130,7 @@ namespace E_Learning.Controllers
             return View();
         }
 
+
         // POST: Profile/ChangePassword
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -136,22 +139,29 @@ namespace E_Learning.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
-            var user = await _userManager.GetUserAsync(User);
-            if (user == null)
-                return RedirectToAction("Login", "Account");
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null)
+                return RedirectToAction("Login", "Account", new { area = "" });
 
-            var result = await _userManager.ChangePasswordAsync(user, model.OldPassword ?? "", model.NewPassword);
+            var result = await _userManager.ChangePasswordAsync(currentUser, model.OldPassword ?? "", model.NewPassword);
             if (result.Succeeded)
             {
-                TempData["SuccessMessage"] = "Đổi mật khẩu thành công!";
-                return RedirectToAction("Index");
+                // Đổi mật khẩu thành công => chuyển đến trang hỏi đăng nhập lại
+                return RedirectToAction(nameof(ChangePasswordSuccess));
             }
 
             foreach (var error in result.Errors)
             {
-                ModelState.AddModelError("", error.Description);
+                ModelState.AddModelError(string.Empty, error.Description);
             }
+
             return View(model);
         }
+
+        public IActionResult ChangePasswordSuccess()
+        {
+            return View();
+        }
+
     }
 }

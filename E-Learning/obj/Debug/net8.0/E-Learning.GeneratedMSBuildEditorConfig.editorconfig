@@ -272,6 +272,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTUHJvZmlsZVxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Thư mục mới/E_Learning/E-Learning/Areas/Student/Views/SProfile/ChangePasswordSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTUHJvZmlsZVxDaGFuZ2VQYXNzd29yZFN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Thư mục mới/E_Learning/E-Learning/Areas/Student/Views/SProfile/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcU3R1ZGVudFxWaWV3c1xTUHJvZmlsZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -302,6 +306,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Thư mục mới/E_Learning/E-Learning/Areas/Teacher/Views/Profile/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xQcm9maWxlXENoYW5nZVBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Thư mục mới/E_Learning/E-Learning/Areas/Teacher/Views/Profile/ChangePasswordSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcVGVhY2hlclxWaWV3c1xQcm9maWxlXENoYW5nZVBhc3N3b3JkU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Thư mục mới/E_Learning/E-Learning/Areas/Teacher/Views/Profile/Create.cshtml]

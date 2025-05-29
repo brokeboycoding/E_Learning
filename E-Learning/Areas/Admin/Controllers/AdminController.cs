@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using System.Threading.Tasks;
 using E_Learning.Models;
+using E_Learning.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace E_Learning.Areas.Admin.Controllers
 {
@@ -12,17 +14,24 @@ namespace E_Learning.Areas.Admin.Controllers
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly ApplicationDbContext _context;
 
-        public ManageAccountController(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager)
+        public ManageAccountController(
+            UserManager<IdentityUser> userManager,
+            RoleManager<IdentityRole> roleManager,
+            ApplicationDbContext context)
         {
             _userManager = userManager;
             _roleManager = roleManager;
+            _context = context;
         }
+
         // GET: Admin/ManageAccount
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("ManageAccounts");
         }
+
         public async Task<IActionResult> ManageAccounts()
         {
             var teacherUsers = await _userManager.GetUsersInRoleAsync("Teacher");
@@ -44,7 +53,6 @@ namespace E_Learning.Areas.Admin.Controllers
         {
             return View();
         }
-
         [HttpPost]
         public async Task<IActionResult> CreateAccount(RegisterViewModel model)
         {
@@ -93,23 +101,40 @@ namespace E_Learning.Areas.Admin.Controllers
 
             return View(model);
         }
-        
+
         public async Task<IActionResult> DeleteAccount(string id)
         {
             var user = await _userManager.FindByIdAsync(id);
-            if (user != null)
+            if (user == null) return NotFound();
+
+            // Xóa bản ghi trong bảng Students nếu tồn tại
+            var student = await _context.Students.FirstOrDefaultAsync(s => s.UserId == user.Id);
+            if (student != null)
             {
-                var roles = await _userManager.GetRolesAsync(user);
-                if (roles.Any())
-                {
-                    foreach (var role in roles)
-                    {
-                        await _userManager.RemoveFromRoleAsync(user, role);
-                    }
-                }
-                await _userManager.DeleteAsync(user);
+                _context.Students.Remove(student);
+                await _context.SaveChangesAsync();
             }
-            return RedirectToAction("ManageAccounts");
+
+            // Xóa bản ghi trong bảng Teachers nếu tồn tại
+            var teacher = await _context.Teachers.FirstOrDefaultAsync(t => t.UserId == user.Id);
+            if (teacher != null)
+            {
+                _context.Teachers.Remove(teacher);
+                await _context.SaveChangesAsync();
+            }
+
+            var result = await _userManager.DeleteAsync(user);
+            if (!result.Succeeded)
+            {
+                ModelState.AddModelError("", "Không thể xóa tài khoản.");
+                return View();
+            }
+
+            return RedirectToAction("Index");
         }
+
     }
 }
+
+    
+

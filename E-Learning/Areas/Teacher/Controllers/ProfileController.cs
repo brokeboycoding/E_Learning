@@ -146,6 +146,10 @@ namespace E_Learning.Areas.Teacher.Controllers
                     throw;
             }
         }
+        private bool TeacherExists(int id)
+        {
+            return _context.Teachers.Any(e => e.Id == id);
+        }
 
         // GET: Teacher/Profile/GetImage/{id}
         [HttpGet]
@@ -196,8 +200,8 @@ namespace E_Learning.Areas.Teacher.Controllers
             var result = await _userManager.ChangePasswordAsync(currentUser, model.OldPassword ?? "", model.NewPassword);
             if (result.Succeeded)
             {
-                TempData["Success"] = "Đổi mật khẩu thành công.";
-                return RedirectToAction(nameof(Index));
+                // Đổi mật khẩu thành công => chuyển đến trang hỏi đăng nhập lại
+                return RedirectToAction(nameof(ChangePasswordSuccess));
             }
 
             foreach (var error in result.Errors)
@@ -208,9 +212,10 @@ namespace E_Learning.Areas.Teacher.Controllers
             return View(model);
         }
 
-        private bool TeacherExists(int id)
+        public IActionResult ChangePasswordSuccess()
         {
-            return _context.Teachers.Any(e => e.Id == id);
+            return View();
         }
+
     }
 }

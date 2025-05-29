@@ -26,6 +26,6 @@ namespace E_Learning.Models
       
 
        public List<Module> Modules { get; set; } = new List<Module>();
-        public ICollection<Enrollment> Enrollments { get; set; }
+        public ICollection<Enrollment>? Enrollments { get; set; }
     }
 }

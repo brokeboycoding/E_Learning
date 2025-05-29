@@ -4,10 +4,12 @@
     ViewData["Title"] = "Quản lý tài khoản";
 }
 
-<a asp-action="CreateAccount" class="btn btn-success mt-3">Tạo tài khoản</a>
+<h2 class="mt-3">@ViewData["Title"]</h2>
 
-<table class="table">
-    <thead>
+<a asp-action="CreateAccount" class="btn btn-success mb-3">Tạo tài khoản</a>
+
+<table class="table table-bordered table-striped">
+    <thead class="thead-dark">
         <tr>
             <th>Tên đăng nhập (MSSV hoặc Email)</th>
             <th>Email</th>
@@ -22,22 +24,24 @@
                 <td>@user.UserName</td>
                 <td>@user.Email</td>
 
-                <!-- Hiển thị các vai trò của người dùng -->
                 <td>
                     @foreach (var role in ViewBag.UserRoles[user.Id])
                     {
-                        <span class="badge badge-dark" style="color: rgb(122, 17, 27);">@role</span>
-
-
-
+                        <span class="badge bg-secondary">@role</span>
                     }
                 </td>
 
                 <td>
-                    <a asp-action="DeleteAccount" asp-route-id="@user.Id" class="btn btn-danger">Xóa</a>
+                    <a asp-action="DeleteAccount"
+                       asp-route-id="@user.Id"
+                       class="btn btn-danger"
+                       onclick="return confirm('Bạn có chắc chắn muốn xóa tài khoản này? Nếu tài khoản có hồ sơ (giáo viên hoặc học sinh), hồ sơ đó cũng sẽ bị xóa.')">
+                        Xóa
+                    </a>
                 </td>
             </tr>
         }
     </tbody>
 </table>
-<button type="button" class="btn btn-secondary" onclick="window.history.back();">Quay lại</button>
+
+<button type="button" class="btn btn-secondary mt-3" onclick="window.history.back();">Quay lại</button>

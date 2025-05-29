@@ -33,6 +33,22 @@
       "PackagePath": "staticwebassets\\images\\teachers\\5b8b5595-1479-450a-999a-619b573173c0.jpg"
     },
     {
+      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\images\\teachers\\6d256a5f-6a4d-4aa1-be46-be4c3273f39f.jpg",
+      "PackagePath": "staticwebassets\\images\\teachers\\6d256a5f-6a4d-4aa1-be46-be4c3273f39f.jpg"
+    },
+    {
+      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\images\\teachers\\880e9b73-be16-4782-9200-d9845a0a63c4.jpg",
+      "PackagePath": "staticwebassets\\images\\teachers\\880e9b73-be16-4782-9200-d9845a0a63c4.jpg"
+    },
+    {
+      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\images\\teachers\\cd3261bd-6937-44b4-a3b5-4910c747c139.JPG",
+      "PackagePath": "staticwebassets\\images\\teachers\\cd3261bd-6937-44b4-a3b5-4910c747c139.JPG"
+    },
+    {
+      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\images\\teachers\\fa6aa291-cafe-4f69-b0c3-deb106375824.jpg",
+      "PackagePath": "staticwebassets\\images\\teachers\\fa6aa291-cafe-4f69-b0c3-deb106375824.jpg"
+    },
+    {
       "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\js\\lesson.js",
       "PackagePath": "staticwebassets\\js\\lesson.js"
     },
@@ -291,6 +307,10 @@
     {
       "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\Quay màn hình 2025-03-28 020118.mp4",
       "PackagePath": "staticwebassets\\videos\\Quay màn hình 2025-03-28 020118.mp4"
+    },
+    {
+      "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\e5d00e4d-9fcf-4299-bd57-d21e8162ea45.mkv",
+      "PackagePath": "staticwebassets\\videos\\e5d00e4d-9fcf-4299-bd57-d21e8162ea45.mkv"
     },
     {
       "Id": "D:\\Thư mục mới\\E_Learning\\E-Learning\\wwwroot\\videos\\f0f10fec-016b-405f-b6db-60db3e400533.mp4",

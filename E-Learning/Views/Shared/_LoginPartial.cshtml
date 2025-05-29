@@ -26,14 +26,15 @@
                 <img src="https://ui-avatars.com/api/?name=@userName&background=random&color=fff&size=32" class="rounded-circle" alt="User Avatar" />
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
-                @if (roles.Contains("Student"))
+                @if (roles != null && roles.Contains("Student"))
                 {
                     <li>
                         <a class="dropdown-item" asp-area="Student" asp-controller="SProfile" asp-action="Index">
-                            👤 Xem Hồ sơ cá nhân
+                            👤 Hồ sơ sinh viên
                         </a>
                     </li>
                 }
+
 
                 @if (User.IsInRole("Teacher"))
                 {
