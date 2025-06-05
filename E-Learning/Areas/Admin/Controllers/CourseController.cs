@@ -7,6 +7,8 @@ using E_Learning.Services;
 using static E_Learning.Models.CourseModuleViewModel;
 using E_Learning.Data;
 using Microsoft.EntityFrameworkCore;
+using CloudinaryDotNet;
+using CloudinaryDotNet.Actions;
 
 namespace E_Learning.Areas.Admin.Controllers
 {
@@ -17,11 +19,13 @@ namespace E_Learning.Areas.Admin.Controllers
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _env;
         private readonly ILogger _logger;
+      
         public CourseController(ICourseService courseService, ApplicationDbContext context, IWebHostEnvironment env)
         {
             _courseService = courseService;
             _context = context;
             _env = env;
+           
         }
 
         // Hiển thị danh sách khóa học
@@ -268,16 +272,24 @@ namespace E_Learning.Areas.Admin.Controllers
         //Quản lý riêng cho từng khóa học
         public IActionResult Manage(int courseId)
         {
+          
             var course = _context.Courses
                 .Include(c => c.Modules)
-                .ThenInclude(m => m.Lessons)
+                    .ThenInclude(m => m.Lessons) // Thêm OrderBy để đảm bảo thứ tự
                 .FirstOrDefault(c => c.Id == courseId);
 
             if (course == null)
                 return NotFound();
 
+            // Đảm bảo mỗi module có Lessons collection được khởi tạo
+            foreach (var module in course.Modules)
+            {
+                module.Lessons ??= new List<Lesson>();
+            }
+
             return View(course);
         }
+        
 
 
         // GET: Tạo bài giảng
@@ -305,7 +317,7 @@ namespace E_Learning.Areas.Admin.Controllers
         // POST: Tạo bài giảng
 
         [HttpPost]
-        public async Task<IActionResult> CreateLesson(Lesson lesson, IFormFile VideoFile)
+        public async Task<IActionResult> CreateLesson(Lesson lesson, IFormFile VideoFile,IFormFile DocumentFile)
         {
             // Kiểm tra ModelState
             if (!ModelState.IsValid)
@@ -320,7 +332,7 @@ namespace E_Learning.Areas.Admin.Controllers
                     }
                 }
 
-                TempData["Error"] = "Dữ liệu không hợp lệ. Vui lòng kiểm tra lại.";
+              
 
                 var moduleForError = await _context.Modules
                     .Include(m => m.Course)
@@ -355,6 +367,53 @@ namespace E_Learning.Areas.Admin.Controllers
 
                     lesson.VideoUrl = "/videos/" + fileName;
                 }
+                // 2. Upload tài liệu PDF/Word 
+
+                if (DocumentFile != null && DocumentFile.Length > 0)
+                {
+                    // Kiểm tra định dạng file
+                    var allowedExtensions = new[] { ".pdf", ".doc", ".docx" };
+                    var fileExtension = Path.GetExtension(DocumentFile.FileName).ToLower();
+
+                    if (!allowedExtensions.Contains(fileExtension))
+                    {
+                        ModelState.AddModelError("", "Chỉ chấp nhận file PDF hoặc Word");
+                        return View();
+                    }
+
+                    // Tạo thư mục nếu chưa tồn tại
+                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "documents");
+                    if (!Directory.Exists(uploadsFolder))
+                    {
+                        Directory.CreateDirectory(uploadsFolder);
+                    }
+
+                    // Tạo tên file duy nhất
+                    var uniqueFileName = Guid.NewGuid().ToString() + fileExtension;
+                    var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                    try
+                    {
+                        // Lưu file
+                        using (var fileStream = new FileStream(filePath, FileMode.Create))
+                        {
+                            await DocumentFile.CopyToAsync(fileStream);
+                        }
+
+                        lesson.DocumentUrl = $"/documents/{uniqueFileName}";
+
+                        TempData["Success"] = "Tải lên tài liệu thành công";
+
+                        Console.WriteLine($"File nhận được: {DocumentFile.FileName}, kích thước: {DocumentFile.Length}");
+                    }
+
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Upload error: " + ex.Message);
+                        ModelState.AddModelError("", "Lỗi khi tải lên tài liệu: " + ex.Message);
+                    }
+                }
+
 
                 _context.Lessons.Add(lesson);
                 await _context.SaveChangesAsync();

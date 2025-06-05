@@ -9,16 +9,24 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\e96ec2a2-7c7c-4824-9853-457b8e1ee969.pdf",
+      "PackagePath": "staticwebassets\\documents\\e96ec2a2-7c7c-4824-9853-457b8e1ee969.pdf"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\f83a3670-db40-4cf9-81a7-341fb3b3f490.pdf",
+      "PackagePath": "staticwebassets\\documents\\f83a3670-db40-4cf9-81a7-341fb3b3f490.pdf"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lesson.js",
-      "PackagePath": "staticwebassets\\js\\lesson.js"
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lessonnote.js",
+      "PackagePath": "staticwebassets\\js\\lessonnote.js"
     },
     {
-      "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\note.js",
-      "PackagePath": "staticwebassets\\js\\note.js"
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\quiz.js",
+      "PackagePath": "staticwebassets\\js\\quiz.js"
     },
     {
       "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\site.js",
@@ -257,6 +265,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\2d5d9c77-a9e6-4ffa-9afe-8338c74e3631.mp4",
+      "PackagePath": "staticwebassets\\videos\\2d5d9c77-a9e6-4ffa-9afe-8338c74e3631.mp4"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4",
       "PackagePath": "staticwebassets\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4"
     },
@@ -271,6 +283,10 @@
     {
       "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\Quay màn hình 2025-03-28 020118.mp4",
       "PackagePath": "staticwebassets\\videos\\Quay màn hình 2025-03-28 020118.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\c8b2cd94-323b-4292-a004-da420710b893.mp4",
+      "PackagePath": "staticwebassets\\videos\\c8b2cd94-323b-4292-a004-da420710b893.mp4"
     },
     {
       "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\f0f10fec-016b-405f-b6db-60db3e400533.mp4",

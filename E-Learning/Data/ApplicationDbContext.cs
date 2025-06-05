@@ -20,7 +20,7 @@ namespace E_Learning.Data
       
         public required DbSet<Alert> Alerts { get; set; }
       
-        public required DbSet<Certificate> Certificates { get; set; }
+        
         public required DbSet <ExamSubmission> ExamSubmissions { get; set; }
         public required DbSet <Resource> Resources {  get; set; }
 
@@ -31,6 +31,10 @@ namespace E_Learning.Data
         public required DbSet<Discussion> Discussions { get; set; }
         public required DbSet<Enrollment> Enrollments { get; set; }
         public required DbSet<LessonNote> LessonNotes { get; set; }
+
+        public required DbSet<QuizQuestion> QuizQuestions { get; set; }
+
+        public required DbSet<QuizOption> QuizOptions { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }

@@ -30,7 +30,13 @@
                         <p class="badge bg-secondary">@item.Duration</p>
                     </div>
                     <div class="card-footer bg-transparent border-0">
-                        <a asp-area="Student" asp-controller="Lesson" asp-action="Module" class="btn btn-outline-primary w-100">Chi tiết khóa học</a>
+                        <a asp-area="Student"
+                           asp-controller="Lesson"
+                           asp-action="Module"
+                           asp-route-courseId="@item.Id"
+                           class="btn btn-outline-primary w-100">
+                            Chi tiết khóa học
+                        </a>
                     </div>
                 </div>
             </div>

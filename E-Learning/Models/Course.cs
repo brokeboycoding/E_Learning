@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace E_Learning.Models
 {
@@ -8,12 +9,15 @@ namespace E_Learning.Models
 
         [Required]
         [MaxLength(100)]
+        [Display(Name="Tên khóa học")]
         public string? Name { get; set; }
 
         [MaxLength(500)]
+        [Display(Name="Mô tả khóa học")]
         public string? Description { get; set; }
 
         [Range(1, 52)]
+        [Display(Name="Thời gian khóa học diễn ra")]
         public int Duration { get; set; } // Khoảng thời gian khóa học diễn ra
 
         public bool IsActive { get; set; } = true;

@@ -1,7 +1,9 @@
 wwwroot\css\site.css
+wwwroot\documents\e96ec2a2-7c7c-4824-9853-457b8e1ee969.pdf
+wwwroot\documents\f83a3670-db40-4cf9-81a7-341fb3b3f490.pdf
 wwwroot\favicon.ico
-wwwroot\js\lesson.js
-wwwroot\js\note.js
+wwwroot\js\lessonnote.js
+wwwroot\js\quiz.js
 wwwroot\js\site.js
 wwwroot\js\video.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
@@ -61,7 +63,9 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\videos\2d5d9c77-a9e6-4ffa-9afe-8338c74e3631.mp4
 wwwroot\videos\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4
+wwwroot\videos\c8b2cd94-323b-4292-a004-da420710b893.mp4
 wwwroot\videos\Demo.mp4
 wwwroot\videos\f0f10fec-016b-405f-b6db-60db3e400533.mp4
 wwwroot\videos\Quay màn hình 2025-03-28 000326.mp4

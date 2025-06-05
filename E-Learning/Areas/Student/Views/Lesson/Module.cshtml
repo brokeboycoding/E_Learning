@@ -1,161 +1,292 @@
 ﻿@model CourseViewModel
 
 @{
-    ViewData["Title"] = "Xem Module";
+    ViewData["Title"] = Model.CurrentCourse?.Name ?? "Khóa học";
 }
 
 <div class="container">
-    <h1>@ViewBag.ModuleTitle</h1>
-   @* Hiển thị nút Đăng ký khóa học nếu chưa đăng ký *@
-    @if (!(ViewBag.IsEnrolled ?? false))
+    @if (Model.CurrentCourse != null)
     {
-        <form asp-controller="Lesson"
-              asp-action="Enroll"
-              asp-route-courseId="@Model.CurrentCourse.Id"
-              method="post" class="mb-4">
-            <button type="submit" class="btn btn-primary">
-                🔒 Đăng ký khóa học để bắt đầu học
-            </button>
-        </form>
-        <div class="alert alert-warning">
-            Vui lòng đăng ký để xem nội dung khóa học.
-        </div>
-    }
-    else
-    {
-       
-    
-    <div class="row">
-        <div class="col-md-8">
-            <h4>Bài học trong module</h4>
-            <div class="list-group">
-                @foreach (var lesson in Model.Modules.SelectMany(m => m.Lessons))
-                {
-                    <a href="@Url.Action("Module", "Lesson", new { lessonId = lesson.Id })"
-                       class="list-group-item list-group-item-action @((Model.CurrentLesson?.Id == lesson.Id) ? "active" : "")">
-                        <div class="d-flex justify-content-between">
-                            <div>
-                                <h5 class="mb-1">@lesson.Title</h5>
-                                <p class="mb-1">@lesson.Description</p>
-                            </div>
-                            <div class="align-self-center">
-                                @if (Model.CurrentLesson?.Id == lesson.Id)
-                                {
-                                    <span class="badge badge-primary">Đang học</span>
-                                }
-                                else if (((List<int>)ViewBag.CompletedLessons).Contains(lesson.Id))
-                                {
-                                    <span class="badge bg-success">Đã hoàn thành</span>
-                                }
+        <h1>@Model.CurrentCourse.Name</h1>
+        <p class="text-muted">@Model.CurrentCourse.Description</p>
 
-                                else
-                                {
-                                    <span class="badge badge-secondary">Chưa hoàn thành</span>
-                                }
-                            </div>
+        @if (!(ViewBag.IsEnrolled ?? false))
+        {
+            <form asp-controller="Lesson"
+                  asp-action="Enroll"
+                  asp-route-courseId="@Model.CurrentCourse.Id"
+                  method="post" class="mb-4">
+                <button type="submit" class="btn btn-primary">
+                    🔒 Đăng ký khóa học để bắt đầu học
+                </button>
+            </form>
+            <div class="alert alert-warning">
+                Vui lòng đăng ký để xem nội dung khóa học.
+            </div>
+        }
+        else
+        {
+            <div class="row">
+                <div class="col-md-8">
+                    <h4 class="mb-4">📚 Danh sách bài học</h4>
+
+                    @if (Model.Modules != null && Model.Modules.Any())
+                    {
+                        <div class="accordion" id="moduleAccordion">
+                            @for (int i = 0; i < Model.Modules.Count; i++)
+                            {
+                                var module = Model.Modules[i];
+                                string collapseId = $"collapseModule{i}";
+                                string headingId = $"headingModule{i}";
+                                bool isFirst = i == 0;
+
+                                <div class="accordion-item mb-2">
+                                    <h2 class="accordion-header" id="@headingId">
+                                        <button class="accordion-button @(!isFirst ? "collapsed" : "")" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#@collapseId"
+                                                aria-expanded="@(isFirst.ToString().ToLower())" aria-controls="@collapseId">
+                                            📘 Module @(i + 1): @module.Name
+                                        </button>
+                                    </h2>
+                                    <div id="@collapseId" class="accordion-collapse collapse @(isFirst ? "show" : "")"
+                                         aria-labelledby="@headingId" data-bs-parent="#moduleAccordion">
+                                        <div class="accordion-body">
+                                            @if (module.Lessons != null && module.Lessons.Any())
+                                            {
+                                                <ul class="list-group">
+                                                    @foreach (var lesson in module.Lessons)
+                                                    {
+                                                        var isCurrent = Model.CurrentLesson?.Id == lesson.Id;
+                                                        var completedLessons = ViewBag.CompletedLessons as List<int> ?? new List<int>();
+                                                        var isCompleted = completedLessons.Contains(lesson.Id);
+
+                                                        <li class="list-group-item p-3 @(isCurrent ? "active text-white" : "")">
+                                                            <a href="@Url.Action("Module", "Lesson", new { lessonId = lesson.Id })"
+                                                               class="text-decoration-none d-block @(isCurrent ? "text-white" : "text-dark")">
+                                                                <div class="d-flex justify-content-between align-items-center">
+                                                                    <div>
+                                                                        <h6 class="mb-1 fw-bold">@lesson.Title</h6>
+                                                                        @if (!string.IsNullOrWhiteSpace(lesson.Description))
+                                                                        {
+                                                                            <p class="mb-0 small">@lesson.Description</p>
+                                                                        }
+                                                                    </div>
+                                                                    <div>
+                                                                        @if (isCurrent)
+                                                                        {
+                                                                            <span class="badge bg-primary">Đang học</span>
+                                                                        }
+                                                                        else if (isCompleted)
+                                                                        {
+                                                                            <span class="badge bg-success">Đã hoàn thành</span>
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                            <span class="badge bg-secondary">Chưa hoàn thành</span>
+                                                                        }
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    }
+                                                </ul>
+                                            }
+                                            else
+                                            {
+                                                <div class="text-muted fst-italic">Chưa có bài học nào trong module này.</div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            }
                         </div>
-                    </a>
-                }
+                    }
+                    else
+                    {
+                        <div class="alert alert-warning">Không có module nào trong khóa học này.</div>
+                    }
+                </div>
             </div>
 
             @if (Model.CurrentLesson != null)
             {
+                <div class="mt-4">
+                    <h3>@Model.CurrentLesson.Title</h3>
+                    <p>@Model.CurrentLesson.Description</p>
 
-                <hr />
-                <h3>@Model.CurrentLesson.Title</h3>
-                <p>@Model.CurrentLesson.Description</p>
-                @if (!string.IsNullOrEmpty(Model.CurrentLesson.VideoUrl))
-                {
-                    <div class="mb-4">
-                        <video id="player" playsinline controls>
-                            <source src="@Model.CurrentLesson.VideoUrl" type="video/mp4" />
-                        </video>
-                    </div>
-                }
-                    <h4>Ghi chú của bạn</h4>
-                    <form asp-action="AddNote" method="post">
-                        <input type="hidden" asp-for="NewNote.LessonId" />
-
-                        <div class="mb-2">
-                            <label asp-for="NewNote.Timestamp">Thời điểm (giây)</label>
-                            <input type="text" class="form-control" asp-for="NewNote.Timestamp" placeholder="Ví dụ: 120.5 hoặc 02:01" required />
-                            <span asp-validation-for="NewNote.Timestamp" class="text-danger"></span>
-                        </div>
-
-                        <div class="mb-2">
-                            <label asp-for="NewNote.Content">Nội dung</label>
-                            <textarea class="form-control" asp-for="NewNote.Content"
-                                      placeholder="Nhập ghi chú..." required></textarea>
-                            <span asp-validation-for="NewNote.Content" class="text-danger"></span>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary">Lưu ghi chú</button>
-                    </form>
-
-                    @foreach (var note in Model.Notes)
+                    @if (!string.IsNullOrEmpty(Model.CurrentLesson.VideoUrl))
                     {
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between align-items-start">
-                                <div class="me-3">
-                                    <div class="fw-bold">@note.Content</div>
-                                    <small class="text-muted">
-                                        <i class="fas fa-clock"></i> @note.Timestamp.ToString() giây
-                                    </small>
-                                </div>
-                                <div>
-                                    <button class="btn btn-sm btn-outline-danger"
-                                            onclick="deleteNote(@note.Id)">
-                                        <i class="fas fa-trash"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </li>
+                        <div class="mb-4">
+                            <video id="player" playsinline controls>
+                                <source src="@Model.CurrentLesson.VideoUrl?ts=@DateTime.Now.Ticks" type="video/mp4" />
+                            </video>
+                        </div>
                     }
 
-                <div class="card-footer bg-transparent border-0">
-                    <a asp-area="Student" asp-controller="Discussion" asp-action="Index" asp-route-lessonId="@Model.CurrentLesson?.Id" class="btn btn-outline-primary w-100">Thảo luận</a>
-                </div>
+                    @if (!string.IsNullOrEmpty(Model.CurrentLesson.DocumentUrl))
+                    {
+                        <a href="@Model.CurrentLesson.DocumentUrl" target="_blank" class="btn btn-outline-info mb-3">
+                            📄 Xem tài liệu
+                        </a>
+                    }
 
+                    <!-- Phần ghi chú -->
+                    <div class="card mt-4">
+                        <div class="card-header">
+                            <h4>Ghi chú của bạn</h4>
+                        </div>
+                        <div class="card-body">
+                            <form id="noteForm">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="LessonId" value="@Model.CurrentLesson.Id" />
 
+                                <div class="mb-3">
+                                    <label class="form-label">Thời điểm (giây)</label>
+                                    <input type="number" step="any" class="form-control" name="Timestamp" />
+                                </div>
 
+                                <div class="mb-3">
+                                    <label class="form-label">Nội dung</label>
+                                    <textarea class="form-control" name="Content" rows="3"></textarea>
+                                </div>
 
-                @if (TempData["Success"] != null)
-                {
-                    <div class="alert alert-success">
-                        @TempData["Success"]
+                                <button type="submit" class="btn btn-primary">Lưu ghi chú</button>
+                            </form>
+
+                            <div id="note-alert" class="mt-3"></div>
+
+                            <ul class="list-group mt-3" id="noteList">
+                                @foreach (var note in Model.Notes)
+                                {
+                                    var mmss = TimeSpan.FromSeconds(note.Timestamp).ToString(@"mm\:ss");
+
+                                    <li class="list-group-item" id="note-@note.Id">
+                                        <div class="d-flex justify-content-between align-items-start">
+                                            <div class="me-3">
+                                                <div class="fw-bold">
+                                                    <a href="#" class="text-primary note-jump" data-timestamp="@note.Timestamp">@note.Content</a>
+                                                </div>
+                                                <small class="text-muted">
+                                                    <i class="fas fa-clock"></i> @mmss
+                                                </small>
+                                            </div>
+                                            <div>
+                                                <button class="btn btn-sm btn-outline-secondary edit-note" data-id="@note.Id"
+                                                        data-content="@note.Content" data-timestamp="@note.Timestamp">
+                                                    <i class="fas fa-edit"></i>
+                                                </button>
+                                                <button class="btn btn-sm btn-outline-danger delete-note" data-id="@note.Id">
+                                                    <i class="fas fa-trash"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
                     </div>
-                }
 
-                <!-- Nút đánh dấu hoàn thành -->
-                <form asp-area="Student"
-                      asp-controller="Lesson"
-                      asp-action="MarkComplete"
-                      method="post" class="mt-3">
+                    <!-- Modal chỉnh sửa ghi chú -->
+                    <div class="modal fade" id="editNoteModal" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <form id="editNoteForm">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="Id" id="editNoteId" />
+                                <input type="hidden" name="LessonId" value="@Model.CurrentLesson.Id" />
 
-                    <input type="hidden" name="lessonId" value="@Model.CurrentLesson?.Id" />
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Chỉnh sửa ghi chú</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <label>Thời điểm (giây)</label>
+                                        <input type="number" step="any" name="Timestamp" id="editTimestamp" class="form-control" />
 
-                    <button type="submit" class="btn btn-success">
-                        ✓ Đánh dấu hoàn thành
-                    </button>
-                </form>
+                                        <label class="mt-2">Nội dung</label>
+                                        <textarea name="Content" id="editContent" class="form-control" rows="3"></textarea>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-success">Lưu</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Phan Quiz  -->
+                    @if (Model.CurrentLesson.QuizQuestions != null && Model.CurrentLesson.QuizQuestions.Any())
+                    {
+                        <div class="mt-5">
+                            <h4 class="text-success">📚 Quiz kiểm tra sau bài học</h4>
+                    @foreach (var q in Model.CurrentLesson.QuizQuestions)
+                    {
+                        <div class="mb-4 quiz-question" data-question-id="@q.Id">
+                            <h5 class="fw-bold">@q.QuestionText</h5>
+                            @foreach (var opt in q.Options)
+                            {
+                                <div class="form-check">
+                                    <input class="form-check-input quiz-option" type="radio"
+                                           name="question_@q.Id" value="@opt.Id"
+                                           data-is-correct="@opt.IsCorrect.ToString().ToLower()"
+                                           data-explanation="@opt.Explanation" />
+                                    <label class="form-check-label">
+                                        @opt.Text
+                                    </label>
+                                </div>
+                            }
 
+                           <div class="mt-2 explanation text-info fw-semibold" style="display:none;"></div>
+                        
+                       </div>
+                       }
+                       </div>
+                       
+                    }
+
+                    <!-- Phần thảo luận và đánh dấu hoàn thành -->
+                    <div class="mt-4">
+                        <div class="d-flex justify-content-between">
+                            <a asp-area="Student" asp-controller="Discussion" asp-action="Index"
+                               asp-route-lessonId="@Model.CurrentLesson.Id" class="btn btn-outline-primary">
+                                Thảo luận
+                            </a>
+
+                            <form asp-area="Student"
+                                  asp-controller="Lesson"
+                                  asp-action="MarkComplete"
+                                  method="post">
+                                <input type="hidden" name="lessonId" value="@Model.CurrentLesson.Id" />
+                                <button type="submit" class="btn btn-success">
+                                    ✓ Đánh dấu hoàn thành
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             }
+        }
+    }
+    else
+    {
+        <div class="alert alert-danger">
+            Không tìm thấy thông tin khóa học
         </div>
-        
-    </div>
     }
 </div>
 
 @section Scripts {
-
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+    <script>
+        const addNoteUrl = '@Url.Action("AddNoteAjax", "Lesson", new { area = "Student" })';
+        const deleteNoteUrl = '@Url.Action("DeleteNoteAjax", "Lesson", new { area = "Student" })';
+        const updateNoteUrl = '@Url.Action("UpdateNoteAjax", "Lesson", new { area = "Student" })';
+    </script>
     <script src="~/js/video.js"></script>
-   
-
+    <script src="~/js/lessonnote.js"></script>
+    <script src="~/js/quiz.js"></script>
 }
-
-
 
 <style>
     .plyr {
@@ -163,8 +294,14 @@
         box-shadow: 0 4px 10px rgba(0,0,0,0.2);
         max-height: 500px;
     }
+
+    .accordion-button:not(.collapsed) {
+        background-color: #f8f9fa;
+        color: #212529;
+    }
+
+    .list-group-item.active {
+        background-color: #0d6efd;
+        border-color: #0d6efd;
+    }
 </style>
-
-
-
-

@@ -7,5 +7,7 @@
         public Course? CurrentCourse { get; set; }
         public List<LessonNote> Notes { get; set; } = new List<LessonNote>();
         public LessonNote NewNote { get; set; } = new();
+
+        public List<QuizQuestion> QuizQuestions { get; set; } = new List<QuizQuestion>();
     }
 }

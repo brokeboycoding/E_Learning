@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M+4LasXeJtQDxcWsY4hHLu9crPSNZ2GZDpCIu0yF4aQ=",
+  "Hash": "D3foSK19RLyAMEb6dSF2+1LwBi4uxtUb+tgq4Sv9EFg=",
   "Source": "E-Learning",
   "BasePath": "_content/E-Learning",
   "Mode": "Default",
@@ -1340,6 +1340,48 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\e96ec2a2-7c7c-4824-9853-457b8e1ee969.pdf",
+      "SourceId": "E-Learning",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\",
+      "BasePath": "_content/E-Learning",
+      "RelativePath": "documents/e96ec2a2-7c7c-4824-9853-457b8e1ee969#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bufqa08w2x",
+      "Integrity": "s5xJsTwkbUADLfR9DQGbGe14Ye/LLiUGqdH6VHIhaWU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\documents\\e96ec2a2-7c7c-4824-9853-457b8e1ee969.pdf"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\f83a3670-db40-4cf9-81a7-341fb3b3f490.pdf",
+      "SourceId": "E-Learning",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\",
+      "BasePath": "_content/E-Learning",
+      "RelativePath": "documents/f83a3670-db40-4cf9-81a7-341fb3b3f490#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8divwm3hzd",
+      "Integrity": "ROkEDa3gSAi5KcAsAfO0kceCrDt7k45FWn/r/vtJbKw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\documents\\f83a3670-db40-4cf9-81a7-341fb3b3f490.pdf"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\favicon.ico",
       "SourceId": "E-Learning",
       "SourceType": "Discovered",
@@ -1361,12 +1403,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lesson.js",
+      "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lessonnote.js",
       "SourceId": "E-Learning",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\",
       "BasePath": "_content/E-Learning",
-      "RelativePath": "js/lesson#[.{fingerprint}]?.js",
+      "RelativePath": "js/lessonnote#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1375,19 +1417,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "hoi756xvy1",
-      "Integrity": "r9j5UJ1PRNSYZVYasziohHlcmhVfeBUM1k/40h9iejs=",
+      "Fingerprint": "d6gdn72quv",
+      "Integrity": "JSaMaTrFSeoTLwTa6c+vs39AFF2maSRYPlBnScQ1cCs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\lesson.js"
+      "OriginalItemSpec": "wwwroot\\js\\lessonnote.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\note.js",
+      "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\quiz.js",
       "SourceId": "E-Learning",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\",
       "BasePath": "_content/E-Learning",
-      "RelativePath": "js/note#[.{fingerprint}]?.js",
+      "RelativePath": "js/quiz#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1396,11 +1438,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6pwg2swqtn",
-      "Integrity": "dkR5CnXaCkvdAKredNaGM/yKJwJngOXo7gJmBwQhloA=",
+      "Fingerprint": "gldz0z586m",
+      "Integrity": "bBRn94iVO3Syr5M2IZDTlALVlfw9ACqKHy0Xtuo/zq8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\note.js"
+      "OriginalItemSpec": "wwwroot\\js\\quiz.js"
     },
     {
       "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\site.js",
@@ -2642,6 +2684,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\2d5d9c77-a9e6-4ffa-9afe-8338c74e3631.mp4",
+      "SourceId": "E-Learning",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\",
+      "BasePath": "_content/E-Learning",
+      "RelativePath": "videos/2d5d9c77-a9e6-4ffa-9afe-8338c74e3631#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5u2umf56dh",
+      "Integrity": "3au6GOwCxK9O8W8B23T/X6t/KfKm+wwn0FYb8IwyiMk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\2d5d9c77-a9e6-4ffa-9afe-8338c74e3631.mp4"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4",
       "SourceId": "E-Learning",
       "SourceType": "Discovered",
@@ -2661,6 +2724,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\c8b2cd94-323b-4292-a004-da420710b893.mp4",
+      "SourceId": "E-Learning",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\",
+      "BasePath": "_content/E-Learning",
+      "RelativePath": "videos/c8b2cd94-323b-4292-a004-da420710b893#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d2d1ifma7m",
+      "Integrity": "mzkZWlR/kh6HyrHIyGo7f3MIFtQzi7Rlsf4HAj0rDzQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\c8b2cd94-323b-4292-a004-da420710b893.mp4"
     },
     {
       "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\Demo.mp4",
@@ -2827,6 +2911,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-zbw28d/WzkFXTGUmYCodNLR8oqLUD2PaBOMWcWVg6Pw="
+        }
+      ]
+    },
+    {
+      "Route": "documents/e96ec2a2-7c7c-4824-9853-457b8e1ee969.bufqa08w2x.pdf",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\e96ec2a2-7c7c-4824-9853-457b8e1ee969.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7880257"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s5xJsTwkbUADLfR9DQGbGe14Ye/LLiUGqdH6VHIhaWU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 17:12:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bufqa08w2x"
+        },
+        {
+          "Name": "label",
+          "Value": "documents/e96ec2a2-7c7c-4824-9853-457b8e1ee969.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s5xJsTwkbUADLfR9DQGbGe14Ye/LLiUGqdH6VHIhaWU="
+        }
+      ]
+    },
+    {
+      "Route": "documents/e96ec2a2-7c7c-4824-9853-457b8e1ee969.pdf",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\e96ec2a2-7c7c-4824-9853-457b8e1ee969.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7880257"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s5xJsTwkbUADLfR9DQGbGe14Ye/LLiUGqdH6VHIhaWU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 17:12:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s5xJsTwkbUADLfR9DQGbGe14Ye/LLiUGqdH6VHIhaWU="
+        }
+      ]
+    },
+    {
+      "Route": "documents/f83a3670-db40-4cf9-81a7-341fb3b3f490.8divwm3hzd.pdf",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\f83a3670-db40-4cf9-81a7-341fb3b3f490.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "542243"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ROkEDa3gSAi5KcAsAfO0kceCrDt7k45FWn/r/vtJbKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 15:40:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8divwm3hzd"
+        },
+        {
+          "Name": "label",
+          "Value": "documents/f83a3670-db40-4cf9-81a7-341fb3b3f490.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ROkEDa3gSAi5KcAsAfO0kceCrDt7k45FWn/r/vtJbKw="
+        }
+      ]
+    },
+    {
+      "Route": "documents/f83a3670-db40-4cf9-81a7-341fb3b3f490.pdf",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\f83a3670-db40-4cf9-81a7-341fb3b3f490.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "542243"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ROkEDa3gSAi5KcAsAfO0kceCrDt7k45FWn/r/vtJbKw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 15:40:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ROkEDa3gSAi5KcAsAfO0kceCrDt7k45FWn/r/vtJbKw="
         }
       ]
     },
@@ -5297,8 +5545,8 @@
       ]
     },
     {
-      "Route": "js/lesson.hoi756xvy1.js",
-      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lesson.js",
+      "Route": "js/lessonnote.d6gdn72quv.js",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lessonnote.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5307,7 +5555,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "872"
+          "Value": "5068"
         },
         {
           "Name": "Content-Type",
@@ -5315,11 +5563,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r9j5UJ1PRNSYZVYasziohHlcmhVfeBUM1k/40h9iejs=\""
+          "Value": "\"JSaMaTrFSeoTLwTa6c+vs39AFF2maSRYPlBnScQ1cCs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 14:53:12 GMT"
+          "Value": "Tue, 03 Jun 2025 16:52:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5329,21 +5577,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hoi756xvy1"
+          "Value": "d6gdn72quv"
         },
         {
           "Name": "label",
-          "Value": "js/lesson.js"
+          "Value": "js/lessonnote.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-r9j5UJ1PRNSYZVYasziohHlcmhVfeBUM1k/40h9iejs="
+          "Value": "sha256-JSaMaTrFSeoTLwTa6c+vs39AFF2maSRYPlBnScQ1cCs="
         }
       ]
     },
     {
-      "Route": "js/lesson.js",
-      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lesson.js",
+      "Route": "js/lessonnote.js",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lessonnote.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5352,7 +5600,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "872"
+          "Value": "5068"
         },
         {
           "Name": "Content-Type",
@@ -5360,11 +5608,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r9j5UJ1PRNSYZVYasziohHlcmhVfeBUM1k/40h9iejs=\""
+          "Value": "\"JSaMaTrFSeoTLwTa6c+vs39AFF2maSRYPlBnScQ1cCs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 14:53:12 GMT"
+          "Value": "Tue, 03 Jun 2025 16:52:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5374,13 +5622,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-r9j5UJ1PRNSYZVYasziohHlcmhVfeBUM1k/40h9iejs="
+          "Value": "sha256-JSaMaTrFSeoTLwTa6c+vs39AFF2maSRYPlBnScQ1cCs="
         }
       ]
     },
     {
-      "Route": "js/note.6pwg2swqtn.js",
-      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\note.js",
+      "Route": "js/quiz.gldz0z586m.js",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\quiz.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5389,7 +5637,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2213"
+          "Value": "672"
         },
         {
           "Name": "Content-Type",
@@ -5397,11 +5645,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dkR5CnXaCkvdAKredNaGM/yKJwJngOXo7gJmBwQhloA=\""
+          "Value": "\"bBRn94iVO3Syr5M2IZDTlALVlfw9ACqKHy0Xtuo/zq8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 14:45:54 GMT"
+          "Value": "Wed, 04 Jun 2025 16:59:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5411,21 +5659,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6pwg2swqtn"
+          "Value": "gldz0z586m"
         },
         {
           "Name": "label",
-          "Value": "js/note.js"
+          "Value": "js/quiz.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dkR5CnXaCkvdAKredNaGM/yKJwJngOXo7gJmBwQhloA="
+          "Value": "sha256-bBRn94iVO3Syr5M2IZDTlALVlfw9ACqKHy0Xtuo/zq8="
         }
       ]
     },
     {
-      "Route": "js/note.js",
-      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\note.js",
+      "Route": "js/quiz.js",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\quiz.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5434,7 +5682,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2213"
+          "Value": "672"
         },
         {
           "Name": "Content-Type",
@@ -5442,11 +5690,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dkR5CnXaCkvdAKredNaGM/yKJwJngOXo7gJmBwQhloA=\""
+          "Value": "\"bBRn94iVO3Syr5M2IZDTlALVlfw9ACqKHy0Xtuo/zq8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 13 May 2025 14:45:54 GMT"
+          "Value": "Wed, 04 Jun 2025 16:59:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5456,7 +5704,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dkR5CnXaCkvdAKredNaGM/yKJwJngOXo7gJmBwQhloA="
+          "Value": "sha256-bBRn94iVO3Syr5M2IZDTlALVlfw9ACqKHy0Xtuo/zq8="
         }
       ]
     },
@@ -10299,6 +10547,88 @@
       ]
     },
     {
+      "Route": "videos/2d5d9c77-a9e6-4ffa-9afe-8338c74e3631.5u2umf56dh.mp4",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\2d5d9c77-a9e6-4ffa-9afe-8338c74e3631.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1358156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3au6GOwCxK9O8W8B23T/X6t/KfKm+wwn0FYb8IwyiMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 15:40:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5u2umf56dh"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/2d5d9c77-a9e6-4ffa-9afe-8338c74e3631.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3au6GOwCxK9O8W8B23T/X6t/KfKm+wwn0FYb8IwyiMk="
+        }
+      ]
+    },
+    {
+      "Route": "videos/2d5d9c77-a9e6-4ffa-9afe-8338c74e3631.mp4",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\2d5d9c77-a9e6-4ffa-9afe-8338c74e3631.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1358156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3au6GOwCxK9O8W8B23T/X6t/KfKm+wwn0FYb8IwyiMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 03 Jun 2025 15:40:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3au6GOwCxK9O8W8B23T/X6t/KfKm+wwn0FYb8IwyiMk="
+        }
+      ]
+    },
+    {
       "Route": "videos/3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.d2d1ifma7m.mp4",
       "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4",
       "Selectors": [],
@@ -10367,6 +10697,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Mon, 12 May 2025 14:49:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mzkZWlR/kh6HyrHIyGo7f3MIFtQzi7Rlsf4HAj0rDzQ="
+        }
+      ]
+    },
+    {
+      "Route": "videos/c8b2cd94-323b-4292-a004-da420710b893.d2d1ifma7m.mp4",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\c8b2cd94-323b-4292-a004-da420710b893.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7372051"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mzkZWlR/kh6HyrHIyGo7f3MIFtQzi7Rlsf4HAj0rDzQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 17:12:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d2d1ifma7m"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/c8b2cd94-323b-4292-a004-da420710b893.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mzkZWlR/kh6HyrHIyGo7f3MIFtQzi7Rlsf4HAj0rDzQ="
+        }
+      ]
+    },
+    {
+      "Route": "videos/c8b2cd94-323b-4292-a004-da420710b893.mp4",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\c8b2cd94-323b-4292-a004-da420710b893.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7372051"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mzkZWlR/kh6HyrHIyGo7f3MIFtQzi7Rlsf4HAj0rDzQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 29 May 2025 17:12:27 GMT"
         },
         {
           "Name": "Cache-Control",

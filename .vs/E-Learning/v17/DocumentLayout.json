@@ -3,48 +3,148 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\course\\createlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\createlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\lessonnote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\lessonnote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\controllers\\quizcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\quiz\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\quiz\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\course\\manageall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\manageall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\views\\lesson\\module.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\lesson\\module.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\views\\lesson\\mycourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\lesson\\mycourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\controllers\\lessoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\courseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\courseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Migrations\\20250526162224_ChangeTimestampToString.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-Learning\\Migrations\\20250526162224_ChangeTimestampToString.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\quizcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\quizcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\noteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\noteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\coursemoduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\coursemoduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\wwwroot\\js\\quiz.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\wwwroot\\js\\quiz.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\quizoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\quizoption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\module.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\manageaccount\\manageaccounts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\manageaccount\\manageaccounts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\examsubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\examsubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\wwwroot\\js\\lessonnote.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\wwwroot\\js\\lessonnote.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\lessonnote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\lessonnote.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\views\\lesson\\mycourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\lesson\\mycourses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\manage\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\manage\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\noteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\noteviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,32 +155,8 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\wwwroot\\js\\note.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\wwwroot\\js\\note.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\wwwroot\\js\\lesson.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\wwwroot\\js\\lesson.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\controllers\\discussioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,32 +171,8 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\course\\manageall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\manageall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\course\\createlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\createlesson.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\coursemoduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\coursemoduleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -135,14 +187,6 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\discussion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\grade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -151,16 +195,8 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\lessonprogress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\manage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\teacher\\controllers\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\controllers\\courseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -199,10 +235,6 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\filetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\examsubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\examsubmission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -211,44 +243,12 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\edituserroleviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\teacher\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\course\\courseformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\course\\courseformpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\teacher\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\teacher\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\teacher\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\manageaccount\\createaccount.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -263,15 +263,7 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\student\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\student\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\manageaccount\\manageaccounts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\manageaccount\\manageaccounts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\views\\usermanagement\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -318,10 +310,6 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\manage\\personaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\manage\\generaterecoverycodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\manage\\generaterecoverycodes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -338,22 +326,6 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\manage\\deletepersonaldata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\manage\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\manage\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\manage\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\manage\\_managenav.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\manage\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\_statusmessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -366,10 +338,6 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\confirmemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\confirmemailchange.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -378,24 +346,12 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\externallogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\forgotpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\lockout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\loginwith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -418,10 +374,6 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\resendemailconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\resetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\resetpasswordconfirmation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -432,14 +384,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -458,28 +402,8 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\controllers\\usermanagementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\utility\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\controllers\\teachercontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\controllers\\teachercontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -490,16 +414,8 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\models\\alert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\manage\\managenavpages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -522,10 +438,6 @@
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\accessdenied.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250327163051_AddDiscriminatorColumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -537,6 +449,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\e-learning.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\e-learning.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|c:\\users\\admin\\source\\repos\\khoashoc\\e-learning\\migrations\\20250526162224_changetimestamptostring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9295ED8-B511-44BD-9D0B-DED8E8BC24A0}|E-Learning\\E-Learning.csproj|solutionrelative:e-learning\\migrations\\20250526162224_changetimestamptostring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -546,21 +462,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "Module.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Module.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Module.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Module.cs",
               "RelativeToolTip": "E-Learning\\Models\\Module.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T16:03:58.087Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -576,764 +491,347 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Manage.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Manage.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Manage.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Manage.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Manage.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwBgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T15:52:56.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LessonController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\LessonController.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\LessonController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\LessonController.cs",
-              "RelativeToolTip": "E-Learning\\Areas\\Student\\Controllers\\LessonController.cs",
-              "ViewState": "AgIAAHgAAAAAAAAAAAAwwH0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-21T16:36:34.899Z",
+              "Title": "CreateLesson.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAUwA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T16:58:23.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LessonNote.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\LessonNote.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\LessonNote.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\LessonNote.cs",
-              "RelativeToolTip": "E-Learning\\Models\\LessonNote.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T15:15:12.008Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T07:18:58.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "E-Learning\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHQAAABYAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Quiz\\Create.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Quiz\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Quiz\\Create.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Quiz\\Create.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwBoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T15:35:47.827Z",
+              "WhenOpened": "2025-06-05T15:13:45.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QuizController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Controllers\\QuizController.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Controllers\\QuizController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Controllers\\QuizController.cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Controllers\\QuizController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwCoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T16:47:06.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Profile\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Profile\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Profile\\Index.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Profile\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T15:48:27.732Z",
+              "Title": "Lesson.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Lesson.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\Lesson.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Lesson.cs",
+              "RelativeToolTip": "E-Learning\\Models\\Lesson.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T17:07:27.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Course.cs",
+              "RelativeToolTip": "E-Learning\\Models\\Course.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAgwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:43:01.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ManageAll.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\ManageAll.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\ManageAll.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\ManageAll.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\ManageAll.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T12:29:23.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Module.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Lesson\\Module.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Lesson\\Module.cshtml",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Lesson\\Module.cshtml",
               "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Lesson\\Module.cshtml",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFIAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAANYAAAAAAAAAAAAAAOAAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-24T16:49:38.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CourseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\CourseViewModel.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\CourseViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\CourseViewModel.cs",
-              "RelativeToolTip": "E-Learning\\Models\\CourseViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:33:39.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MyCourses.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Lesson\\MyCourses.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Lesson\\MyCourses.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Lesson\\MyCourses.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Lesson\\MyCourses.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-10T15:08:10.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20250526162224_ChangeTimestampToString.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Migrations\\20250526162224_ChangeTimestampToString.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Migrations\\20250526162224_ChangeTimestampToString.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Migrations\\20250526162224_ChangeTimestampToString.cs",
-              "RelativeToolTip": "E-Learning\\Migrations\\20250526162224_ChangeTimestampToString.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T16:22:24.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NoteViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\NoteViewModel.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\NoteViewModel.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\NoteViewModel.cs",
-              "RelativeToolTip": "E-Learning\\Models\\NoteViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:12:05.752Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "E-Learning\\Areas\\Student\\Controllers\\ProfileController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Title": "LessonController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\LessonController.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\LessonController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\LessonController.cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Student\\Controllers\\LessonController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T15:46:21.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Enrollment.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Enrollment.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\Enrollment.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Enrollment.cs",
-              "RelativeToolTip": "E-Learning\\Models\\Enrollment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T15:00:21.739Z",
+              "WhenOpened": "2025-06-03T16:59:10.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Student.cs",
-              "RelativeToolTip": "E-Learning\\Models\\Student.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Title": "QuizQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\QuizQuestion.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\QuizQuestion.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\QuizQuestion.cs",
+              "RelativeToolTip": "E-Learning\\Models\\QuizQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T14:59:29.069Z",
+              "WhenOpened": "2025-06-04T17:37:11.144Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Profile\\Edit.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Profile\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Profile\\Edit.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Profile\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-24T15:47:16.623Z",
+              "DocumentIndex": 10,
+              "Title": "CourseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\CourseViewModel.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\CourseViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\CourseViewModel.cs",
+              "RelativeToolTip": "E-Learning\\Models\\CourseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T17:21:51.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "QuizCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\QuizCreateViewModel.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\QuizCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\QuizCreateViewModel.cs",
+              "RelativeToolTip": "E-Learning\\Models\\QuizCreateViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T17:29:23.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "Lesson.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Lesson.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\Lesson.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Lesson.cs",
-              "RelativeToolTip": "E-Learning\\Models\\Lesson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwGUAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T16:35:19.898Z"
+              "WhenOpened": "2025-06-04T15:52:01.366Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "E-Learning\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T16:02:12.968Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Program.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Program.cs",
-              "RelativeToolTip": "E-Learning\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwB4AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T15:39:09.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\appsettings.json",
-              "RelativeDocumentMoniker": "E-Learning\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\appsettings.json",
-              "RelativeToolTip": "E-Learning\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-27T16:15:53.764Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "note.js",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\note.js",
-              "RelativeDocumentMoniker": "E-Learning\\wwwroot\\js\\note.js",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\note.js",
-              "RelativeToolTip": "E-Learning\\wwwroot\\js\\note.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-13T14:38:58.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "DiscussionController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\DiscussionController.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\DiscussionController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\DiscussionController.cs",
-              "RelativeToolTip": "E-Learning\\Areas\\Student\\Controllers\\DiscussionController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAADwvzsAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T15:47:35.604Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Discussion\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Discussion\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Discussion\\Index.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Discussion\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-29T15:54:39.264Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "lesson.js",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lesson.js",
-              "RelativeDocumentMoniker": "E-Learning\\wwwroot\\js\\lesson.js",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lesson.js",
-              "RelativeToolTip": "E-Learning\\wwwroot\\js\\lesson.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-13T14:47:51.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Data\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Data\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Data\\ApplicationUser.cs",
-              "RelativeToolTip": "E-Learning\\Data\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T13:52:31.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:18:58.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Edit.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Edit.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Edit.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAArwA0AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T15:49:47.87Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAIwH8AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T15:45:37.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ManageAll.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\ManageAll.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\ManageAll.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\ManageAll.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\ManageAll.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-11T12:29:23.731Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\Course.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Course.cs",
-              "RelativeToolTip": "E-Learning\\Models\\Course.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T16:43:01.212Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CreateLesson.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\CreateLesson.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T16:58:23.302Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 13,
               "Title": "CourseModuleViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\CourseModuleViewModel.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\CourseModuleViewModel.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\CourseModuleViewModel.cs",
               "RelativeToolTip": "E-Learning\\Models\\CourseModuleViewModel.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T17:08:07.802Z"
+              "WhenOpened": "2025-06-04T16:45:24.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\User.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\User.cs",
-              "RelativeToolTip": "E-Learning\\Models\\User.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "QuizOption.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\QuizOption.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\QuizOption.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\QuizOption.cs",
+              "RelativeToolTip": "E-Learning\\Models\\QuizOption.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA8wAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T06:18:09.136Z"
+              "WhenOpened": "2025-06-04T17:36:51.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IEntity.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\IEntity.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\IEntity.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\IEntity.cs",
-              "RelativeToolTip": "E-Learning\\Models\\IEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:12:48.094Z"
+              "DocumentIndex": 15,
+              "Title": "quiz.js",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\quiz.js",
+              "RelativeDocumentMoniker": "E-Learning\\wwwroot\\js\\quiz.js",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\quiz.js",
+              "RelativeToolTip": "E-Learning\\wwwroot\\js\\quiz.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-05T15:10:42.923Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Discussion.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Discussion.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\Discussion.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Discussion.cs",
-              "RelativeToolTip": "E-Learning\\Models\\Discussion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "ExamSubmission.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\ExamSubmission.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\ExamSubmission.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\ExamSubmission.cs",
+              "RelativeToolTip": "E-Learning\\Models\\ExamSubmission.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T15:15:52.163Z"
+              "WhenOpened": "2025-03-28T07:13:20.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Resource.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Resource.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\Resource.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Resource.cs",
-              "RelativeToolTip": "E-Learning\\Models\\Resource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:12:35.613Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAIwBwAAABFAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "ManageAccounts.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\ManageAccount\\ManageAccounts.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\ManageAccount\\ManageAccounts.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\ManageAccount\\ManageAccounts.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\ManageAccount\\ManageAccounts.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwBQAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T15:57:32.059Z"
+              "WhenOpened": "2025-04-11T15:56:45.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "LessonProgress.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\LessonProgress.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\LessonProgress.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\LessonProgress.cs",
-              "RelativeToolTip": "E-Learning\\Models\\LessonProgress.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T16:52:48.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 21,
               "Title": "Grade.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Grade.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\Grade.cs",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Grade.cs",
               "RelativeToolTip": "E-Learning\\Models\\Grade.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-28T07:13:09.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Manage.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Manage.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Manage.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Manage.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Manage.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwCgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "Alert.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Alert.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\Alert.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Alert.cs",
+              "RelativeToolTip": "E-Learning\\Models\\Alert.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T08:51:07.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "lessonnote.js",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lessonnote.js",
+              "RelativeDocumentMoniker": "E-Learning\\wwwroot\\js\\lessonnote.js",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lessonnote.js",
+              "RelativeToolTip": "E-Learning\\wwwroot\\js\\lessonnote.js",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAIwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-13T14:38:58.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LessonNote.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\LessonNote.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\LessonNote.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\LessonNote.cs",
+              "RelativeToolTip": "E-Learning\\Models\\LessonNote.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:15:12.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MyCourses.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Lesson\\MyCourses.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Lesson\\MyCourses.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Lesson\\MyCourses.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Lesson\\MyCourses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T15:52:56.984Z"
+              "WhenOpened": "2025-05-10T15:08:10.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "E-Learning\\Areas\\Student\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T18:12:42.176Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "CourseService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Teacher\\Controllers\\CourseService.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Controllers\\CourseService.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Teacher\\Controllers\\CourseService.cs",
-              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Controllers\\CourseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T14:42:23.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Index.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T15:49:48.833Z"
+              "WhenOpened": "2025-04-11T15:57:32.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Delete.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Delete.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T16:30:08.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "CourseService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Controllers\\CourseService.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Controllers\\CourseService.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Controllers\\CourseService.cs",
-              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Controllers\\CourseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T15:00:34.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "CourseService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Services\\CourseService.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Services\\CourseService.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Services\\CourseService.cs",
-              "RelativeToolTip": "E-Learning\\Services\\CourseService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAIwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T16:23:53.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "ICourseService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Services\\ICourseService.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Services\\ICourseService.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Services\\ICourseService.cs",
-              "RelativeToolTip": "E-Learning\\Services\\ICourseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T14:59:00.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 56,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T14:31:09.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Teacher\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Teacher\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T14:31:31.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "ICourseService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Services\\ICourseService.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Services\\ICourseService.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Services\\ICourseService.cs",
-              "RelativeToolTip": "E-Learning\\Areas\\Services\\ICourseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T15:05:46.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "CourseService.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Services\\CourseService.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Services\\CourseService.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Services\\CourseService.cs",
-              "RelativeToolTip": "E-Learning\\Areas\\Services\\CourseService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T15:05:50.185Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Teacher\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Teacher\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T09:09:26.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Teacher\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Teacher\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Teacher\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Teacher\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T09:09:24.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "Microsoft.Common.CurrentVersion.targets",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "ViewState": "AgIAALYUAAAAAAAAAAAswMkUAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-04-18T08:13:35.605Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 26,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Home\\Privacy.cshtml",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-18T08:12:53.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
-              "Title": "TwoFactorAuthentication.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 27,
+              "Title": "ResetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwCIAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:30:22.604Z"
+              "WhenOpened": "2025-03-27T18:06:10.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
-              "Title": "ShowRecoveryCodes.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:30:19.912Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 76,
-              "Title": "SetPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:30:18.849Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 77,
-              "Title": "ResetAuthenticator.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:30:17.582Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 78,
-              "Title": "PersonalData.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:30:16.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 80,
-              "Title": "GenerateRecoveryCodes.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:30:15.202Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 81,
-              "Title": "DownloadPersonalData.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:30:13.835Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 82,
-              "Title": "Email.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:30:12.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 83,
-              "Title": "DeletePersonalData.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:30:10.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 84,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ChangePassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:30:07.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 28,
               "Title": "_StatusMessage.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_StatusMessage.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_StatusMessage.cshtml",
@@ -1345,43 +843,463 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 29,
               "Title": "_ManageNav.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAACbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-18T07:30:05.499Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
+              "DocumentIndex": 30,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T17:13:35.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T07:16:54.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-27T16:34:41.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Program.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Program.cs",
+              "RelativeToolTip": "E-Learning\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T15:39:09.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAK0BAAAAAAAAAAAIwLQBAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T15:45:37.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "20250526162224_ChangeTimestampToString.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Migrations\\20250526162224_ChangeTimestampToString.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Migrations\\20250526162224_ChangeTimestampToString.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Migrations\\20250526162224_ChangeTimestampToString.cs",
+              "RelativeToolTip": "E-Learning\\Migrations\\20250526162224_ChangeTimestampToString.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T16:22:24.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "NoteViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\NoteViewModel.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\NoteViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\NoteViewModel.cs",
+              "RelativeToolTip": "E-Learning\\Models\\NoteViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:12:05.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Enrollment.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Enrollment.cs",
+              "RelativeToolTip": "E-Learning\\Models\\Enrollment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:00:21.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Student.cs",
+              "RelativeToolTip": "E-Learning\\Models\\Student.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:59:29.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\appsettings.json",
+              "RelativeDocumentMoniker": "E-Learning\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\appsettings.json",
+              "RelativeToolTip": "E-Learning\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-27T16:15:53.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DiscussionController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\DiscussionController.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\DiscussionController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\DiscussionController.cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Student\\Controllers\\DiscussionController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADwvzsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T15:47:35.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Discussion\\Index.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Views\\Discussion\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Views\\Discussion\\Index.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Student\\Views\\Discussion\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T15:54:39.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "E-Learning\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T13:52:31.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Edit.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Edit.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Edit.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAArwA0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T15:49:47.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\User.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\User.cs",
+              "RelativeToolTip": "E-Learning\\Models\\User.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T06:18:09.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\IEntity.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\IEntity.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\IEntity.cs",
+              "RelativeToolTip": "E-Learning\\Models\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T07:12:48.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Discussion.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Discussion.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\Discussion.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Discussion.cs",
+              "RelativeToolTip": "E-Learning\\Models\\Discussion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:15:52.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Resource.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Resource.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\Resource.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Resource.cs",
+              "RelativeToolTip": "E-Learning\\Models\\Resource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T07:12:35.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "LessonProgress.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\LessonProgress.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Models\\LessonProgress.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\LessonProgress.cs",
+              "RelativeToolTip": "E-Learning\\Models\\LessonProgress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T16:52:48.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Student\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Student\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Student\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAwwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-27T18:12:42.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Index.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Index.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T15:49:48.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Delete.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\Delete.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Course\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-11T16:30:08.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Controllers\\CourseService.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Controllers\\CourseService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Controllers\\CourseService.cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Controllers\\CourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:00:34.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Services\\CourseService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Services\\CourseService.cs",
+              "RelativeToolTip": "E-Learning\\Services\\CourseService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:23:53.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Services\\ICourseService.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Services\\ICourseService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Services\\ICourseService.cs",
+              "RelativeToolTip": "E-Learning\\Services\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T14:59:00.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Services\\ICourseService.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Services\\ICourseService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Services\\ICourseService.cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Services\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:05:46.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Services\\CourseService.cs",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Services\\CourseService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Services\\CourseService.cs",
+              "RelativeToolTip": "E-Learning\\Areas\\Services\\CourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T15:05:50.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAALYUAAAAAAAAAAAswMkUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-18T08:13:35.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "TwoFactorAuthentication.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:30:01.382Z"
+              "WhenOpened": "2025-04-18T07:30:22.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "ShowRecoveryCodes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ShowRecoveryCodes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T07:30:19.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "SetPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\SetPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T07:30:18.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "ResetAuthenticator.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ResetAuthenticator.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T07:30:17.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "PersonalData.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\PersonalData.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T07:30:16.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "GenerateRecoveryCodes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\GenerateRecoveryCodes.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T07:30:15.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "DownloadPersonalData.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DownloadPersonalData.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T07:30:13.835Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 79,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "Title": "Email.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\Email.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:29:54.545Z"
+              "WhenOpened": "2025-04-18T07:30:12.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 80,
+              "Title": "DeletePersonalData.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\DeletePersonalData.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T07:30:10.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -1393,7 +1311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 96,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\Shared\\Error.cshtml",
@@ -1405,7 +1323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 97,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\_ViewImports.cshtml",
@@ -1417,7 +1335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 86,
               "Title": "ForgotPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPasswordConfirmation.cshtml",
@@ -1429,7 +1347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 85,
               "Title": "ExternalLogin.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ExternalLogin.cshtml",
@@ -1441,19 +1359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
-              "Title": "ConfirmEmail.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:18:14.581Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 82,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
@@ -1465,7 +1371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 81,
               "Title": "_StatusMessage.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\_StatusMessage.cshtml",
@@ -1477,7 +1383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 69,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
@@ -1489,7 +1395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 68,
               "Title": "Error.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Error.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Error.cshtml",
@@ -1498,18 +1404,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-18T07:18:02.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 116,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "E-Learning\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T07:17:04.971Z"
             },
             {
               "$type": "Document",
@@ -1537,19 +1431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
-              "Title": "ForgotPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:16:54.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 84,
               "Title": "ConfirmEmailChange.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml",
@@ -1558,30 +1440,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-18T07:16:53.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 109,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "E-Learning\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:16:15.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "E-Learning\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-18T07:16:13.505Z"
             },
             {
               "$type": "Document",
@@ -1597,7 +1455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 60,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "E-Learning\\Views\\Shared\\_Layout.cshtml.css",
@@ -1609,19 +1467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
-              "Title": "ManageAccounts.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\ManageAccount\\ManageAccounts.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\ManageAccount\\ManageAccounts.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\ManageAccount\\ManageAccounts.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\ManageAccount\\ManageAccounts.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAYwCAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-11T15:56:45.426Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 61,
               "Title": "CourseFormPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Course\\CourseFormPartial.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Course\\CourseFormPartial.cshtml",
@@ -1633,31 +1479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
-              "Title": "UserManagementController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Controllers\\UserManagementController.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Controllers\\UserManagementController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Controllers\\UserManagementController.cs",
-              "RelativeToolTip": "E-Learning\\Controllers\\UserManagementController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAADwvzcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T00:20:02.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 119,
-              "Title": "TeacherController .cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Controllers\\TeacherController .cs",
-              "RelativeDocumentMoniker": "E-Learning\\Controllers\\TeacherController .cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Controllers\\TeacherController .cs",
-              "RelativeToolTip": "E-Learning\\Controllers\\TeacherController .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T18:45:19.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 66,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\UserManagement\\Index.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\UserManagement\\Index.cshtml",
@@ -1669,19 +1491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "E-Learning\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T18:39:57.915Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 94,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -1693,7 +1503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 100,
               "Title": "SD.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Utility\\SD.cs",
               "RelativeDocumentMoniker": "E-Learning\\Utility\\SD.cs",
@@ -1705,7 +1515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 101,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Data\\DbInitializer.cs",
               "RelativeDocumentMoniker": "E-Learning\\Data\\DbInitializer.cs",
@@ -1717,19 +1527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Controllers\\CartController.cs",
-              "RelativeToolTip": "E-Learning\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T06:55:33.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 67,
               "Title": "EditRole.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\UserManagement\\EditRole.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Views\\UserManagement\\EditRole.cshtml",
@@ -1741,7 +1539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 56,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\RegisterViewModel.cs",
@@ -1753,7 +1551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 99,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "E-Learning\\wwwroot\\css\\site.css",
@@ -1765,7 +1563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 59,
               "Title": "EditUserRoleViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\EditUserRoleViewModel.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\EditUserRoleViewModel.cs",
@@ -1777,7 +1575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 103,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "E-Learning\\ScaffoldingReadMe.txt",
@@ -1789,7 +1587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 104,
               "Title": "ManageNavPages.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
@@ -1801,19 +1599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Certificate.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Certificate.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\Certificate.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Certificate.cs",
-              "RelativeToolTip": "E-Learning\\Models\\Certificate.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:13:52.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 58,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\ErrorViewModel.cs",
@@ -1825,19 +1611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "ExamSubmission.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\ExamSubmission.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\ExamSubmission.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\ExamSubmission.cs",
-              "RelativeToolTip": "E-Learning\\Models\\ExamSubmission.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T07:13:20.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 57,
               "Title": "FileType.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\FileType.cs",
               "RelativeDocumentMoniker": "E-Learning\\Models\\FileType.cs",
@@ -1849,7 +1623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 95,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\_ViewStart.cshtml",
@@ -1861,31 +1635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "E-Learning\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T07:01:24.838Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Cart\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Admin\\Views\\Cart\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Admin\\Views\\Cart\\Index.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Admin\\Views\\Cart\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T06:56:31.539Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 105,
               "Title": "LoginWithRecoveryCode.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml.cs",
@@ -1897,7 +1647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 89,
               "Title": "LoginWithRecoveryCode.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\LoginWithRecoveryCode.cshtml",
@@ -1909,7 +1659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 106,
               "Title": "ConfirmEmailChange.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmailChange.cshtml.cs",
@@ -1921,7 +1671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 107,
               "Title": "ConfirmEmail.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ConfirmEmail.cshtml.cs",
@@ -1933,7 +1683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 83,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml",
@@ -1945,7 +1695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 108,
               "Title": "AccessDenied.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\AccessDenied.cshtml.cs",
@@ -1957,7 +1707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 93,
               "Title": "ResetPasswordConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPasswordConfirmation.cshtml",
@@ -1969,31 +1719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAgwKIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T05:52:12.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 104,
-              "Title": "ResetPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\ResetPassword.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T18:06:10.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 92,
               "Title": "ResendEmailConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\ResendEmailConfirmation.cshtml",
@@ -2005,7 +1731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 91,
               "Title": "RegisterConfirmation.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\RegisterConfirmation.cshtml",
@@ -2017,19 +1743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T17:13:35.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 88,
               "Title": "LoginWith2fa.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
@@ -2041,7 +1755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 70,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
@@ -2053,7 +1767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 71,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -2065,7 +1779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 87,
               "Title": "Lockout.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Lockout.cshtml",
@@ -2077,31 +1791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T16:34:50.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 98,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "E-Learning\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-27T16:34:41.972Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 109,
               "Title": "20250327163051_AddDiscriminatorColumn.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250327163051_AddDiscriminatorColumn.cs",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250327163051_AddDiscriminatorColumn.cs",
@@ -2110,7 +1800,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 110,
               "Title": "20250327162852_AddIdentity.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250327162852_AddIdentity.cs",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250327162852_AddIdentity.cs",
@@ -2119,7 +1809,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 111,
               "Title": "20250327161757_InitialCreate.cs",
               "DocumentMoniker": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250327161757_InitialCreate.cs",
               "ToolTip": "D:\\Th\u01B0 mu\u0323c m\u01A1\u0301i\\E_Learning\\E-Learning\\Migrations\\20250327161757_InitialCreate.cs",
@@ -2128,7 +1818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 112,
               "Title": "E-Learning.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\E-Learning.csproj",
               "RelativeDocumentMoniker": "E-Learning\\E-Learning.csproj",
@@ -2140,7 +1830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 102,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -2152,7 +1842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 90,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "E-Learning\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -2161,30 +1851,6 @@
               "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-26T17:01:11.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "E-Learning\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "E-Learning\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-26T16:33:39.242Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 124,
-              "Title": "Alert.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Alert.cs",
-              "RelativeDocumentMoniker": "E-Learning\\Models\\Alert.cs",
-              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Khoashoc\\E-Learning\\Models\\Alert.cs",
-              "RelativeToolTip": "E-Learning\\Models\\Alert.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T08:51:07.81Z"
             }
           ]
         },

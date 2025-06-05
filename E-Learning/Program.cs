@@ -10,7 +10,8 @@ using E_Learning.Areas.Student.Controllers; // Đảm bảo đổi namespace ph�
 using StackExchange.Redis;
 using E_Learning.Areas.Admin.Controllers;
 using E_Learning.Services;
-using E_Learning.Models; // Đảm bảo đổi namespace phù hợp
+using E_Learning.Models;
+using CloudinaryDotNet; // Đảm bảo đổi namespace phù hợp
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders()
     .AddDefaultUI();
+
 builder.Services.AddScoped<ICourseService,CourseService>();
 builder.Services.AddScoped<ICourseService, CourseService>();
 
@@ -44,11 +46,17 @@ builder.Services.AddSession(options =>
     options.Cookie.HttpOnly = true;
     options.Cookie.IsEssential = true;
 });
-
+builder.Services.Configure<CookiePolicyOptions>(options =>
+{
+    options.MinimumSameSitePolicy = SameSiteMode.None;
+    options.Secure = CookieSecurePolicy.Always; // Luôn yêu cầu HTTPS
+});
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.LoginPath = "/Account/Login";
     options.AccessDeniedPath = "/Account/AccessDenied";
+    options.Cookie.SameSite = SameSiteMode.None;
+    options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
 });
 
 
@@ -65,6 +73,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseSession();
+app.UseCookiePolicy();
 app.UseAuthentication();
 app.UseAuthorization();
 

@@ -46,41 +46,6 @@ namespace E_Learning.Migrations
                     b.ToTable("Alerts");
                 });
 
-            modelBuilder.Entity("E_Learning.Models.Certificate", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CourseId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("GradeId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("IssueDate")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<string>("StudentId")
-                        .IsRequired()
-                        .HasColumnType("varchar(255)");
-
-                    b.Property<double>("Value")
-                        .HasColumnType("double");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CourseId");
-
-                    b.HasIndex("GradeId");
-
-                    b.HasIndex("StudentId");
-
-                    b.ToTable("Certificates");
-                });
-
             modelBuilder.Entity("E_Learning.Models.Course", b =>
                 {
                     b.Property<int>("Id")
@@ -245,6 +210,9 @@ namespace E_Learning.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<string>("DocumentUrl")
+                        .HasColumnType("longtext");
+
                     b.Property<int>("ModuleId")
                         .HasColumnType("int");
 
@@ -277,12 +245,10 @@ namespace E_Learning.Migrations
                     b.Property<int>("LessonId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Timestamp")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.Property<double>("Timestamp")
+                        .HasColumnType("double");
 
                     b.Property<string>("UserId")
-                        .IsRequired()
                         .HasColumnType("varchar(255)");
 
                     b.HasKey("Id");
@@ -342,6 +308,57 @@ namespace E_Learning.Migrations
                     b.HasIndex("CourseId");
 
                     b.ToTable("Modules");
+                });
+
+            modelBuilder.Entity("E_Learning.Models.QuizOption", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Explanation")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<bool>("IsCorrect")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<int>("QuizQuestionId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Text")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("QuizQuestionId");
+
+                    b.ToTable("QuizOptions");
+                });
+
+            modelBuilder.Entity("E_Learning.Models.QuizQuestion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("LessonId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("QuestionText")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("LessonId");
+
+                    b.ToTable("QuizQuestions");
                 });
 
             modelBuilder.Entity("E_Learning.Models.Resource", b =>
@@ -689,31 +706,6 @@ namespace E_Learning.Migrations
                     b.HasDiscriminator().HasValue("User");
                 });
 
-            modelBuilder.Entity("E_Learning.Models.Certificate", b =>
-                {
-                    b.HasOne("E_Learning.Models.Course", "Course")
-                        .WithMany()
-                        .HasForeignKey("CourseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("E_Learning.Models.Grade", "Grade")
-                        .WithMany()
-                        .HasForeignKey("GradeId");
-
-                    b.HasOne("E_Learning.Models.User", "Student")
-                        .WithMany()
-                        .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Course");
-
-                    b.Navigation("Grade");
-
-                    b.Navigation("Student");
-                });
-
             modelBuilder.Entity("E_Learning.Models.Discussion", b =>
                 {
                     b.HasOne("E_Learning.Models.Lesson", "Lesson")
@@ -803,9 +795,7 @@ namespace E_Learning.Migrations
 
                     b.HasOne("E_Learning.Models.User", "User")
                         .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("UserId");
 
                     b.Navigation("Lesson");
 
@@ -832,6 +822,28 @@ namespace E_Learning.Migrations
                         .IsRequired();
 
                     b.Navigation("Course");
+                });
+
+            modelBuilder.Entity("E_Learning.Models.QuizOption", b =>
+                {
+                    b.HasOne("E_Learning.Models.QuizQuestion", "QuizQuestion")
+                        .WithMany("Options")
+                        .HasForeignKey("QuizQuestionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("QuizQuestion");
+                });
+
+            modelBuilder.Entity("E_Learning.Models.QuizQuestion", b =>
+                {
+                    b.HasOne("E_Learning.Models.Lesson", "Lesson")
+                        .WithMany()
+                        .HasForeignKey("LessonId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Lesson");
                 });
 
             modelBuilder.Entity("E_Learning.Models.Resource", b =>
@@ -926,6 +938,11 @@ namespace E_Learning.Migrations
             modelBuilder.Entity("E_Learning.Models.Module", b =>
                 {
                     b.Navigation("Lessons");
+                });
+
+            modelBuilder.Entity("E_Learning.Models.QuizQuestion", b =>
+                {
+                    b.Navigation("Options");
                 });
 
             modelBuilder.Entity("E_Learning.Models.Student", b =>

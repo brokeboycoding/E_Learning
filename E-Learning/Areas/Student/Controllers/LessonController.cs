@@ -1,4 +1,5 @@
-﻿using System.Security.Claims;
+﻿using System.Reflection;
+using System.Security.Claims;
 using E_Learning.Data;
 using E_Learning.Models;
 using Microsoft.AspNetCore.Authorization;
@@ -23,82 +24,104 @@ namespace E_Learning.Areas.Student.Controllers
         }
 
         // GET: Xem module & bài học đang chọn
-        public async Task<IActionResult> Module(int? lessonId)
+        public async Task<IActionResult> Module(int? lessonId, int? courseId)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            // Lấy danh sách modules và include cả Course
-            var modules = await _context.Modules
-                .Include(m => m.Lessons)
-                .Include(m => m.Course) // Thêm include này
-                .ToListAsync();
-
             Lesson? selectedLesson = null;
 
+            // 1. Ưu tiên lấy lesson theo lessonId
             if (lessonId.HasValue)
             {
                 selectedLesson = await _context.Lessons
-                    .Include(l => l.Module) // Include Module để lấy CourseId
-                    .ThenInclude(m => m.Course)
+                    .Include(l => l.Module)
+                        .ThenInclude(m => m.Course)
+                        .Include(l => l.QuizQuestions)
+                        .ThenInclude(q => q.Options)
                     .FirstOrDefaultAsync(l => l.Id == lessonId.Value);
-                HttpContext.Session.SetInt32("LastLessonId", lessonId.Value);
+
+                if (selectedLesson != null)
+                {
+                    HttpContext.Session.SetInt32("LastLessonId", selectedLesson.Id);
+                    courseId = selectedLesson.Module?.CourseId;
+                }
             }
-            else
+            // 2. Nếu không có lessonId, lấy từ Session
+            else if (HttpContext.Session.GetInt32("LastLessonId") is int lastLessonId)
             {
-                lessonId = HttpContext.Session.GetInt32("LastLessonId");
+                selectedLesson = await _context.Lessons
+                    .Include(l => l.Module)
+                        .ThenInclude(m => m.Course)
+                         .Include(l => l.QuizQuestions)
+                        .ThenInclude(q => q.Options)
+                    .FirstOrDefaultAsync(l => l.Id == lastLessonId);
+
+                if (selectedLesson != null)
+                {
+                    courseId = selectedLesson.Module?.CourseId;
+                }
             }
 
-            var notes = new List<LessonNote>();
-            if (selectedLesson != null)
+            // 3. Nếu vẫn chưa có lesson, nhưng có courseId => lấy bài học đầu tiên
+            if (selectedLesson == null && courseId.HasValue)
             {
-                notes = await _context.LessonNotes
-               .Include(n => n.User) // Nếu cần hiển thị thông tin người tạo
-               .Where(n => n.LessonId == selectedLesson.Id && n.UserId == userId)
-               .OrderByDescending(n => n.Timestamp) // Sắp xếp theo thời gian
-               .ToListAsync();
+                selectedLesson = await _context.Modules
+                    .Where(m => m.CourseId == courseId.Value)
+                    .Include(m => m.Lessons)
+                        .ThenInclude(l => l.Module)
+                            .ThenInclude(m => m.Course)
+                    .SelectMany(m => m.Lessons)
+                    .FirstOrDefaultAsync();
+
+                if (selectedLesson != null)
+                {
+                    HttpContext.Session.SetInt32("LastLessonId", selectedLesson.Id);
+                    courseId = selectedLesson.Module?.CourseId;
+                }
             }
 
-            // Xác định Course hiện tại
-            Course? currentCourse = null;
-            if (selectedLesson != null)
+            // 4. Nếu vẫn null, trả về NotFound hoặc trang trắng
+            if (selectedLesson == null)
             {
-                currentCourse = selectedLesson.Module?.Course;
-            }
-            else if (modules.Any())
-            {
-                currentCourse = modules.First().Course;
+                return NotFound("Không tìm thấy bài học hoặc khoá học.");
             }
 
+            // 5. Lấy danh sách module thuộc khoá học
+            var modules = await _context.Modules
+                .Where(m => m.CourseId == courseId)
+                .Include(m => m.Lessons)
+                .ToListAsync();
+
+            // 6. Ghi chú
+            var notes = await _context.LessonNotes
+                .Include(n => n.User)
+                .Where(n => n.LessonId == selectedLesson.Id && n.UserId == userId)
+                .OrderByDescending(n => n.Timestamp)
+                .ToListAsync();
+
+            // 7. Giao diện ViewModel
             var vm = new CourseViewModel
             {
                 Modules = modules,
                 CurrentLesson = selectedLesson,
-                CurrentCourse = currentCourse, // Thêm dòng này
+                CurrentCourse = selectedLesson.Module?.Course,
                 Notes = notes,
-                NewNote = new LessonNote { LessonId = lessonId ?? 0 }
+                NewNote = new LessonNote { LessonId = selectedLesson.Id }
             };
 
-            var completedLessons = await _context.lessonProgresses
+            // 8. Bài học đã hoàn thành
+            ViewBag.CompletedLessons = await _context.lessonProgresses
                 .Where(p => p.UserId == userId && p.IsCompleted)
                 .Select(p => p.LessonId)
                 .ToListAsync();
 
-            ViewBag.CompletedLessons = completedLessons;
-
-            // Kiểm tra đăng ký khóa học
-            if (currentCourse != null)
-            {
-                var isEnrolled = await _context.Enrollments
-                    .AnyAsync(e => e.UserId == userId && e.CourseId == currentCourse.Id);
-                ViewBag.IsEnrolled = isEnrolled;
-            }
-            else
-            {
-                ViewBag.IsEnrolled = false;
-            }
+            // 9. Kiểm tra đã đăng ký khoá học chưa
+            ViewBag.IsEnrolled = await _context.Enrollments
+                .AnyAsync(e => e.UserId == userId && e.CourseId == selectedLesson.Module.CourseId);
 
             return View(vm);
         }
+
+
         [Authorize(Roles = "Student")]
         [HttpPost]
         public async Task<IActionResult> Enroll(int courseId)
@@ -155,8 +178,9 @@ namespace E_Learning.Areas.Student.Controllers
             return RedirectToAction("Module", new { lessonId = lesson.Id });
 
         }
-        //Ranking nhe
-    
+        //trac nghiem nhe
+     
+
 
 
 
@@ -207,58 +231,82 @@ namespace E_Learning.Areas.Student.Controllers
 
 
         [HttpPost]
-       
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddNote(LessonNote note)
+        public async Task<IActionResult> AddNoteAjax([FromForm] LessonNote note)
         {
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
             if (string.IsNullOrEmpty(userId))
-            {
-                return Unauthorized();
-            }
-
-            // Kiểm tra validation
+                return Json(new { success = false, message = "Người dùng chưa đăng nhập." });
+            note.UserId = userId;
             if (!ModelState.IsValid)
             {
-                // Nếu không hợp lệ, trả về view với thông báo lỗi
-                TempData["Error"] = "Vui lòng điền đầy đủ thông tin ghi chú";
-                return RedirectToAction("Module", new { lessonId = note.LessonId });
+                var errors = ModelState.Values.SelectMany(v => v.Errors)
+                                              .Select(e => e.ErrorMessage);
+                return Json(new { success = false, message = string.Join("<br/>", errors) });
             }
 
-            note.UserId = userId;
+            
 
             try
             {
                 _context.LessonNotes.Add(note);
                 await _context.SaveChangesAsync();
-                TempData["Success"] = "Đã lưu ghi chú thành công!";
+
+                return Json(new
+                {
+                    success = true,
+                    note = new
+                    {
+                        id = note.Id,
+                        content = note.Content,
+                        timestamp = note.Timestamp.ToString("0.0")
+                    }
+                });
             }
             catch (DbUpdateException ex)
             {
-               
-                TempData["Error"] = "Lỗi khi lưu ghi chú: " + ex.Message;
+                return Json(new { success = false, message = "Lỗi khi lưu ghi chú: " + ex.Message });
             }
+        }
+        [HttpPost]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> UpdateNoteAjax([FromForm] LessonNote note)
+        {
+            var existing = await _context.LessonNotes.FindAsync(note.Id);
+            if (existing == null)
+                return Json(new { success = false, message = "Ghi chú không tồn tại." });
 
-            return RedirectToAction("Module", new { lessonId = note.LessonId });
+            existing.Content = note.Content;
+            existing.Timestamp = note.Timestamp;
+            await _context.SaveChangesAsync();
+
+            return Json(new
+            {
+                success = true,
+                note = new
+                {
+                    id = existing.Id,
+                    content = existing.Content,
+                    timestamp = existing.Timestamp
+                }
+            });
         }
 
 
-        // POST: Xóa ghi chú
         [HttpPost]
-        public async Task<IActionResult> DeleteNote(int id)
+        public async Task<IActionResult> DeleteNoteAjax(int id)
         {
             var note = await _context.LessonNotes.FindAsync(id);
             if (note == null)
-                return NotFound();
-
-            int lessonId = note.LessonId;
+                return Json(new { success = false, message = "Không tìm thấy ghi chú." });
 
             _context.LessonNotes.Remove(note);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Module", new { lessonId });
+            return Json(new { success = true });
         }
+
 
 
     }
