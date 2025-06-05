@@ -1,0 +1,51 @@
+﻿@model E_Learning.Models.Student
+
+@{
+    ViewData["Title"] = "Tạo Hồ sơ Sinh viên";
+}
+
+<h2>📘 Tạo Hồ sơ Sinh viên</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="MSSV" class="form-label"></label>
+        <input asp-for="MSSV" class="form-control" />
+        <span asp-validation-for="MSSV" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="FirstName" class="form-label"></label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LastName" class="form-label"></label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="EnrollmentDate" class="form-label"></label>
+        <input asp-for="EnrollmentDate" class="form-control" type="date" />
+        <span asp-validation-for="EnrollmentDate" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Status" class="form-label"></label>
+        <select asp-for="Status" class="form-select" asp-items="Html.GetEnumSelectList<E_Learning.Models.StudentStatus>()"></select>
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ảnh đại diện</label>
+        <input type="file" name="avatarFile" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Lưu hồ sơ</button>
+    <a asp-action="Index" class="btn btn-secondary">Huỷ</a>
+</form>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}
