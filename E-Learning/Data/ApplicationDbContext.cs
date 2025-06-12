@@ -13,15 +13,11 @@ namespace E_Learning.Data
         public required DbSet<Student> Students { get; set; }
     
        
-        public   required DbSet<Teacher> Teachers { get; set; }
+       
         
        
         public required DbSet<Grade> Grades { get; set; }
-      
-        public required DbSet<Alert> Alerts { get; set; }
-      
-        
-        public required DbSet <ExamSubmission> ExamSubmissions { get; set; }
+    
         public required DbSet <Resource> Resources {  get; set; }
 
         public required DbSet<Module> Modules { get; set; }
@@ -35,6 +31,7 @@ namespace E_Learning.Data
         public required DbSet<QuizQuestion> QuizQuestions { get; set; }
 
         public required DbSet<QuizOption> QuizOptions { get; set; }
+        public DbSet<CourseReview> CourseReviews { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
         }
@@ -56,15 +53,23 @@ namespace E_Learning.Data
                 .HasForeignKey(s => s.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
 
+            modelBuilder.Entity<CourseReview>()
+           .HasOne(r => r.Course)
+           .WithMany(c => c.Reviews)
+           .HasForeignKey(r => r.CourseId)
+           .OnDelete(DeleteBehavior.Cascade);
 
-           
+            modelBuilder.Entity<CourseReview>()
+    .HasOne(r => r.User)
+    .WithMany() 
+    .HasForeignKey(r => r.UserId)
+    .OnDelete(DeleteBehavior.NoAction); 
 
 
 
-         
 
 
-           
+
         }
     }
 }

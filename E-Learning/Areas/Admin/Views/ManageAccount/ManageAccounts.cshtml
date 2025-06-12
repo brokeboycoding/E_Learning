@@ -9,6 +9,7 @@
 <table class="table">
     <thead>
         <tr>
+            <th>Tên đầy đủ</th>
             <th>Tên đăng nhập (MSSV hoặc Email)</th>
             <th>Email</th>
             <th>Vai trò</th>
@@ -19,6 +20,7 @@
         @foreach (var user in Model)
         {
             <tr>
+                
                 <td>@user.UserName</td>
                 <td>@user.Email</td>
 

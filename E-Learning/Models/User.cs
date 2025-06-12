@@ -28,7 +28,7 @@ namespace E_Learning.Models
         [Display(Name = "Lần đăng nhập cuối")]
         public DateTime? LastLogin { get; set; }
         //public required string Role { get; set; } // Thêm thuộc tính này để lưu vai trò
-        //public string? Role { get; set; }     // Vai trò: Admin, Teacher, Student
+        //public string? Role { get; set; }     // Vai trò: Admin, Student
         public string? MSSV { get; set; } // Thêm MSSV vào tài khoản Student
         public int Points { get; set; } = 0;
 

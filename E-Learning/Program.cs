@@ -32,6 +32,7 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>()
 
 builder.Services.AddScoped<ICourseService,CourseService>();
 builder.Services.AddScoped<ICourseService, CourseService>();
+builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 builder.Services.AddRazorPages();
@@ -99,7 +100,7 @@ async Task EnsureRolesAndAdminAsync(IServiceProvider services)
     var userManager = services.GetRequiredService<UserManager<IdentityUser>>();
 
     // Tạo các vai trò nếu chưa có
-    string[] roleNames = { "Admin", "Teacher", "Student" };
+    string[] roleNames = { "Admin", "Student" };
     foreach (var roleName in roleNames)
     {
         if (!await roleManager.RoleExistsAsync(roleName))

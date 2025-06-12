@@ -18,6 +18,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\documents\b50c22e2-c448-4e4e-9359-6735f26cb6c1.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Learning</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Learning</BasePath>
+      <RelativePath>documents/b50c22e2-c448-4e4e-9359-6735f26cb6c1.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m130p4vm3g</Fingerprint>
+      <Integrity>asi6jIXDu3EuK77MZZF0rGty7E9rI6e09FqplUNCCII=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\documents\b50c22e2-c448-4e4e-9359-6735f26cb6c1.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\documents\e96ec2a2-7c7c-4824-9853-457b8e1ee969.pdf'))">
       <SourceType>Package</SourceType>
       <SourceId>E-Learning</SourceId>
@@ -102,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>d6gdn72quv</Fingerprint>
-      <Integrity>JSaMaTrFSeoTLwTa6c+vs39AFF2maSRYPlBnScQ1cCs=</Integrity>
+      <Fingerprint>8zuavaodu5</Fingerprint>
+      <Integrity>VGIhEGjBX70zGFYACZBJKqvFLB8LAiQs9e2ZEU0iYwE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\lessonnote.js'))</OriginalItemSpec>
@@ -1223,6 +1241,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\b7774ebe-308d-4f3a-93e3-3309f3514f36.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Learning</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Learning</BasePath>
+      <RelativePath>videos/b7774ebe-308d-4f3a-93e3-3309f3514f36.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5u2umf56dh</Fingerprint>
+      <Integrity>3au6GOwCxK9O8W8B23T/X6t/KfKm+wwn0FYb8IwyiMk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\b7774ebe-308d-4f3a-93e3-3309f3514f36.mp4'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\c8b2cd94-323b-4292-a004-da420710b893.mp4'))">
       <SourceType>Package</SourceType>

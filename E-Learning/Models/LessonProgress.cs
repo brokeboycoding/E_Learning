@@ -11,5 +11,7 @@
         public bool IsCompleted { get; set; }
 
         public Lesson Lesson { get; set; }
+        public User User { get; set; }
     }
+
 }

@@ -4,14 +4,19 @@
 
 <form asp-action="CreateAccount" method="post">
     <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" placeholder="Nhập tên cho sinh viên" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
         <label asp-for="Identifier"></label>
-        <input asp-for="Identifier" class="form-control" placeholder="Nhập MSSV (Student) hoặc Email (Teacher/Admin)" />
+        <input asp-for="Identifier" class="form-control" placeholder="Nhập MSSV" />
         <span asp-validation-for="Identifier" class="text-danger"></span>
     </div>
 
     <div class="form-group">
         <label asp-for="Email"></label>
-        <input asp-for="Email" class="form-control" placeholder="(Bỏ trống nếu tạo Student)" />
+        <input asp-for="Email" class="form-control"  />
         <span asp-validation-for="Email" class="text-danger"></span>
     </div>
 
@@ -25,7 +30,7 @@
         <label asp-for="Role"></label>
         <select asp-for="Role" class="form-control">
             <option value="Student">Student</option>
-            <option value="Teacher">Teacher</option>
+            <option value="Teacher">Admin</option>
 
         </select>
         <span asp-validation-for="Role" class="text-danger"></span>

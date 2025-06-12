@@ -9,10 +9,13 @@ using E_Learning.Data;
 using Microsoft.EntityFrameworkCore;
 using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
+using Microsoft.AspNetCore.Authorization;
 
 namespace E_Learning.Areas.Admin.Controllers
 {
     [Area("Admin")] //Quyền admin
+  
+    [Authorize(Roles = "Admin")]
     public class CourseController : Controller
     {
         private readonly ICourseService _courseService;

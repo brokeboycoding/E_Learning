@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\b50c22e2-c448-4e4e-9359-6735f26cb6c1.pdf",
+      "PackagePath": "staticwebassets\\documents\\b50c22e2-c448-4e4e-9359-6735f26cb6c1.pdf"
+    },
+    {
       "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\e96ec2a2-7c7c-4824-9853-457b8e1ee969.pdf",
       "PackagePath": "staticwebassets\\documents\\e96ec2a2-7c7c-4824-9853-457b8e1ee969.pdf"
     },
@@ -283,6 +287,10 @@
     {
       "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\Quay màn hình 2025-03-28 020118.mp4",
       "PackagePath": "staticwebassets\\videos\\Quay màn hình 2025-03-28 020118.mp4"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\b7774ebe-308d-4f3a-93e3-3309f3514f36.mp4",
+      "PackagePath": "staticwebassets\\videos\\b7774ebe-308d-4f3a-93e3-3309f3514f36.mp4"
     },
     {
       "Id": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\c8b2cd94-323b-4292-a004-da420710b893.mp4",

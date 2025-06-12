@@ -10,6 +10,8 @@ using Microsoft.EntityFrameworkCore;
 namespace E_Learning.Areas.Student.Controllers
 {
     [Area("Student")]
+   
+    [Authorize(Roles = "Student")]
     public class LessonController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -50,9 +52,9 @@ namespace E_Learning.Areas.Student.Controllers
             {
                 selectedLesson = await _context.Lessons
                     .Include(l => l.Module)
-                        .ThenInclude(m => m.Course)
-                         .Include(l => l.QuizQuestions)
-                        .ThenInclude(q => q.Options)
+                    .ThenInclude(m => m.Course)
+                    .Include(l => l.QuizQuestions)
+                    .ThenInclude(q => q.Options)
                     .FirstOrDefaultAsync(l => l.Id == lastLessonId);
 
                 if (selectedLesson != null)
@@ -237,15 +239,15 @@ namespace E_Learning.Areas.Student.Controllers
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (string.IsNullOrEmpty(userId))
                 return Json(new { success = false, message = "Người dùng chưa đăng nhập." });
+
             note.UserId = userId;
+
             if (!ModelState.IsValid)
             {
                 var errors = ModelState.Values.SelectMany(v => v.Errors)
                                               .Select(e => e.ErrorMessage);
                 return Json(new { success = false, message = string.Join("<br/>", errors) });
             }
-
-            
 
             try
             {
@@ -269,7 +271,7 @@ namespace E_Learning.Areas.Student.Controllers
             }
         }
         [HttpPost]
-        [HttpPost]
+       
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> UpdateNoteAjax([FromForm] LessonNote note)
         {
@@ -277,8 +279,14 @@ namespace E_Learning.Areas.Student.Controllers
             if (existing == null)
                 return Json(new { success = false, message = "Ghi chú không tồn tại." });
 
+            // 👉 Kiểm tra quyền sở hữu
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (existing.UserId != userId)
+                return Json(new { success = false, message = "Bạn không có quyền sửa ghi chú này." });
+
             existing.Content = note.Content;
             existing.Timestamp = note.Timestamp;
+
             await _context.SaveChangesAsync();
 
             return Json(new
@@ -301,12 +309,50 @@ namespace E_Learning.Areas.Student.Controllers
             if (note == null)
                 return Json(new { success = false, message = "Không tìm thấy ghi chú." });
 
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (note.UserId != userId)
+                return Json(new { success = false, message = "Bạn không có quyền xóa ghi chú này." });
+
             _context.LessonNotes.Remove(note);
             await _context.SaveChangesAsync();
 
             return Json(new { success = true });
         }
 
+        [Authorize(Roles = "Student")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        //Action đánh giá để Sinh viên có thể đánh giá,nhận xét khóa học qua đó có thể cho người tạo
+        //khóa học biết phản hồi để cải thiện khóa học
+        public async Task<IActionResult> Review(int courseId, int rating, string comment)
+        {
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var existing = await _context.CourseReviews
+                .FirstOrDefaultAsync(r => r.CourseId == courseId && r.UserId == userId);
+
+            if (existing != null)
+            {
+                existing.Rating = rating;
+                existing.Comment = comment;
+                existing.CreatedAt = DateTime.Now;
+            }
+            else
+            {
+                _context.CourseReviews.Add(new CourseReview
+                {
+                    CourseId = courseId,
+                    UserId = userId,
+                    Rating = rating,
+                    Comment = comment
+                });
+            }
+
+            await _context.SaveChangesAsync();
+
+            TempData["Success"] = "Cảm ơn bạn đã đánh giá khóa học!";
+            return RedirectToAction("Module", "Lesson", new { courseId });
+        }
 
 
     }

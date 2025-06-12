@@ -4,6 +4,9 @@ namespace E_Learning.Models
 {
     public class RegisterViewModel
     {
+        [Required(ErrorMessage = "Tên không được để trống.")]
+        [Display(Name = "Tên")]
+        public required string Name { get; set; } // Dùng MSSV hoặc Email
         [Required(ErrorMessage = "MSSV hoặc Email không được để trống.")]
         [Display(Name = "MSSV (cho Student) hoặc Email (cho Teacher/Admin)")]
         public required string Identifier { get; set; } // Dùng MSSV hoặc Email

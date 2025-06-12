@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "D3foSK19RLyAMEb6dSF2+1LwBi4uxtUb+tgq4Sv9EFg=",
+  "Hash": "mLoZvME0ql3o33BSgzin758e90McDgSoyUX5xcGU3ho=",
   "Source": "E-Learning",
   "BasePath": "_content/E-Learning",
   "Mode": "Default",
@@ -1340,6 +1340,27 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\b50c22e2-c448-4e4e-9359-6735f26cb6c1.pdf",
+      "SourceId": "E-Learning",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\",
+      "BasePath": "_content/E-Learning",
+      "RelativePath": "documents/b50c22e2-c448-4e4e-9359-6735f26cb6c1#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m130p4vm3g",
+      "Integrity": "asi6jIXDu3EuK77MZZF0rGty7E9rI6e09FqplUNCCII=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\documents\\b50c22e2-c448-4e4e-9359-6735f26cb6c1.pdf"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\e96ec2a2-7c7c-4824-9853-457b8e1ee969.pdf",
       "SourceId": "E-Learning",
       "SourceType": "Discovered",
@@ -1417,8 +1438,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "d6gdn72quv",
-      "Integrity": "JSaMaTrFSeoTLwTa6c+vs39AFF2maSRYPlBnScQ1cCs=",
+      "Fingerprint": "8zuavaodu5",
+      "Integrity": "VGIhEGjBX70zGFYACZBJKqvFLB8LAiQs9e2ZEU0iYwE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\lessonnote.js"
@@ -2726,6 +2747,27 @@
       "OriginalItemSpec": "wwwroot\\videos\\3a8e0f63-f0a9-4ec9-a0f4-f045d539cbf8.mp4"
     },
     {
+      "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\b7774ebe-308d-4f3a-93e3-3309f3514f36.mp4",
+      "SourceId": "E-Learning",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\",
+      "BasePath": "_content/E-Learning",
+      "RelativePath": "videos/b7774ebe-308d-4f3a-93e3-3309f3514f36#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5u2umf56dh",
+      "Integrity": "3au6GOwCxK9O8W8B23T/X6t/KfKm+wwn0FYb8IwyiMk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\b7774ebe-308d-4f3a-93e3-3309f3514f36.mp4"
+    },
+    {
       "Identity": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\c8b2cd94-323b-4292-a004-da420710b893.mp4",
       "SourceId": "E-Learning",
       "SourceType": "Discovered",
@@ -2911,6 +2953,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zbw28d/WzkFXTGUmYCodNLR8oqLUD2PaBOMWcWVg6Pw="
+        }
+      ]
+    },
+    {
+      "Route": "documents/b50c22e2-c448-4e4e-9359-6735f26cb6c1.m130p4vm3g.pdf",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\b50c22e2-c448-4e4e-9359-6735f26cb6c1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "187017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"asi6jIXDu3EuK77MZZF0rGty7E9rI6e09FqplUNCCII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:00:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m130p4vm3g"
+        },
+        {
+          "Name": "label",
+          "Value": "documents/b50c22e2-c448-4e4e-9359-6735f26cb6c1.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-asi6jIXDu3EuK77MZZF0rGty7E9rI6e09FqplUNCCII="
+        }
+      ]
+    },
+    {
+      "Route": "documents/b50c22e2-c448-4e4e-9359-6735f26cb6c1.pdf",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\documents\\b50c22e2-c448-4e4e-9359-6735f26cb6c1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "187017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"asi6jIXDu3EuK77MZZF0rGty7E9rI6e09FqplUNCCII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:00:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-asi6jIXDu3EuK77MZZF0rGty7E9rI6e09FqplUNCCII="
         }
       ]
     },
@@ -5545,7 +5669,7 @@
       ]
     },
     {
-      "Route": "js/lessonnote.d6gdn72quv.js",
+      "Route": "js/lessonnote.8zuavaodu5.js",
       "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\js\\lessonnote.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5555,7 +5679,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5068"
+          "Value": "5488"
         },
         {
           "Name": "Content-Type",
@@ -5563,11 +5687,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JSaMaTrFSeoTLwTa6c+vs39AFF2maSRYPlBnScQ1cCs=\""
+          "Value": "\"VGIhEGjBX70zGFYACZBJKqvFLB8LAiQs9e2ZEU0iYwE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 16:52:21 GMT"
+          "Value": "Thu, 12 Jun 2025 07:12:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5577,7 +5701,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "d6gdn72quv"
+          "Value": "8zuavaodu5"
         },
         {
           "Name": "label",
@@ -5585,7 +5709,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JSaMaTrFSeoTLwTa6c+vs39AFF2maSRYPlBnScQ1cCs="
+          "Value": "sha256-VGIhEGjBX70zGFYACZBJKqvFLB8LAiQs9e2ZEU0iYwE="
         }
       ]
     },
@@ -5600,7 +5724,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5068"
+          "Value": "5488"
         },
         {
           "Name": "Content-Type",
@@ -5608,11 +5732,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JSaMaTrFSeoTLwTa6c+vs39AFF2maSRYPlBnScQ1cCs=\""
+          "Value": "\"VGIhEGjBX70zGFYACZBJKqvFLB8LAiQs9e2ZEU0iYwE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 03 Jun 2025 16:52:21 GMT"
+          "Value": "Thu, 12 Jun 2025 07:12:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5622,7 +5746,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JSaMaTrFSeoTLwTa6c+vs39AFF2maSRYPlBnScQ1cCs="
+          "Value": "sha256-VGIhEGjBX70zGFYACZBJKqvFLB8LAiQs9e2ZEU0iYwE="
         }
       ]
     },
@@ -10707,6 +10831,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-mzkZWlR/kh6HyrHIyGo7f3MIFtQzi7Rlsf4HAj0rDzQ="
+        }
+      ]
+    },
+    {
+      "Route": "videos/b7774ebe-308d-4f3a-93e3-3309f3514f36.5u2umf56dh.mp4",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\b7774ebe-308d-4f3a-93e3-3309f3514f36.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1358156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3au6GOwCxK9O8W8B23T/X6t/KfKm+wwn0FYb8IwyiMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:00:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5u2umf56dh"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/b7774ebe-308d-4f3a-93e3-3309f3514f36.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3au6GOwCxK9O8W8B23T/X6t/KfKm+wwn0FYb8IwyiMk="
+        }
+      ]
+    },
+    {
+      "Route": "videos/b7774ebe-308d-4f3a-93e3-3309f3514f36.mp4",
+      "AssetFile": "C:\\Users\\Admin\\Source\\Repos\\Khoashoc\\E-Learning\\wwwroot\\videos\\b7774ebe-308d-4f3a-93e3-3309f3514f36.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1358156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3au6GOwCxK9O8W8B23T/X6t/KfKm+wwn0FYb8IwyiMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 14:00:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3au6GOwCxK9O8W8B23T/X6t/KfKm+wwn0FYb8IwyiMk="
         }
       ]
     },

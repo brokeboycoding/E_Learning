@@ -25,9 +25,10 @@ namespace E_Learning.Areas.Admin.Controllers
         }
         public async Task<IActionResult> ManageAccounts()
         {
-            var teacherUsers = await _userManager.GetUsersInRoleAsync("Teacher");
+          
             var studentUsers = await _userManager.GetUsersInRoleAsync("Student");
-            var users = teacherUsers.Concat(studentUsers).ToList();
+            var adminUsers = await _userManager.GetUsersInRoleAsync("Admin");
+            var users = studentUsers.Concat(adminUsers).ToList(); 
 
             var userRoles = new Dictionary<string, List<string>>();
             foreach (var user in users)
@@ -50,13 +51,14 @@ namespace E_Learning.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
-                var validRoles = new[] { "Admin", "Teacher", "Student" };
+                var validRoles = new[] { "Admin", "Student" };
                 if (!validRoles.Contains(model.Role))
                 {
                     ModelState.AddModelError("Role", "Vai trò không hợp lệ.");
                     return View(model);
                 }
-
+                //lấy tên để hiển thị trong phần bình luận,không hiển thị id
+                string fullname = model.Role == "Student" ? model.Identifier : model.Name;
                 string username = model.Role == "Student" ? model.Identifier : model.Email;
                 string email = model.Role == "Student" ? $"{model.Identifier}@example.com" : model.Email!;
 

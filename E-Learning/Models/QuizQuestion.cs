@@ -8,8 +8,8 @@ namespace E_Learning.Models
         public int LessonId { get; set; }
         public Lesson Lesson { get; set; }
 
-        public string QuestionText { get; set; }
+        public string? QuestionText { get; set; }
 
-        public ICollection<QuizOption> Options { get; set; } = new List<QuizOption>();
+        public ICollection<QuizOption>? Options { get; set; } = new List<QuizOption>();
     }
 }

@@ -12,7 +12,7 @@ namespace E_Learning.Models
     [Display(Name ="Mô tả bài học")]
     public string Description { get; set; }
     public string? DocumentUrl {  get; set; }
-    public ICollection<QuizQuestion> QuizQuestions { get; set; }
+    public ICollection<QuizQuestion>? QuizQuestions { get; set; }
     public int ModuleId { get; set; }
     [ValidateNever]
     public Module Module { get; set; }

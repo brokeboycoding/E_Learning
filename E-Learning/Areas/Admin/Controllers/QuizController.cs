@@ -1,9 +1,11 @@
 ﻿using E_Learning.Data;
 using E_Learning.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace E_Learning.Areas.Admin.Controllers
 {
+    [Authorize (Roles ="Admin")]
     [Area("Admin")]
     public class QuizController : Controller
     {

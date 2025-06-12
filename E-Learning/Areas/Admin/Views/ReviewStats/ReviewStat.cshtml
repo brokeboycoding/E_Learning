@@ -1,0 +1,110 @@
+﻿@model ReviewStatViewModel
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<div class="container mt-5">
+    <div class="card shadow-sm p-4 mb-4">
+        <h3 class="text-primary">📊 Thống kê đánh giá cho khóa học: <span class="text-dark">@Model.CourseTitle</span></h3>
+        <hr />
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <h5>⭐ Điểm đánh giá trung bình: <span class="badge bg-success fs-5">@Model.AvgRating.ToString("0.0") / 5</span></h5>
+            </div>
+            <div class="col-md-6">
+                <h5>📝 Tổng số đánh giá: <span class="badge bg-info fs-5">@Model.TotalReviews</span></h5>
+            </div>
+        </div>
+
+        <!-- Bộ lọc -->
+        <form method="get" asp-action="ReviewStat" class="d-flex align-items-center gap-2">
+            <input type="hidden" name="courseId" value="@Model.CourseId" />
+            <label class="form-label m-0">Lọc theo điểm:</label>
+            <select name="ratingFilter" onchange="this.form.submit()" class="form-select w-auto">
+                <option value="">Tất cả</option>
+                @for (int i = 5; i >= 1; i--)
+                {
+                    <option value="@i" selected="@(Model.SelectedRating == i ? "selected" : null)">
+                        @i sao
+                    </option>
+                }
+            </select>
+        </form>
+
+        <!-- Biểu đồ -->
+        <canvas id="ratingChart" height="120"></canvas>
+    </div>
+
+    <!-- Danh sách đánh giá -->
+    @if (Model.Reviews.Any())
+    {
+        <div class="card shadow-sm p-4">
+            <h5 class="mb-3">📄 Danh sách đánh giá</h5>
+            <table class="table table-striped table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        
+                        <th>⭐ Điểm</th>
+                        <th>💬 Bình luận</th>
+                        <th>📅 Ngày đánh giá</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var review in Model.Reviews)
+                    {
+                        <tr>
+                            
+                            <td>@review.Rating</td>
+                            <td>@review.Comment</td>
+                            <td>@review.CreatedAt.ToString("dd/MM/yyyy HH:mm")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <script>
+            Swal.fire({
+                title: 'Không có đánh giá nào',
+                text: 'Hiện tại chưa có đánh giá nào cho bộ lọc này.',
+                icon: 'info',
+                confirmButtonText: 'Đóng'
+            });
+        </script>
+    }
+</div>
+
+<script>
+    const ctx = document.getElementById('ratingChart').getContext('2d');
+    const ratingChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ["5 sao", "4 sao", "3 sao", "2 sao", "1 sao"],
+            datasets: [{
+                label: 'Số lượng đánh giá',
+                data: [
+                    @(Model.RatingGroups.FirstOrDefault(g => g.Rating == 5)?.Count ?? 0),
+                    @(Model.RatingGroups.FirstOrDefault(g => g.Rating == 4)?.Count ?? 0),
+                    @(Model.RatingGroups.FirstOrDefault(g => g.Rating == 3)?.Count ?? 0),
+                    @(Model.RatingGroups.FirstOrDefault(g => g.Rating == 2)?.Count ?? 0),
+                    @(Model.RatingGroups.FirstOrDefault(g => g.Rating == 1)?.Count ?? 0)
+                ],
+                backgroundColor: ['#198754', '#0d6efd', '#ffc107', '#fd7e14', '#dc3545'],
+                borderColor: '#ccc',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    precision: 0
+                }
+            }
+        }
+    });
+</script>

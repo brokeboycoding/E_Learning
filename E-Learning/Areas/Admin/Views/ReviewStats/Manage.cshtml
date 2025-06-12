@@ -1,0 +1,36 @@
+﻿@model List<Course>
+
+@{
+    ViewData["Title"] = "Quản lý khóa học";
+}
+
+<h2>Danh sách khóa học</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tên khóa học</th>
+            <th>Mô tả khóa học</th>
+            <th>Điểm đánh giá trung bình</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var course in Model)
+        {
+            var avg = course.Reviews?.Any() == true ? course.Reviews.Average(r => r.Rating) : 0;
+            <tr>
+                <td>@course.Name</td>
+                <td>@course.Description</td>
+                <td>@avg.ToString("0.0") / 5</td>
+                <td>
+                    <a asp-action="ReviewStat" asp-controller="ReviewStats" asp-route-courseId="@course.Id" class="btn btn-sm btn-info">
+                        Xem đánh giá
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

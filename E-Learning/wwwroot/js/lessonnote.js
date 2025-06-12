@@ -1,7 +1,7 @@
 ﻿$(document).ready(function () {
     const video = document.getElementById('player');
 
-    // 🎯 Tự động điền thời gian hiện tại vào input khi người dùng bắt đầu nhập nội dung
+    // 🎯 Tự động gán timestamp khi bắt đầu nhập ghi chú mới
     if (video) {
         $('textarea[name="Content"]').on('focus', function () {
             const currentTime = video.currentTime.toFixed(1);
@@ -12,11 +12,21 @@
     // ➕ Gửi ghi chú mới bằng AJAX
     $('#noteForm').submit(function (e) {
         e.preventDefault();
+
+        // Lấy thời gian hiện tại của video nếu chưa có
+        const timestampInput = $('input[name="Timestamp"]');
+        if (!timestampInput.val()) {
+            const video = document.getElementById('player');
+            if (video) {
+                timestampInput.val(video.currentTime.toFixed(1));
+            }
+        }
+
         const formData = $(this).serialize();
 
         $.ajax({
             type: 'POST',
-            url: addNoteUrl, // phải khai báo addNoteUrl trong layout hoặc script trước
+            url: addNoteUrl,
             data: formData,
             success: function (res) {
                 if (res.success) {
@@ -63,7 +73,7 @@
         const noteId = $(this).data('id');
         $.ajax({
             type: 'POST',
-            url: deleteNoteUrl, // phải khai báo deleteNoteUrl trong layout hoặc script trước
+            url: deleteNoteUrl,
             data: { id: noteId },
             success: function (res) {
                 if (res.success) {
@@ -85,11 +95,18 @@
         }
     });
 
-    // ✏️ Mở modal chỉnh sửa ghi chú
+    // ✏️ Mở modal chỉnh sửa ghi chú (tự động gán timestamp hiện tại của video)
     $(document).on('click', '.edit-note', function () {
         $('#editNoteId').val($(this).data('id'));
-        $('#editTimestamp').val($(this).data('timestamp'));
         $('#editContent').val($(this).data('content'));
+
+        // Gán thời điểm hiện tại trong video
+        if (video) {
+            $('#editTimestamp').val(video.currentTime.toFixed(1));
+        } else {
+            $('#editTimestamp').val($(this).data('timestamp'));
+        }
+
         const modal = new bootstrap.Modal(document.getElementById('editNoteModal'));
         modal.show();
     });
@@ -97,6 +114,7 @@
     // 💾 Lưu chỉnh sửa ghi chú
     $('#editNoteForm').submit(function (e) {
         e.preventDefault();
+
         const formData = $(this).serialize();
 
         $.post(updateNoteUrl, formData, function (res) {
